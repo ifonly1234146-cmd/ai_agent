@@ -25,8 +25,9 @@ Modify the 'CLAUDE.md' file as requested by the user, and immediately commit and
 ## Language & File Rules
 
 - All `.md` files in this repository, including `CLAUDE.md`, must be written in English.
-- Whenever an English `.md` file is created or updated, a Korean translation must be saved in the `korean/` folder under the same filename.
+- Whenever an English `.md` file is created or updated, a Korean translation must be saved in the `korean/` folder under the same filename but with a `.txt` extension.
 - The Korean translation reflects the full content of the English source file.
+- Korean translation files in the `korean/` folder must always be saved as `.txt`, never `.md`.
 - All newly created instruction or documentation files must be saved in `.txt` format, not `.md`.
 
 ## Tone & Style
