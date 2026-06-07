@@ -1,0 +1,911 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>SK hynix — 기업 보고서 2025·2026</title>
+  <style>
+    /* ── Reset & Base ── */
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    :root {
+      --red:    #E8001C;
+      --orange: #FF6600;
+      --black:  #111111;
+      --gray:   #555555;
+      --light:  #f7f7f7;
+      --line:   #e5e5e5;
+      --white:  #ffffff;
+      --max:    1100px;
+      --nav-h:  64px;
+    }
+
+    html { scroll-behavior: smooth; }
+
+    body {
+      font-family: "Malgun Gothic", "맑은 고딕", "Apple SD Gothic Neo", sans-serif;
+      font-size: 15px;
+      color: var(--black);
+      background: var(--white);
+      line-height: 1.75;
+    }
+
+    /* ── Nav ── */
+    nav {
+      position: fixed;
+      top: 0; left: 0; right: 0;
+      height: var(--nav-h);
+      background: rgba(255,255,255,0.96);
+      backdrop-filter: blur(8px);
+      border-bottom: 1px solid var(--line);
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 0 40px;
+      z-index: 100;
+    }
+
+    .nav-logo {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      text-decoration: none;
+    }
+    .nav-logo .sk { color: var(--red); font-weight: 800; font-size: 17px; letter-spacing: -0.5px; }
+    .nav-logo .hy { color: var(--orange); font-weight: 800; font-size: 17px; letter-spacing: -0.5px; }
+    .nav-logo .badge {
+      font-size: 10px;
+      color: var(--gray);
+      letter-spacing: 1px;
+      border-left: 1px solid var(--line);
+      padding-left: 10px;
+      font-weight: 400;
+    }
+
+    .nav-links {
+      display: flex;
+      gap: 32px;
+      list-style: none;
+    }
+    .nav-links a {
+      text-decoration: none;
+      font-size: 13px;
+      color: var(--gray);
+      letter-spacing: 0.3px;
+      transition: color .2s;
+    }
+    .nav-links a:hover { color: var(--red); }
+
+    /* ── Hero ── */
+    #hero {
+      min-height: 100vh;
+      padding-top: var(--nav-h);
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      background: var(--black);
+      position: relative;
+      overflow: hidden;
+    }
+
+    /* 배경 장식선 */
+    #hero::before {
+      content: "";
+      position: absolute;
+      width: 600px; height: 600px;
+      border-radius: 50%;
+      background: radial-gradient(circle, rgba(232,0,28,.18) 0%, transparent 70%);
+      top: -100px; right: -100px;
+      pointer-events: none;
+    }
+    #hero::after {
+      content: "";
+      position: absolute;
+      width: 400px; height: 400px;
+      border-radius: 50%;
+      background: radial-gradient(circle, rgba(255,102,0,.14) 0%, transparent 70%);
+      bottom: -80px; left: -60px;
+      pointer-events: none;
+    }
+
+    .hero-eyebrow {
+      font-size: 11px;
+      letter-spacing: 3px;
+      color: var(--orange);
+      text-transform: uppercase;
+      margin-bottom: 20px;
+    }
+
+    .hero-title {
+      font-size: clamp(36px, 6vw, 72px);
+      font-weight: 800;
+      color: var(--white);
+      line-height: 1.1;
+      letter-spacing: -1.5px;
+      margin-bottom: 18px;
+    }
+    .hero-title span { color: var(--red); }
+
+    .hero-sub {
+      font-size: 15px;
+      color: rgba(255,255,255,.5);
+      margin-bottom: 56px;
+      letter-spacing: 0.5px;
+    }
+
+    /* KPI 카드 행 */
+    .hero-kpis {
+      display: flex;
+      gap: 1px;
+      background: rgba(255,255,255,.08);
+      border: 1px solid rgba(255,255,255,.1);
+      border-radius: 4px;
+      overflow: hidden;
+    }
+    .kpi {
+      padding: 22px 36px;
+      text-align: center;
+      background: rgba(255,255,255,.03);
+    }
+    .kpi + .kpi { border-left: 1px solid rgba(255,255,255,.08); }
+    .kpi-val {
+      font-size: 28px;
+      font-weight: 800;
+      color: var(--white);
+      letter-spacing: -1px;
+      line-height: 1.1;
+    }
+    .kpi-val em { color: var(--red); font-style: normal; }
+    .kpi-label {
+      font-size: 11px;
+      color: rgba(255,255,255,.45);
+      margin-top: 4px;
+      letter-spacing: 0.5px;
+    }
+
+    .hero-scroll {
+      position: absolute;
+      bottom: 32px;
+      left: 50%;
+      transform: translateX(-50%);
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 8px;
+      color: rgba(255,255,255,.3);
+      font-size: 11px;
+      letter-spacing: 2px;
+    }
+    .hero-scroll::after {
+      content: "";
+      width: 1px;
+      height: 40px;
+      background: linear-gradient(to bottom, rgba(255,255,255,.3), transparent);
+    }
+
+    /* ── 공통 섹션 ── */
+    section {
+      padding: 96px 40px;
+    }
+    section:nth-child(even) { background: var(--light); }
+
+    .inner { max-width: var(--max); margin: 0 auto; }
+
+    .sec-label {
+      font-size: 11px;
+      letter-spacing: 3px;
+      color: var(--red);
+      text-transform: uppercase;
+      margin-bottom: 12px;
+    }
+    .sec-title {
+      font-size: clamp(22px, 3vw, 34px);
+      font-weight: 700;
+      letter-spacing: -0.8px;
+      line-height: 1.2;
+      margin-bottom: 48px;
+    }
+    .sec-title span { color: var(--red); }
+
+    /* 구분선 */
+    .divider {
+      width: 36px;
+      height: 2px;
+      background: var(--red);
+      margin-bottom: 48px;
+    }
+
+    /* ── 기업 개요 그리드 ── */
+    .overview-grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 0;
+      border: 1px solid var(--line);
+    }
+    .ov-item {
+      padding: 28px 28px;
+      border-right: 1px solid var(--line);
+      border-bottom: 1px solid var(--line);
+    }
+    .ov-item:nth-child(3n) { border-right: none; }
+    .ov-item:nth-last-child(-n+3) { border-bottom: none; }
+    .ov-key {
+      font-size: 11px;
+      letter-spacing: 1.5px;
+      color: var(--gray);
+      text-transform: uppercase;
+      margin-bottom: 8px;
+    }
+    .ov-val {
+      font-size: 15px;
+      font-weight: 600;
+      color: var(--black);
+      line-height: 1.4;
+    }
+
+    /* ── 제품 카드 ── */
+    .product-grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 24px;
+    }
+    .prod-card {
+      border: 1px solid var(--line);
+      padding: 36px 30px;
+      position: relative;
+      transition: border-color .25s;
+    }
+    .prod-card::before {
+      content: "";
+      position: absolute;
+      top: 0; left: 0; right: 0;
+      height: 2px;
+      background: var(--red);
+      transform: scaleX(0);
+      transform-origin: left;
+      transition: transform .3s;
+    }
+    .prod-card:hover { border-color: transparent; box-shadow: 0 4px 24px rgba(0,0,0,.08); }
+    .prod-card:hover::before { transform: scaleX(1); }
+
+    .prod-tag {
+      display: inline-block;
+      font-size: 10px;
+      letter-spacing: 2px;
+      color: var(--red);
+      text-transform: uppercase;
+      margin-bottom: 14px;
+    }
+    .prod-name {
+      font-size: 20px;
+      font-weight: 700;
+      margin-bottom: 18px;
+      letter-spacing: -0.4px;
+    }
+    .prod-list {
+      list-style: none;
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+    }
+    .prod-list li {
+      font-size: 13.5px;
+      color: var(--gray);
+      padding-left: 14px;
+      position: relative;
+      line-height: 1.5;
+    }
+    .prod-list li::before {
+      content: "";
+      position: absolute;
+      left: 0; top: 9px;
+      width: 5px; height: 1px;
+      background: var(--orange);
+    }
+
+    /* ── 재무 실적 ── */
+    .finance-top {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 0;
+      border: 1px solid var(--line);
+      margin-bottom: 40px;
+    }
+    .fin-stat {
+      padding: 32px 24px;
+      border-right: 1px solid var(--line);
+      text-align: center;
+    }
+    .fin-stat:last-child { border-right: none; }
+    .fin-label { font-size: 11px; color: var(--gray); letter-spacing: 1px; margin-bottom: 8px; }
+    .fin-val {
+      font-size: 26px;
+      font-weight: 800;
+      color: var(--black);
+      letter-spacing: -1px;
+      line-height: 1.1;
+    }
+    .fin-growth {
+      font-size: 12px;
+      color: var(--red);
+      font-weight: 600;
+      margin-top: 6px;
+    }
+
+    .fin-table-wrap { overflow-x: auto; margin-bottom: 28px; }
+    .fin-table {
+      width: 100%;
+      border-collapse: collapse;
+      font-size: 14px;
+    }
+    .fin-table thead th {
+      background: var(--black);
+      color: var(--white);
+      font-weight: 600;
+      padding: 14px 20px;
+      text-align: center;
+      font-size: 12px;
+      letter-spacing: 0.5px;
+    }
+    .fin-table tbody td {
+      padding: 13px 20px;
+      text-align: center;
+      border-bottom: 1px solid var(--line);
+      color: var(--black);
+    }
+    .fin-table tbody tr:last-child td { border-bottom: none; }
+    .fin-table tbody tr:hover td { background: var(--light); }
+    .fin-table td.growth { color: var(--red); font-weight: 700; }
+    .fin-table td:first-child { text-align: left; font-weight: 600; }
+
+    .fin-notes {
+      display: flex;
+      flex-direction: column;
+      gap: 8px;
+    }
+    .fin-note {
+      font-size: 13.5px;
+      color: var(--gray);
+      padding-left: 16px;
+      position: relative;
+    }
+    .fin-note::before {
+      content: "";
+      position: absolute;
+      left: 0; top: 10px;
+      width: 6px; height: 1px;
+      background: var(--red);
+    }
+
+    /* ── 시장 지위 ── */
+    .market-grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 24px;
+      margin-bottom: 40px;
+    }
+    .mkt-card {
+      border: 1px solid var(--line);
+      padding: 32px 28px;
+      text-align: center;
+    }
+    .mkt-product {
+      font-size: 12px;
+      letter-spacing: 2px;
+      color: var(--gray);
+      text-transform: uppercase;
+      margin-bottom: 12px;
+    }
+    .mkt-rank {
+      font-size: 48px;
+      font-weight: 800;
+      color: var(--red);
+      letter-spacing: -2px;
+      line-height: 1;
+      margin-bottom: 8px;
+    }
+    .mkt-share {
+      font-size: 16px;
+      font-weight: 700;
+      color: var(--black);
+      margin-bottom: 16px;
+    }
+
+    /* 점유율 바 */
+    .share-bar-wrap { margin: 12px 0 16px; }
+    .share-bar-bg {
+      height: 4px;
+      background: var(--line);
+      border-radius: 2px;
+      overflow: hidden;
+    }
+    .share-bar-fill {
+      height: 100%;
+      background: linear-gradient(90deg, var(--red), var(--orange));
+      border-radius: 2px;
+      transition: width .8s ease;
+    }
+    .mkt-competitor {
+      font-size: 12px;
+      color: var(--gray);
+    }
+
+    /* ── 시장 전망 ── */
+    .outlook-list {
+      display: flex;
+      flex-direction: column;
+      gap: 0;
+      border-left: 1px solid var(--line);
+      padding-left: 0;
+    }
+    .outlook-item {
+      display: grid;
+      grid-template-columns: 160px 1fr;
+      gap: 32px;
+      padding: 28px 0 28px 32px;
+      border-bottom: 1px solid var(--line);
+      position: relative;
+    }
+    .outlook-item::before {
+      content: "";
+      position: absolute;
+      left: -5px; top: 36px;
+      width: 9px; height: 9px;
+      border-radius: 50%;
+      background: var(--red);
+      border: 2px solid var(--white);
+      outline: 1px solid var(--red);
+    }
+    .outlook-item:last-child { border-bottom: none; }
+    .outlook-tag {
+      font-size: 11px;
+      letter-spacing: 1.5px;
+      color: var(--orange);
+      text-transform: uppercase;
+      font-weight: 600;
+      padding-top: 2px;
+    }
+    .outlook-text {
+      font-size: 14.5px;
+      color: var(--black);
+      line-height: 1.65;
+    }
+
+    /* ── 브랜드 & 디자인 ── */
+    .brand-layout {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 64px;
+      align-items: start;
+    }
+
+    .color-swatches {
+      display: flex;
+      gap: 16px;
+      margin-bottom: 36px;
+    }
+    .swatch {
+      flex: 1;
+      border-radius: 2px;
+      overflow: hidden;
+      border: 1px solid var(--line);
+    }
+    .swatch-color {
+      height: 72px;
+    }
+    .swatch-info {
+      padding: 10px 12px;
+      background: var(--white);
+    }
+    .swatch-name { font-size: 12px; font-weight: 700; margin-bottom: 2px; }
+    .swatch-hex { font-size: 11px; color: var(--gray); font-family: monospace; }
+
+    .brand-desc-title {
+      font-size: 13px;
+      font-weight: 700;
+      letter-spacing: 0.5px;
+      margin-bottom: 10px;
+      color: var(--black);
+    }
+    .brand-desc-text {
+      font-size: 13.5px;
+      color: var(--gray);
+      line-height: 1.75;
+      margin-bottom: 24px;
+    }
+
+    .philosophy-cards {
+      display: flex;
+      flex-direction: column;
+      gap: 1px;
+      background: var(--line);
+      border: 1px solid var(--line);
+    }
+    .phi-card {
+      background: var(--white);
+      padding: 22px 24px;
+      display: flex;
+      gap: 18px;
+      align-items: flex-start;
+    }
+    .phi-num {
+      font-size: 11px;
+      font-weight: 800;
+      color: var(--red);
+      letter-spacing: 1px;
+      min-width: 24px;
+      padding-top: 2px;
+    }
+    .phi-title { font-size: 13px; font-weight: 700; margin-bottom: 4px; }
+    .phi-sub { font-size: 13px; color: var(--gray); line-height: 1.55; }
+
+    /* ── Footer ── */
+    footer {
+      background: var(--black);
+      color: rgba(255,255,255,.3);
+      padding: 40px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      font-size: 12px;
+      letter-spacing: 0.3px;
+    }
+    footer .f-brand { color: var(--white); font-weight: 700; font-size: 14px; }
+    footer .f-brand span { color: var(--red); }
+
+    /* ── 반응형 ── */
+    @media (max-width: 900px) {
+      nav { padding: 0 20px; }
+      .nav-links { display: none; }
+      section { padding: 64px 20px; }
+      .hero-kpis { flex-direction: column; gap: 0; }
+      .kpi + .kpi { border-left: none; border-top: 1px solid rgba(255,255,255,.08); }
+      .overview-grid, .product-grid, .finance-top,
+      .market-grid, .brand-layout { grid-template-columns: 1fr; }
+      .fin-stat { border-right: none; border-bottom: 1px solid var(--line); }
+      .fin-stat:last-child { border-bottom: none; }
+      .ov-item { border-right: none; }
+      .outlook-item { grid-template-columns: 1fr; gap: 6px; }
+      footer { flex-direction: column; gap: 12px; text-align: center; }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- ── Nav ── -->
+  <nav>
+    <a class="nav-logo" href="#hero">
+      <span class="sk">SK</span><span class="hy">hynix</span>
+      <span class="badge">기업 보고서 2025·2026</span>
+    </a>
+    <ul class="nav-links">
+      <li><a href="#overview">기업 개요</a></li>
+      <li><a href="#products">주요 제품</a></li>
+      <li><a href="#finance">재무 실적</a></li>
+      <li><a href="#market">시장 지위</a></li>
+      <li><a href="#outlook">시장 전망</a></li>
+      <li><a href="#brand">브랜드</a></li>
+    </ul>
+  </nav>
+
+  <!-- ── Hero ── -->
+  <section id="hero">
+    <p class="hero-eyebrow">Corporate Report · 2025 – 2026</p>
+    <h1 class="hero-title">Full Stack<br><span>AI Memory</span><br>Creator</h1>
+    <p class="hero-sub">글로벌 메모리 반도체 선도 기업 SK하이닉스 종합 분석</p>
+    <div class="hero-kpis">
+      <div class="kpi">
+        <div class="kpi-val">97.1<em>조</em></div>
+        <div class="kpi-label">FY2025 매출</div>
+      </div>
+      <div class="kpi">
+        <div class="kpi-val"><em>+101%</em></div>
+        <div class="kpi-label">영업이익 YoY</div>
+      </div>
+      <div class="kpi">
+        <div class="kpi-val"><em>#1</em> HBM</div>
+        <div class="kpi-label">글로벌 시장 점유 58%</div>
+      </div>
+      <div class="kpi">
+        <div class="kpi-val"><em>#1</em> DRAM</div>
+        <div class="kpi-label">글로벌 시장 점유 38.7%</div>
+      </div>
+    </div>
+    <div class="hero-scroll">SCROLL</div>
+  </section>
+
+  <!-- ── 1. 기업 개요 ── -->
+  <section id="overview">
+    <div class="inner">
+      <p class="sec-label">Company</p>
+      <h2 class="sec-title">기업 <span>개요</span></h2>
+      <div class="overview-grid">
+        <div class="ov-item">
+          <p class="ov-key">설립</p>
+          <p class="ov-val">1983년 현대전자<br>2012년 SK그룹 편입</p>
+        </div>
+        <div class="ov-item">
+          <p class="ov-key">사명</p>
+          <p class="ov-val">SK하이닉스<br>SK hynix Inc.</p>
+        </div>
+        <div class="ov-item">
+          <p class="ov-key">본사</p>
+          <p class="ov-val">경기도 이천시<br>대한민국</p>
+        </div>
+        <div class="ov-item">
+          <p class="ov-key">상장</p>
+          <p class="ov-val">한국거래소(KRX)<br>000660</p>
+        </div>
+        <div class="ov-item">
+          <p class="ov-key">사업 분야</p>
+          <p class="ov-val">DRAM · NAND 플래시<br>HBM 메모리 반도체 설계·제조</p>
+        </div>
+        <div class="ov-item">
+          <p class="ov-key">업계 위상</p>
+          <p class="ov-val">삼성전자, Micron과 함께<br>글로벌 3대 메모리 반도체 기업</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── 2. 주요 제품 ── -->
+  <section id="products">
+    <div class="inner">
+      <p class="sec-label">Products</p>
+      <h2 class="sec-title">주요 <span>제품</span></h2>
+      <div class="product-grid">
+        <div class="prod-card">
+          <span class="prod-tag">AI Memory</span>
+          <p class="prod-name">HBM</p>
+          <ul class="prod-list">
+            <li>HBM3E — 2025년 양산 주력, 12단 적층, 36GB 최고 용량, NVIDIA GB300 탑재</li>
+            <li>HBM4 — 2025년 9월 세계 최초 개발 완료, 동년 4분기 양산 개시</li>
+            <li>2026년 HBM3E가 전체 HBM 출하량의 약 2/3 차지 전망</li>
+          </ul>
+        </div>
+        <div class="prod-card">
+          <span class="prod-tag">Server · PC · Mobile</span>
+          <p class="prod-name">DRAM</p>
+          <ul class="prod-list">
+            <li>DDR5 · RDIMM6 · MRDIMM7 (1c8 노드 기반)</li>
+            <li>256GB 3DS RDIMM · LPCAMM2 · CXL Memory Module (CMM-DDR5)</li>
+            <li>AI 서버·PC·모바일 전 플랫폼 대응</li>
+          </ul>
+        </div>
+        <div class="prod-card">
+          <span class="prod-tag">Storage</span>
+          <p class="prod-name">NAND / SSD</p>
+          <ul class="prod-list">
+            <li>AI-N P — 초고성능 SSD</li>
+            <li>AI-N B — 고용량·저가형</li>
+            <li>AI-N D — 대용량 데이터셋 최적화</li>
+            <li>인텔 NAND 사업부 인수(2021) 후 글로벌 2위로 도약</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── 3. 재무 실적 ── -->
+  <section id="finance">
+    <div class="inner">
+      <p class="sec-label">Financials</p>
+      <h2 class="sec-title">재무 <span>실적</span></h2>
+      <div class="finance-top">
+        <div class="fin-stat">
+          <p class="fin-label">FY2025 매출</p>
+          <p class="fin-val">97.15<small style="font-size:14px;font-weight:400">조</small></p>
+          <p class="fin-growth">+46.8% YoY</p>
+        </div>
+        <div class="fin-stat">
+          <p class="fin-label">FY2025 영업이익</p>
+          <p class="fin-val">47.21<small style="font-size:14px;font-weight:400">조</small></p>
+          <p class="fin-growth">+101.2% YoY</p>
+        </div>
+        <div class="fin-stat">
+          <p class="fin-label">FY2025 영업이익률</p>
+          <p class="fin-val">49<small style="font-size:14px;font-weight:400">%</small></p>
+          <p class="fin-growth">+14%p YoY</p>
+        </div>
+        <div class="fin-stat">
+          <p class="fin-label">FY2025 순이익</p>
+          <p class="fin-val">42.95<small style="font-size:14px;font-weight:400">조</small></p>
+          <p class="fin-growth">+116.9% YoY</p>
+        </div>
+      </div>
+      <div class="fin-table-wrap">
+        <table class="fin-table">
+          <thead>
+            <tr>
+              <th style="text-align:left">구분</th>
+              <th>FY2024</th>
+              <th>FY2025</th>
+              <th>YoY 성장률</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr><td>매출</td><td>66.19조 원</td><td>97.15조 원</td><td class="growth">+46.8%</td></tr>
+            <tr><td>영업이익</td><td>23.47조 원</td><td>47.21조 원</td><td class="growth">+101.2%</td></tr>
+            <tr><td>영업이익률</td><td>35%</td><td>49%</td><td class="growth">+14%p</td></tr>
+            <tr><td>순이익</td><td>19.80조 원</td><td>42.95조 원</td><td class="growth">+116.9%</td></tr>
+          </tbody>
+        </table>
+      </div>
+      <div class="fin-notes">
+        <p class="fin-note">2025년 연간 실적은 창사 이래 최고 기록</p>
+        <p class="fin-note">HBM 매출이 전년 대비 2배 이상 성장하며 실적 견인</p>
+        <p class="fin-note">Q4 2024, 삼성전자를 제치고 분기 영업이익 1위 달성</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── 4. 시장 지위 ── -->
+  <section id="market">
+    <div class="inner">
+      <p class="sec-label">Market Position</p>
+      <h2 class="sec-title">시장 <span>지위</span></h2>
+      <div class="market-grid">
+        <div class="mkt-card">
+          <p class="mkt-product">DRAM</p>
+          <p class="mkt-rank">#1</p>
+          <p class="mkt-share">38.7% 점유율</p>
+          <div class="share-bar-wrap">
+            <div class="share-bar-bg"><div class="share-bar-fill" style="width:38.7%"></div></div>
+          </div>
+          <p class="mkt-competitor">2025 Q2 · 삼성전자(32.7%), Micron 추격</p>
+        </div>
+        <div class="mkt-card">
+          <p class="mkt-product">NAND</p>
+          <p class="mkt-rank">#2</p>
+          <p class="mkt-share">21% 점유율</p>
+          <div class="share-bar-wrap">
+            <div class="share-bar-bg"><div class="share-bar-fill" style="width:21%"></div></div>
+          </div>
+          <p class="mkt-competitor">2024 기준 · 삼성전자 1위</p>
+        </div>
+        <div class="mkt-card">
+          <p class="mkt-product">HBM</p>
+          <p class="mkt-rank">#1</p>
+          <p class="mkt-share">58% 점유율</p>
+          <div class="share-bar-wrap">
+            <div class="share-bar-bg"><div class="share-bar-fill" style="width:58%"></div></div>
+          </div>
+          <p class="mkt-competitor">2026 Q1 · 삼성전자(21%), Micron(21%)</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── 5. 시장 전망 ── -->
+  <section id="outlook">
+    <div class="inner">
+      <p class="sec-label">Outlook</p>
+      <h2 class="sec-title">시장 <span>전망</span></h2>
+      <div class="outlook-list">
+        <div class="outlook-item">
+          <span class="outlook-tag">NVIDIA</span>
+          <p class="outlook-text">NVIDIA HBM 주문의 약 70% 공급 중. Vera Rubin 차세대 시스템의 주요 HBM 공급사 지위 목표</p>
+        </div>
+        <div class="outlook-item">
+          <span class="outlook-tag">수급</span>
+          <p class="outlook-text">HBM 공급 부족 현상 2028년까지 지속 전망. HBM3E 2026년 가격 약 20% 인상 계획</p>
+        </div>
+        <div class="outlook-item">
+          <span class="outlook-tag">용인 클러스터</span>
+          <p class="outlook-text">2027년 2월 장비 반입 선행, 2030년 상반기 月 36만 장 웨이퍼 생산 목표</p>
+        </div>
+        <div class="outlook-item">
+          <span class="outlook-tag">M15X 청주</span>
+          <p class="outlook-text">2026년 하반기 가동 개시 (4만 장/월) → 2027년 8만 장/월로 확대</p>
+        </div>
+        <div class="outlook-item">
+          <span class="outlook-tag">생산능력</span>
+          <p class="outlook-text">2030~2031년까지 월 DRAM 웨이퍼 생산능력 약 55만 장 → 100만 장, 약 2배 확대 목표</p>
+        </div>
+        <div class="outlook-item">
+          <span class="outlook-tag">BofA 전망</span>
+          <p class="outlook-text">2026년 글로벌 DRAM 매출 51% 성장, 평균 판매가격(ASP) 33% 상승 전망. "1990년대와 유사한 슈퍼사이클" 진입 평가</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── 6. 브랜드 & 디자인 컨셉 ── -->
+  <section id="brand">
+    <div class="inner">
+      <p class="sec-label">Brand &amp; Design</p>
+      <h2 class="sec-title">브랜드 &amp; <span>디자인 컨셉</span></h2>
+      <div class="brand-layout">
+        <!-- 좌: 컬러 + 심볼 -->
+        <div>
+          <p class="brand-desc-title">브랜드 컬러</p>
+          <div class="color-swatches">
+            <div class="swatch">
+              <div class="swatch-color" style="background:#E8001C"></div>
+              <div class="swatch-info">
+                <p class="swatch-name" style="color:#E8001C">SK Red</p>
+                <p class="swatch-hex">#E8001C</p>
+              </div>
+            </div>
+            <div class="swatch">
+              <div class="swatch-color" style="background:#FF6600"></div>
+              <div class="swatch-info">
+                <p class="swatch-name" style="color:#FF6600">SK Orange</p>
+                <p class="swatch-hex">#FF6600</p>
+              </div>
+            </div>
+            <div class="swatch">
+              <div class="swatch-color" style="background:#111111"></div>
+              <div class="swatch-info">
+                <p class="swatch-name">Black</p>
+                <p class="swatch-hex">#111111</p>
+              </div>
+            </div>
+            <div class="swatch">
+              <div class="swatch-color" style="background:#f7f7f7;border-bottom:1px solid #e5e5e5"></div>
+              <div class="swatch-info">
+                <p class="swatch-name">White</p>
+                <p class="swatch-hex">#F7F7F7</p>
+              </div>
+            </div>
+          </div>
+
+          <p class="brand-desc-title">행복날개 (Wings of Happiness)</p>
+          <p class="brand-desc-text">나비(Butterfly) 형태의 좌우 대칭 CI 심볼. 내부 흰색 곡선이 'S'와 'K'를 형상화하며, 두 날개는 SK의 DBL(Double Bottom Line) 철학인 경제적 가치와 사회적 가치를 동시에 상징한다. 반도체 칩이 기기 간 '비행'하듯 데이터를 전달하는 속도와 신뢰를 시각적으로 표현한다.</p>
+
+          <p class="brand-desc-title">타이포그래피</p>
+          <p class="brand-desc-text">워드마크 'SK'는 SK Red, 'hynix'는 SK Orange 적용. 부드럽고 둥근 획의 산세리프(Sans-serif) 서체로 첨단 기술 기업임에도 친근하고 접근하기 쉬운 이미지를 전달한다. 대소문자 혼용으로 글로벌 브랜드 독자성을 확보한다.</p>
+        </div>
+
+        <!-- 우: 철학 카드 -->
+        <div>
+          <p class="brand-desc-title" style="margin-bottom:18px">디자인 철학 3대 축</p>
+          <div class="philosophy-cards">
+            <div class="phi-card">
+              <span class="phi-num">01</span>
+              <div>
+                <p class="phi-title">Technology</p>
+                <p class="phi-sub">Full Stack AI Memory Creator — 고객 문제를 함께 해결하고 생태계와 협력해 더 큰 가치를 창출하는 AI 메모리 창조자</p>
+              </div>
+            </div>
+            <div class="phi-card">
+              <span class="phi-num">02</span>
+              <div>
+                <p class="phi-title">Culture</p>
+                <p class="phi-sub">One Team Spirit — 협업·도전·다양성을 핵심 가치로, 하나의 팀으로서 최고의 성과를 추구</p>
+              </div>
+            </div>
+            <div class="phi-card">
+              <span class="phi-num">03</span>
+              <div>
+                <p class="phi-title">Sustainability</p>
+                <p class="phi-sub">Better World — SK DBL(Double Bottom Line) 철학 기반, 경제적 가치와 사회적 가치를 동시에 창출</p>
+              </div>
+            </div>
+          </div>
+
+          <p class="brand-desc-title" style="margin-top:32px;margin-bottom:14px">최신 브랜드 활동 (2024–2025)</p>
+          <div class="fin-notes">
+            <p class="fin-note">AI 사명 로고플레이: 7개 알파벳(S~X)에 브랜드 가치를 생성형 AI로 시각화</p>
+            <p class="fin-note">AI MEMORY SHOW: 모델·배경·제품·음악 전 요소를 AI로 생성하여 브랜드 메시지 전달</p>
+            <p class="fin-note">반도체 굿즈 팝업스토어: 회로 모티브 생활용품으로 일반 소비자와 접점 확대</p>
+            <p class="fin-note">비전 슬로건: 'AI Memory Provider' → 'Full Stack AI Memory Creator' (2025 SK AI Summit)</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── Footer ── -->
+  <footer>
+    <div>
+      <p class="f-brand"><span>SK</span>hynix</p>
+      <p style="margin-top:4px">기업 보고서 · 2025–2026 종합 분석</p>
+    </div>
+    <p>데이터 기준: 2026년 6월 · 본 보고서는 공개 정보 기반으로 작성되었습니다.</p>
+  </footer>
+
+</body>
+</html>
