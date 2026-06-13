@@ -1,0 +1,824 @@
+- generic [active] [ref=e1]:
+  - link "본문으로 이동" [ref=e2] [cursor=pointer]:
+    - /url: "#bodyContent"
+  - banner [ref=e4]:
+    - generic [ref=e5]:
+      - navigation "사이트" [ref=e6]:
+        - generic "주 메뉴" [ref=e7]:
+          - button "주 메뉴" [ref=e8] [cursor=pointer]
+          - generic [ref=e11]: 주 메뉴
+      - link "위키백과" [ref=e12] [cursor=pointer]:
+        - /url: /wiki/%EC%9C%84%ED%82%A4%EB%B0%B1%EA%B3%BC:%EB%8C%80%EB%AC%B8
+        - img [ref=e13]
+        - img "위키백과" [ref=e15]
+    - generic [ref=e16]:
+      - search [ref=e17]:
+        - link "검색" [ref=e18] [cursor=pointer]:
+          - /url: /wiki/%ED%8A%B9%EC%88%98:%EA%B2%80%EC%83%89
+          - generic [ref=e20]: 검색
+      - navigation "개인 도구" [ref=e21]:
+        - generic [ref=e22]:
+          - navigation "외관" [ref=e23]:
+            - generic "문서의 글꼴 크기, 폭, 색의 모습을 변경합니다" [ref=e24]:
+              - button "외관" [ref=e25] [cursor=pointer]
+              - generic [ref=e28]: 외관
+          - list [ref=e31]:
+            - listitem [ref=e32]:
+              - link "기부" [ref=e33] [cursor=pointer]:
+                - /url: https://donate.wikimedia.org/?wmf_source=donate&wmf_medium=sidebar&wmf_campaign=ko.wikipedia.org&uselang=ko
+            - listitem [ref=e34]:
+              - link "계정 만들기" [ref=e35] [cursor=pointer]:
+                - /url: /w/index.php?title=%ED%8A%B9%EC%88%98:%EA%B3%84%EC%A0%95%EB%A7%8C%EB%93%A4%EA%B8%B0&returnto=%EB%B8%94%EB%A1%9D%EC%B2%B4%EC%9D%B8
+            - listitem [ref=e36]:
+              - link "로그인" [ref=e37] [cursor=pointer]:
+                - /url: /w/index.php?title=%ED%8A%B9%EC%88%98:%EB%A1%9C%EA%B7%B8%EC%9D%B8&returnto=%EB%B8%94%EB%A1%9D%EC%B2%B4%EC%9D%B8
+  - generic [ref=e39]:
+    - generic [ref=e42]:
+      - button [ref=e44] [cursor=pointer]:
+        - img [ref=e45]
+      - paragraph [ref=e47]:
+        - link "옛한글 문헌 전자화 프로젝트" [ref=e50] [cursor=pointer]:
+          - /url: https://ko.wikisource.org/wiki/%EC%9C%84%ED%82%A4%EB%AC%B8%ED%97%8C:%EC%98%9B%ED%95%9C%EA%B8%80_%EB%AC%B8%ED%97%8C_%EC%A0%84%EC%9E%90%ED%99%94_%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8/2026%EB%85%84_%EC%83%81%EB%B0%98%EA%B8%B0
+        - text: 봉사자를 6월 24일까지 모집합니다.
+    - main [ref=e52]:
+      - generic [ref=e53]:
+        - navigation "목차" [ref=e54]:
+          - generic "목차" [ref=e55]:
+            - button "목차 토글" [ref=e56] [cursor=pointer]
+            - generic [ref=e59]: 목차 토글
+        - heading "블록체인" [level=1] [ref=e60]:
+          - generic [ref=e61]: 블록체인
+        - generic [ref=e62]:
+          - button "다른 언어로 문서를 방문합니다. 90개 언어로 읽을 수 있습니다" [ref=e63] [cursor=pointer]
+          - generic [ref=e66]: 90개 언어
+      - generic [ref=e68]:
+        - navigation "이름공간" [ref=e70]:
+          - generic [ref=e71]:
+            - generic:
+              - list:
+                - listitem [ref=e72]:
+                  - link "문서" [ref=e73] [cursor=pointer]:
+                    - /url: /wiki/%EB%B8%94%EB%A1%9D%EC%B2%B4%EC%9D%B8
+                    - generic [ref=e74]: 문서
+                - listitem [ref=e75]:
+                  - link "토론" [ref=e76] [cursor=pointer]:
+                    - /url: /wiki/%ED%86%A0%EB%A1%A0:%EB%B8%94%EB%A1%9D%EC%B2%B4%EC%9D%B8
+                    - generic [ref=e77]: 토론
+        - generic [ref=e78]:
+          - navigation "보기" [ref=e79]:
+            - generic [ref=e80]:
+              - generic:
+                - list:
+                  - listitem [ref=e81]:
+                    - link "읽기" [ref=e82] [cursor=pointer]:
+                      - /url: /wiki/%EB%B8%94%EB%A1%9D%EC%B2%B4%EC%9D%B8
+                      - generic [ref=e83]: 읽기
+                  - listitem [ref=e84]:
+                    - link "편집" [ref=e85] [cursor=pointer]:
+                      - /url: /w/index.php?title=%EB%B8%94%EB%A1%9D%EC%B2%B4%EC%9D%B8&action=edit
+                      - generic [ref=e86]: 편집
+                  - listitem [ref=e87]:
+                    - link "역사 보기" [ref=e88] [cursor=pointer]:
+                      - /url: /w/index.php?title=%EB%B8%94%EB%A1%9D%EC%B2%B4%EC%9D%B8&action=history
+                      - generic [ref=e89]: 역사 보기
+          - navigation "페이지 도구" [ref=e90]:
+            - generic [ref=e91]:
+              - button "도구" [ref=e92] [cursor=pointer]
+              - generic [ref=e94] [cursor=pointer]: 도구
+      - generic "블록체인" [ref=e95]:
+        - generic [ref=e97]: 위키백과, 우리 모두의 백과사전.
+        - generic [ref=e99]:
+          - generic [ref=e100]:
+            - figure "블록체인의 대형" [ref=e101]:
+              - link [ref=e102] [cursor=pointer]:
+                - /url: //ko.wikipedia.org/wiki/파일:Blockchain.svg
+                - img [ref=e103]
+              - generic [ref=e104]: 블록체인의 대형
+            - paragraph [ref=e105]:
+              - text: 블록체인(
+              - generic [ref=e106]:
+                - link "영어" [ref=e107] [cursor=pointer]:
+                  - /url: //ko.wikipedia.org/wiki/영어
+                - text: ":"
+              - generic [ref=e108]:
+                - text: block chain
+                - superscript [ref=e109]:
+                  - link "[1]" [ref=e110] [cursor=pointer]:
+                    - /url: "#cite_note-primer-1"
+                    - generic [ref=e111]: "[1]"
+                - superscript [ref=e112]:
+                  - link "[2]" [ref=e113] [cursor=pointer]:
+                    - /url: "#cite_note-obmh-2"
+                    - generic [ref=e114]: "[2]"
+                - text: ", blockchain"
+                - superscript [ref=e115]:
+                  - link "[3]" [ref=e116] [cursor=pointer]:
+                    - /url: "#cite_note-te20151031-3"
+                    - generic [ref=e117]: "[3]"
+                - superscript [ref=e118]:
+                  - link "[4]" [ref=e119] [cursor=pointer]:
+                    - /url: "#cite_note-fortune20160515-4"
+                    - generic [ref=e120]: "[4]"
+                - superscript [ref=e121]:
+                  - link "[5]" [ref=e122] [cursor=pointer]:
+                    - /url: "#cite_note-nyt20160521-5"
+                    - generic [ref=e123]: "[5]"
+              - text: )은 관리 대상
+              - link "데이터" [ref=e124] [cursor=pointer]:
+                - /url: //ko.wikipedia.org/wiki/데이터
+              - text: 를 '블록'이라고 하는 소규모 데이터들이
+              - link "P2P" [ref=e125] [cursor=pointer]:
+                - /url: //ko.wikipedia.org/wiki/P2P
+              - text: 방식을 기반으로 생성된 체인 형태의 연결고리 기반 분산 데이터 저장 환경에 저장하여 누구라도 임의로 수정할 수 없고 누구나 변경의 결과를 열람할 수 있는
+              - link "분산 컴퓨팅" [ref=e126] [cursor=pointer]:
+                - /url: //ko.wikipedia.org/wiki/분산_컴퓨팅
+              - text: 기술 기반의 원장 관리 기술이다.
+              - superscript [ref=e127]:
+                - link "[6]" [ref=e128] [cursor=pointer]:
+                  - /url: "#cite_note-6"
+                  - generic [ref=e129]: "[6]"
+              - text: 이는 근본적으로 분산 데이터 저장기술의 한 형태로, 지속적으로 변경되는 데이터를 모든 참여
+              - link "노드" [ref=e130] [cursor=pointer]:
+                - /url: //ko.wikipedia.org/wiki/노드_(컴퓨터_과학)
+              - text: 에 기록한 변경 리스트로서 분산 노드의 운영자에 의한 임의 조작이 불가능하도록 고안되었다. 블록체인 기술은
+              - link "비트코인" [ref=e131] [cursor=pointer]:
+                - /url: //ko.wikipedia.org/wiki/비트코인
+              - text: 을 비롯한 대부분의 암호화폐 거래에 사용된다.
+              - superscript [ref=e132]:
+                - link "[7]" [ref=e133] [cursor=pointer]:
+                  - /url: "#cite_note-Temperton-7"
+                  - generic [ref=e134]: "[7]"
+              - link "암호화폐" [ref=e135] [cursor=pointer]:
+                - /url: //ko.wikipedia.org/wiki/암호화폐
+              - text: 의 거래과정은 탈중앙화된 전자장부에 쓰이기 때문에 블록체인 소프트웨어를 실행하는 많은 사용자들의 각 컴퓨터에서
+              - link "서버" [ref=e136] [cursor=pointer]:
+                - /url: //ko.wikipedia.org/wiki/서버
+              - text: 가 운영되어, 중앙에 존재하는 은행 없이 개인 간의 자유로운 거래가 가능하다.
+              - superscript [ref=e137]:
+                - link "[8]" [ref=e138] [cursor=pointer]:
+                  - /url: "#cite_note-bc1-8"
+                  - generic [ref=e139]: "[8]"
+          - region "기본 원리" [ref=e140]:
+            - generic [ref=e141]:
+              - heading "기본 원리" [level=2] [ref=e142]: 기본 원리
+              - generic [ref=e143]:
+                - text: "["
+                - link "편집" [ref=e144] [cursor=pointer]:
+                  - /url: /w/index.php?title=%EB%B8%94%EB%A1%9D%EC%B2%B4%EC%9D%B8&action=edit&section=1
+                - text: "]"
+            - paragraph [ref=e145]: 블록체인 아키텍처의 핵심적인 장점은 다음과 같은 것들이다.
+            - paragraph [ref=e146]:
+              - text: 블록체인은 대규모의 노드들 사이에서 각 노드에 분산 저장된 장부의 데이터를 항상 있도록 하는 합의 수렴
+              - link "알고리즘" [ref=e147] [cursor=pointer]:
+                - /url: //ko.wikipedia.org/wiki/알고리즘
+              - text: 으로 볼 수 있다. 이러한 능력은 노드가 익명으로 실행되거나, 연결이 좋지 않거나, 심지어 신뢰할 수 없는 운영자가 참여하는 것도 가능하게 한다.
+            - region "탈중앙" [ref=e148]:
+              - generic [ref=e149]:
+                - heading "탈중앙" [level=3] [ref=e150]: 탈중앙
+                - generic [ref=e151]:
+                  - text: "["
+                  - link "편집" [ref=e152] [cursor=pointer]:
+                    - /url: /w/index.php?title=%EB%B8%94%EB%A1%9D%EC%B2%B4%EC%9D%B8&action=edit&section=2
+                  - text: "]"
+              - paragraph [ref=e153]:
+                - link "암호화폐" [ref=e154] [cursor=pointer]:
+                  - /url: //ko.wikipedia.org/wiki/암호화폐
+                - text: 의 노드는 부분 또는 전체의 블록체인을 가지고 있다. 이것이 페이팔과 같은 시스템에서 필요로 하는, 중앙 집중형
+                - link "데이터베이스" [ref=e155] [cursor=pointer]:
+                  - /url: //ko.wikipedia.org/wiki/데이터베이스
+                - text: 를 가지고 있을 필요가 없게 한다.
+                - superscript [ref=e156]:
+                  - link "[1]" [ref=e157] [cursor=pointer]:
+                    - /url: "#cite_note-primer-1"
+                    - generic [ref=e158]: "[1]"
+              - paragraph [ref=e159]:
+                - text: 일반적인 장부에는 수표나 영수증 또는 약속어음의 교환내역이 기록되는 반면에, 블록체인은 그것 자체가 거래장부인 동시에 거래증서(수표, 영수증, 약속어음)이다. 비트코인에서는 거래들의 지불되지 않은 결과의 형태로 존재한다고 표현한다.
+                - superscript [ref=e160]:
+                  - link "[9]" [ref=e161] [cursor=pointer]:
+                    - /url: "#cite_note-Antonopoulos2014-9"
+                    - generic [ref=e162]: "[9]"
+                - superscript [ref=e163]: ": ch. 5"
+              - paragraph [ref=e164]:
+                - text: "\"지불인 갑이 00원을 수취인 을에게 보내다\" 형식의 거래는 소프트웨어 앱(비트코인 지갑앱 등)을 통해 블록체인 네트워크에 뿌려진다. 블록체인 네트워크의 노드들은 거래를 검증한 다음, 자신의 장부에 거래를 추가한다. 그리고 이 거래가 추가된 장부를 네트워크의 다른 노드들에 뿌린다."
+                - superscript [ref=e165]:
+                  - link "[9]" [ref=e166] [cursor=pointer]:
+                    - /url: "#cite_note-Antonopoulos2014-9"
+                    - generic [ref=e167]: "[9]"
+                - superscript [ref=e168]: ": ch. 8"
+            - region "개방형" [ref=e169]:
+              - generic [ref=e170]:
+                - heading "개방형" [level=3] [ref=e171]: 개방형
+                - generic [ref=e172]:
+                  - text: "["
+                  - link "편집" [ref=e173] [cursor=pointer]:
+                    - /url: /w/index.php?title=%EB%B8%94%EB%A1%9D%EC%B2%B4%EC%9D%B8&action=edit&section=3
+                  - text: "]"
+              - region "비허가형" [ref=e174]:
+                - generic [ref=e175]:
+                  - heading "비허가형" [level=4] [ref=e176]: 비허가형
+                  - generic [ref=e177]:
+                    - text: "["
+                    - link "편집" [ref=e178] [cursor=pointer]:
+                      - /url: /w/index.php?title=%EB%B8%94%EB%A1%9D%EC%B2%B4%EC%9D%B8&action=edit&section=4
+                    - text: "]"
+                - paragraph [ref=e179]:
+                  - text: 비허가형의 공개형 블록체인망의 장점은 불량한 사용자로부터의 보안을 요하지 않으며
+                  - link "접근 제어" [ref=e180] [cursor=pointer]:
+                    - /url: //ko.wikipedia.org/wiki/접근_제어
+                  - text: 가 필요없다는 점이다.
+                  - superscript [ref=e181]:
+                    - link "[10]" [ref=e182] [cursor=pointer]:
+                      - /url: "#cite_note-bsm-10"
+                      - generic [ref=e183]: "[10]"
+                  - text: 즉,
+                  - link "전송 계층" [ref=e184] [cursor=pointer]:
+                    - /url: //ko.wikipedia.org/wiki/전송_계층
+                  - text: 으로서 블록체인을 사용하여 다른 곳의 신뢰나 승인 없이 애플리케이션을 네트워크에 추가할 수 있음을 의미한다.
+                  - superscript [ref=e185]:
+                    - link "[10]" [ref=e186] [cursor=pointer]:
+                      - /url: "#cite_note-bsm-10"
+                      - generic [ref=e187]: "[10]"
+              - region "허가형" [ref=e188]:
+                - generic [ref=e189]:
+                  - heading "허가형" [level=4] [ref=e190]: 허가형
+                  - generic [ref=e191]:
+                    - text: "["
+                    - link "편집" [ref=e192] [cursor=pointer]:
+                      - /url: /w/index.php?title=%EB%B8%94%EB%A1%9D%EC%B2%B4%EC%9D%B8&action=edit&section=5
+                    - text: "]"
+                - note [ref=e193]:
+                  - link "분산원장" [ref=e196] [cursor=pointer]:
+                    - /url: //ko.wikipedia.org/wiki/분산원장
+                  - text: 문서를 참고하십시오.
+                - paragraph [ref=e197]:
+                  - text: 허가형 블록체인은 접근 제어 계층을 사용하여 네트워크 접근자를 관리한다.
+                  - superscript [ref=e198]:
+                    - link "[11]" [ref=e199] [cursor=pointer]:
+                      - /url: "#cite_note-btit-11"
+                      - generic [ref=e200]: "[11]"
+          - region "종류" [ref=e201]:
+            - generic [ref=e202]:
+              - heading "종류" [level=2] [ref=e203]: 종류
+              - generic [ref=e204]:
+                - text: "["
+                - link "편집" [ref=e205] [cursor=pointer]:
+                  - /url: /w/index.php?title=%EB%B8%94%EB%A1%9D%EC%B2%B4%EC%9D%B8&action=edit&section=6
+                - text: "]"
+            - list [ref=e206]:
+              - listitem [ref=e207]: "공개 블록체인(Public blockchain, 개방형 블록체인): 접근 제한이 전혀 없는 블록체인."
+              - listitem [ref=e208]:
+                - text: "비공개 블록체인(Private blockchains, 전용 블록체인): 특정 권한이 부여된 비공개 블록체인."
+                - superscript [ref=e209]:
+                  - link "[11]" [ref=e210] [cursor=pointer]:
+                    - /url: "#cite_note-btit-11"
+                    - generic [ref=e211]: "[11]"
+              - listitem [ref=e212]:
+                - text: "하이브리드 블록체인(Hybrid blockchain): 중앙식, 탈중앙식 기능을 모두 갖춘 블록체인."
+                - superscript [ref=e213]:
+                  - link "[12]" [ref=e214] [cursor=pointer]:
+                    - /url: "#cite_note-12"
+                    - generic [ref=e215]: "[12]"
+          - region "이중 지불 방지" [ref=e216]:
+            - generic [ref=e217]:
+              - heading "이중 지불 방지" [level=2] [ref=e218]: 이중 지불 방지
+              - generic [ref=e219]:
+                - text: "["
+                - link "편집" [ref=e220] [cursor=pointer]:
+                  - /url: /w/index.php?title=%EB%B8%94%EB%A1%9D%EC%B2%B4%EC%9D%B8&action=edit&section=7
+                - text: "]"
+            - paragraph [ref=e221]:
+              - text: 암호화폐들은 신뢰할 수 없는 제3자에 의한 시간표시거래를 블록체인에 추가하는 것을 피하기 위해,
+              - link "작업증명" [ref=e222] [cursor=pointer]:
+                - /url: //ko.wikipedia.org/wiki/작업증명
+              - text: (
+              - link "proof-of-work" [ref=e223] [cursor=pointer]:
+                - /url: //ko.wikipedia.org/wiki/PoW?action=edit&redlink=1
+              - text: ) 또는
+              - link "지분증명" [ref=e224] [cursor=pointer]:
+                - /url: //ko.wikipedia.org/wiki/지분증명
+              - text: (
+              - link "proof-of-stake" [ref=e225] [cursor=pointer]:
+                - /url: //ko.wikipedia.org/wiki/PoS?action=edit&redlink=1
+              - text: ) 같은 다양한 시간표시 방법들을 사용한다. 이것은 누구나 쉽게
+              - link "이중지불" [ref=e226] [cursor=pointer]:
+                - /url: //ko.wikipedia.org/wiki/이중지불?action=edit&redlink=1
+              - text: 되는 돈의 문제를 회피할 수 있게 한다.
+              - superscript [ref=e227]:
+                - link "[13]" [ref=e228] [cursor=pointer]:
+                  - /url: "#cite_note-kopstein-13"
+                  - generic [ref=e229]: "[13]"
+          - region "개발과정" [ref=e230]:
+            - generic [ref=e231]:
+              - heading "개발과정" [level=2] [ref=e232]: 개발과정
+              - generic [ref=e233]:
+                - text: "["
+                - link "편집" [ref=e234] [cursor=pointer]:
+                  - /url: /w/index.php?title=%EB%B8%94%EB%A1%9D%EC%B2%B4%EC%9D%B8&action=edit&section=8
+                - text: "]"
+            - paragraph [ref=e235]:
+              - text: 블록체인의 첫 구현체 개발은
+              - link "비트코인" [ref=e236] [cursor=pointer]:
+                - /url: //ko.wikipedia.org/wiki/비트코인
+              - text: 으로 시작되었고, 추가적으로 성능개선, 익명성 추가, 저장기능과 스마트 컨트랙(
+              - link "smart contract" [ref=e237] [cursor=pointer]:
+                - /url: //ko.wikipedia.org/wiki/Smart_contract?action=edit&redlink=1
+              - text: ) 기능들이 개발되었다.
+              - superscript [ref=e238]:
+                - link "[14]" [ref=e239] [cursor=pointer]:
+                  - /url: "#cite_note-new_era-14"
+                  - generic [ref=e240]: "[14]"
+              - text: MIS 분야가 매우 중요한 역할을 하였다.
+          - region "블록체인 구현사례" [ref=e241]:
+            - generic [ref=e242]:
+              - heading "블록체인 구현사례" [level=2] [ref=e243]: 블록체인 구현사례
+              - generic [ref=e244]:
+                - text: "["
+                - link "편집" [ref=e245] [cursor=pointer]:
+                  - /url: /w/index.php?title=%EB%B8%94%EB%A1%9D%EC%B2%B4%EC%9D%B8&action=edit&section=9
+                - text: "]"
+            - list [ref=e246]:
+              - listitem [ref=e247]:
+                - link "비트코인" [ref=e248] [cursor=pointer]:
+                  - /url: //ko.wikipedia.org/wiki/비트코인#블록체인
+                - text: –
+                - link "작업증명" [ref=e249] [cursor=pointer]:
+                  - /url: //ko.wikipedia.org/wiki/작업증명
+                - text: (Proof of work)
+              - listitem [ref=e250]:
+                - link "디지털노트 XDN" [ref=e251] [cursor=pointer]:
+                  - /url: https://web.archive.org/web/20170622153030/http://digitalnote.org/
+                - text: – 블록체인 위에
+                - link "인스턴트 메신저" [ref=e252] [cursor=pointer]:
+                  - /url: //ko.wikipedia.org/wiki/인스턴트_메신저
+                - text: ", 블록체인"
+                - link "작업 증명" [ref=e253] [cursor=pointer]:
+                  - /url: //ko.wikipedia.org/wiki/작업_증명
+                - text: 에 기반을 둔 뱅킹
+                - link "예금" [ref=e254] [cursor=pointer]:
+                  - /url: //ko.wikipedia.org/wiki/예금
+                - text: 시스템
+              - listitem [ref=e255]:
+                - link "네임코인" [ref=e256] [cursor=pointer]:
+                  - /url: //ko.wikipedia.org/wiki/네임코인?action=edit&redlink=1
+                - text: – 블록체인에 데이터 저장 기능 제공
+              - listitem [ref=e257]:
+                - link "마스터코인" [ref=e258] [cursor=pointer]:
+                  - /url: //ko.wikipedia.org/wiki/마스터코인?action=edit&redlink=1
+                - text: – 다양한 거래를 처리 가능한 블록체인
+              - listitem [ref=e259]:
+                - link "피어코인" [ref=e260] [cursor=pointer]:
+                  - /url: //ko.wikipedia.org/wiki/피어코인?action=edit&redlink=1
+                - text: –
+                - link "작업증명" [ref=e261] [cursor=pointer]:
+                  - /url: //ko.wikipedia.org/wiki/작업증명
+                - text: 의 대안으로
+                - link "지분증명" [ref=e262] [cursor=pointer]:
+                  - /url: //ko.wikipedia.org/wiki/지분증명
+                - text: 추가
+              - listitem [ref=e263]:
+                - link "이더리움" [ref=e264] [cursor=pointer]:
+                  - /url: //ko.wikipedia.org/wiki/이더리움
+                - text: – 튜링 완전 스마트 컨트랙트 및 12초의 블록생성주기 지원
+              - listitem [ref=e265]:
+                - link "에이코인" [ref=e266] [cursor=pointer]:
+                  - /url: //ko.wikipedia.org/wiki/에이코인
+                - text: – 2014년 Proof of work 기반으로 시작한 퍼블릭블록체인 기반의 코인으로 시작하여 총아홉가지(금,물,에너지,부동산.유가증권,공기 등) 가치 증명코인으로 세분화됨.금거래등 자원거래증영
+              - listitem [ref=e267]: 리플 - 전 세계 여러 은행들이 실시간으로 자금을 송금하기 위해 사용하는 프로토콜 겸 암호화폐
+          - region "같이 보기" [ref=e268]:
+            - generic [ref=e269]:
+              - heading "같이 보기" [level=2] [ref=e270]: 같이 보기
+              - generic [ref=e271]:
+                - text: "["
+                - link "편집" [ref=e272] [cursor=pointer]:
+                  - /url: /w/index.php?title=%EB%B8%94%EB%A1%9D%EC%B2%B4%EC%9D%B8&action=edit&section=10
+                - text: "]"
+            - list [ref=e273]:
+              - listitem [ref=e274]:
+                - link "체인지로그" [ref=e275] [cursor=pointer]:
+                  - /url: //ko.wikipedia.org/wiki/체인지로그
+              - listitem [ref=e276]:
+                - link "체크리스트" [ref=e277] [cursor=pointer]:
+                  - /url: //ko.wikipedia.org/wiki/체크리스트
+              - listitem [ref=e278]:
+                - link "버전 관리" [ref=e279] [cursor=pointer]:
+                  - /url: //ko.wikipedia.org/wiki/버전_관리
+          - region "각주" [ref=e280]:
+            - generic [ref=e281]:
+              - heading "각주" [level=2] [ref=e282]: 각주
+              - generic [ref=e283]:
+                - text: "["
+                - link "편집" [ref=e284] [cursor=pointer]:
+                  - /url: /w/index.php?title=%EB%B8%94%EB%A1%9D%EC%B2%B4%EC%9D%B8&action=edit&section=11
+                - text: "]"
+            - list [ref=e286]:
+              - listitem [ref=e287]:
+                - generic [ref=e288]:
+                  - text: ↑
+                  - link "이동:" [ref=e289] [cursor=pointer]:
+                    - /url: "#cite_ref-primer_1-0"
+                    - generic [ref=e290]: "이동:"
+                  - link [ref=e291] [cursor=pointer]:
+                    - /url: "#cite_ref-primer_1-1"
+                - generic [ref=e292]:
+                  - generic [ref=e293]:
+                    - text: 제리 브리토, 안드레아 카스트로(Jerry Brito and Andrea Castillo) (2013).
+                    - link "“비트코인:정책입안자를 위한 입문서”" [ref=e294] [cursor=pointer]:
+                      - /url: https://web.archive.org/web/20130921060724/http://mercatus.org/sites/default/files/Brito_BitcoinPrimer.pdf
+                    - text: (PDF). 《Mercatus Center》. George Mason University. 2013년 9월 21일에
+                    - link "원본 문서" [ref=e295] [cursor=pointer]:
+                      - /url: http://mercatus.org/sites/default/files/Brito_BitcoinPrimer.pdf
+                    - text: (PDF)에서 보존된 문서. 2013년 10월 22일에 확인함.
+                  - generic "ctx_ver=Z39.88-2004&rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&rft.genre=unknown&rft.jtitle=Mercatus+Center&rft.atitle=%EB%B9%84%ED%8A%B8%EC%BD%94%EC%9D%B8%3A%EC%A0%95%EC%B1%85%EC%9E%85%EC%95%88%EC%9E%90%EB%A5%BC+%EC%9C%84%ED%95%9C+%EC%9E%85%EB%AC%B8%EC%84%9C&rft.date=2013&rft.au=%EC%A0%9C%EB%A6%AC+%EB%B8%8C%EB%A6%AC%ED%86%A0%2C+%EC%95%88%EB%93%9C%EB%A0%88%EC%95%84+%EC%B9%B4%EC%8A%A4%ED%8A%B8%EB%A1%9C%28Jerry+Brito+and+Andrea+Castillo%29&rft_id=http%3A%2F%2Fmercatus.org%2Fsites%2Fdefault%2Ffiles%2FBrito_BitcoinPrimer.pdf&rfr_id=info%3Asid%2Fko.wikipedia.org%3A%EB%B8%94%EB%A1%9D%EC%B2%B4%EC%9D%B8"
+              - listitem [ref=e296]:
+                - link "이동" [ref=e298] [cursor=pointer]:
+                  - /url: "#cite_ref-obmh_2-0"
+                  - text: ↑
+                - generic [ref=e299]:
+                  - generic [ref=e300]:
+                    - text: Trottier, Leo (2016년 6월 18일).
+                    - link "“original-bitcoin”" [ref=e301] [cursor=pointer]:
+                      - /url: https://github.com/trottier/original-bitcoin/blob/master/src/main.h#L795-L803
+                    - text: (self-published code collection). github. 2016년 6월 18일에 확인함. This is a historical repository of Satoshi Nakamoto's original bit coin sourcecode
+                  - generic "ctx_ver=Z39.88-2004&rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&rft.genre=unknown&rft.btitle=original-bitcoin&rft.pub=github&rft.date=2016-06-18&rft.au=Trottier%2C+Leo&rft_id=https%3A%2F%2Fgithub.com%2Ftrottier%2Foriginal-bitcoin%2Fblob%2Fmaster%2Fsrc%2Fmain.h%23L795-L803&rfr_id=info%3Asid%2Fko.wikipedia.org%3A%EB%B8%94%EB%A1%9D%EC%B2%B4%EC%9D%B8"
+              - listitem [ref=e302]:
+                - link "이동" [ref=e304] [cursor=pointer]:
+                  - /url: "#cite_ref-te20151031_3-0"
+                  - text: ↑
+                - generic [ref=e305]:
+                  - generic [ref=e306]:
+                    - text: Economist Staff (2015년 10월 31일).
+                    - 'link "“Blockchains: The great chain of being sure about things”" [ref=e307] [cursor=pointer]':
+                      - /url: http://www.economist.com/news/briefing/21677228-technology-behind-bitcoin-lets-people-who-do-not-know-or-trust-each-other-build-dependable
+                    - text: . 《
+                    - link "The Economist" [ref=e308] [cursor=pointer]:
+                      - /url: //ko.wikipedia.org/wiki/The_Economist
+                    - text: 》. 2016년 6월 18일에 확인함. [Subtitle] The technology behind bitcoin lets people who do not know or trust each other build a dependable ledger. This has implications far beyond the crypto currency.
+                  - generic "ctx_ver=Z39.88-2004&rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&rft.genre=article&rft.jtitle=The+Economist&rft.atitle=Blockchains%3A+The+great+chain+of+being+sure+about+things&rft.date=2015-10-31&rft.au=Economist+Staff&rft_id=http%3A%2F%2Fwww.economist.com%2Fnews%2Fbriefing%2F21677228-technology-behind-bitcoin-lets-people-who-do-not-know-or-trust-each-other-build-dependable&rfr_id=info%3Asid%2Fko.wikipedia.org%3A%EB%B8%94%EB%A1%9D%EC%B2%B4%EC%9D%B8"
+              - listitem [ref=e309]:
+                - link "이동" [ref=e311] [cursor=pointer]:
+                  - /url: "#cite_ref-fortune20160515_4-0"
+                  - text: ↑
+                - generic [ref=e312]:
+                  - generic [ref=e313]:
+                    - text: Morris, David Z. (2016년 5월 15일).
+                    - link "“Leaderless, Blockchain-Based Venture Capital Fund Raises $100 Million, And Counting”" [ref=e314] [cursor=pointer]:
+                      - /url: http://fortune.com/2016/05/15/leaderless-blockchain-vc-fund/
+                    - text: . 《
+                    - link "포춘 (잡지)" [ref=e315] [cursor=pointer]:
+                      - /url: //ko.wikipedia.org/wiki/포춘_(잡지)
+                    - text: 》. 2016년 5월 23일에 확인함.
+                  - generic "ctx_ver=Z39.88-2004&rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&rft.genre=article&rft.jtitle=%ED%8F%AC%EC%B6%98+%28%EC%9E%A1%EC%A7%80%29&rft.atitle=Leaderless%2C+Blockchain-Based+Venture+Capital+Fund+Raises+%24100+Million%2C+And+Counting&rft.date=2016-05-15&rft.aulast=Morris&rft.aufirst=David+Z.&rft_id=http%3A%2F%2Ffortune.com%2F2016%2F05%2F15%2Fleaderless-blockchain-vc-fund%2F&rfr_id=info%3Asid%2Fko.wikipedia.org%3A%EB%B8%94%EB%A1%9D%EC%B2%B4%EC%9D%B8"
+              - listitem [ref=e316]:
+                - link "이동" [ref=e318] [cursor=pointer]:
+                  - /url: "#cite_ref-nyt20160521_5-0"
+                  - text: ↑
+                - generic [ref=e319]:
+                  - generic [ref=e320]:
+                    - text: Popper, Nathan (2016년 5월 21일).
+                    - link "“A Venture Fund With Plenty of Virtual Capital, but No Capitalist”" [ref=e321] [cursor=pointer]:
+                      - /url: https://www.nytimes.com/2016/05/22/business/dealbook/crypto-ether-bitcoin-currency.html?_r=1
+                    - text: . 《
+                    - link "New York Times" [ref=e322] [cursor=pointer]:
+                      - /url: //ko.wikipedia.org/wiki/New_York_Times
+                    - text: 》. 2016년 5월 23일에 확인함.
+                  - generic "ctx_ver=Z39.88-2004&rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&rft.genre=article&rft.jtitle=New+York+Times&rft.atitle=A+Venture+Fund+With+Plenty+of+Virtual+Capital%2C+but+No+Capitalist&rft.date=2016-05-21&rft.aulast=Popper&rft.aufirst=Nathan&rft_id=http%3A%2F%2Fwww.nytimes.com%2F2016%2F05%2F22%2Fbusiness%2Fdealbook%2Fcrypto-ether-bitcoin-currency.html%3F_r%3D1&rfr_id=info%3Asid%2Fko.wikipedia.org%3A%EB%B8%94%EB%A1%9D%EC%B2%B4%EC%9D%B8"
+              - listitem [ref=e323]:
+                - link "이동" [ref=e325] [cursor=pointer]:
+                  - /url: "#cite_ref-6"
+                  - text: ↑
+                - generic [ref=e326]:
+                  - text: 고현실.
+                  - link "삼성SDS, 블록체인 사업 본격 추진…자체 플랫폼 개발" [ref=e327] [cursor=pointer]:
+                    - /url: https://n.news.naver.com/mnews/article/001/0009167205?sid=101
+                  - text: . 연합뉴스. 2017년 4월 6일.
+              - listitem [ref=e328]:
+                - link "이동" [ref=e330] [cursor=pointer]:
+                  - /url: "#cite_ref-Temperton_7-0"
+                  - text: ↑
+                - generic [ref=e331]:
+                  - generic [ref=e332]:
+                    - text: 제임스 템퍼톤(James Temperton) (2014년 11월 24일).
+                    - link "“비트코인은 실패할 수 있으나 블록체인은 남을 것이다”" [ref=e333] [cursor=pointer]:
+                      - /url: https://www.wired.co.uk/news/archive/2014-11/24/bitcoin-myspace-cryptocurrency-blockchain
+                    - text: . 2015년 5월 22일에 확인함.
+                  - generic "ctx_ver=Z39.88-2004&rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&rft.genre=article&rft.atitle=%EB%B9%84%ED%8A%B8%EC%BD%94%EC%9D%B8%EC%9D%80+%EC%8B%A4%ED%8C%A8%ED%95%A0+%EC%88%98+%EC%9E%88%EC%9C%BC%EB%82%98+%EB%B8%94%EB%A1%9D%EC%B2%B4%EC%9D%B8%EC%9D%80+%EB%82%A8%EC%9D%84+%EA%B2%83%EC%9D%B4%EB%8B%A4&rft.date=2014-11-24&rft.au=%EC%A0%9C%EC%9E%84%EC%8A%A4+%ED%85%9C%ED%8D%BC%ED%86%A4%28James+Temperton%29&rft_id=http%3A%2F%2Fwww.wired.co.uk%2Fnews%2Farchive%2F2014-11%2F24%2Fbitcoin-myspace-cryptocurrency-blockchain&rfr_id=info%3Asid%2Fko.wikipedia.org%3A%EB%B8%94%EB%A1%9D%EC%B2%B4%EC%9D%B8"
+              - listitem [ref=e334]:
+                - link "이동" [ref=e336] [cursor=pointer]:
+                  - /url: "#cite_ref-bc1_8-0"
+                  - text: ↑
+                - generic [ref=e337]:
+                  - generic [ref=e338]:
+                    - link "“비트코인은 어떻게 작동하는가?”" [ref=e339] [cursor=pointer]:
+                      - /url: https://bitcoin.org/en/how-it-works
+                    - text: . Bitcoin.org. 2015년 5월 20일에 확인함.
+                  - generic "ctx_ver=Z39.88-2004&rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&rft.genre=unknown&rft.btitle=%EB%B9%84%ED%8A%B8%EC%BD%94%EC%9D%B8%EC%9D%80+%EC%96%B4%EB%96%BB%EA%B2%8C+%EC%9E%91%EB%8F%99%ED%95%98%EB%8A%94%EA%B0%80%3F&rft.pub=Bitcoin.org&rft_id=https%3A%2F%2Fbitcoin.org%2Fen%2Fhow-it-works&rfr_id=info%3Asid%2Fko.wikipedia.org%3A%EB%B8%94%EB%A1%9D%EC%B2%B4%EC%9D%B8"
+              - listitem [ref=e340]:
+                - generic [ref=e341]:
+                  - text: ↑
+                  - link "이동:" [ref=e342] [cursor=pointer]:
+                    - /url: "#cite_ref-Antonopoulos2014_9-0"
+                    - generic [ref=e343]: "이동:"
+                  - link [ref=e344] [cursor=pointer]:
+                    - /url: "#cite_ref-Antonopoulos2014_9-1"
+                - generic [ref=e345]:
+                  - generic [ref=e346]:
+                    - text: 안드레아스 안토노파울로스(Andreas M. Antonopoulos) (April 2014).
+                    - link "《비트코인 마스터하기. 디지털 암호화폐를 풀어보자》" [ref=e347] [cursor=pointer]:
+                      - /url: https://web.archive.org/web/20161201131627/http://chimera.labs.oreilly.com/books/1234000001802/ch01.html
+                    - text: . O'Reilly Media. 2016년 12월 1일에
+                    - link "원본 문서" [ref=e348] [cursor=pointer]:
+                      - /url: http://chimera.labs.oreilly.com/books/1234000001802/ch01.html
+                    - text: 에서 보존된 문서. 2014년 10월 23일에 확인함.
+                  - generic "ctx_ver=Z39.88-2004&rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&rft.genre=book&rft.btitle=%EB%B9%84%ED%8A%B8%EC%BD%94%EC%9D%B8+%EB%A7%88%EC%8A%A4%ED%84%B0%ED%95%98%EA%B8%B0.+%EB%94%94%EC%A7%80%ED%84%B8+%EC%95%94%ED%98%B8%ED%99%94%ED%8F%90%EB%A5%BC+%ED%92%80%EC%96%B4%EB%B3%B4%EC%9E%90&rft.pub=O%27Reilly+Media&rft.date=2014-04&rft.au=%EC%95%88%EB%93%9C%EB%A0%88%EC%95%84%EC%8A%A4+%EC%95%88%ED%86%A0%EB%85%B8%ED%8C%8C%EC%9A%B8%EB%A1%9C%EC%8A%A4%28Andreas+M.+Antonopoulos%29&rft_id=http%3A%2F%2Fchimera.labs.oreilly.com%2Fbooks%2F1234000001802%2Fch01.html&rfr_id=info%3Asid%2Fko.wikipedia.org%3A%EB%B8%94%EB%A1%9D%EC%B2%B4%EC%9D%B8"
+              - listitem [ref=e349]:
+                - generic [ref=e350]:
+                  - text: ↑
+                  - link "이동:" [ref=e351] [cursor=pointer]:
+                    - /url: "#cite_ref-bsm_10-0"
+                    - generic [ref=e352]: "이동:"
+                  - link [ref=e353] [cursor=pointer]:
+                    - /url: "#cite_ref-bsm_10-1"
+                - generic [ref=e354]:
+                  - generic [ref=e355]:
+                    - text: Antonopoulos, Andreas (2014년 2월 20일).
+                    - 'link "“Bitcoin security model: trust by computation”" [ref=e356] [cursor=pointer]':
+                      - /url: https://web.archive.org/web/20161031132328/http://radar.oreilly.com/2014/02/bitcoin-security-model-trust-by-computation.html
+                    - text: . 《Radar》. O'Reilly. 2016년 10월 31일에
+                    - link "원본 문서" [ref=e357] [cursor=pointer]:
+                      - /url: http://radar.oreilly.com/2014/02/bitcoin-security-model-trust-by-computation.html
+                    - text: 에서 보존된 문서. 2016년 11월 19일에 확인함.
+                  - generic "ctx_ver=Z39.88-2004&rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&rft.genre=unknown&rft.jtitle=Radar&rft.atitle=Bitcoin+security+model%3A+trust+by+computation&rft.date=2014-02-20&rft.aulast=Antonopoulos&rft.aufirst=Andreas&rft_id=http%3A%2F%2Fradar.oreilly.com%2F2014%2F02%2Fbitcoin-security-model-trust-by-computation.html&rfr_id=info%3Asid%2Fko.wikipedia.org%3A%EB%B8%94%EB%A1%9D%EC%B2%B4%EC%9D%B8"
+              - listitem [ref=e358]:
+                - generic [ref=e359]:
+                  - text: ↑
+                  - link "이동:" [ref=e360] [cursor=pointer]:
+                    - /url: "#cite_ref-btit_11-0"
+                    - generic [ref=e361]: "이동:"
+                  - link [ref=e362] [cursor=pointer]:
+                    - /url: "#cite_ref-btit_11-1"
+                - generic [ref=e363]:
+                  - generic [ref=e364]:
+                    - text: Bob Marvin (2017년 8월 30일).
+                    - 'link "“Blockchain: The Invisible Technology That''s Changing the World”" [ref=e365] [cursor=pointer]':
+                      - /url: https://web.archive.org/web/20170925180800/http://au.pcmag.com/amazon-web-services/46389/feature/blockchain-the-invisible-technology-thats-changing-the-world
+                    - text: . 《PC MAG Australia》 (ZiffDavis, LLC). 2017년 9월 25일에
+                    - link "원본 문서" [ref=e366] [cursor=pointer]:
+                      - /url: http://au.pcmag.com/amazon-web-services/46389/feature/blockchain-the-invisible-technology-thats-changing-the-world
+                    - text: 에서 보존된 문서. 2017년 9월 25일에 확인함.
+                  - generic "ctx_ver=Z39.88-2004&rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&rft.genre=article&rft.jtitle=PC+MAG+Australia&rft.atitle=Blockchain%3A+The+Invisible+Technology+That%27s+Changing+the+World&rft.date=2017-08-30&rft.au=Bob+Marvin&rft_id=http%3A%2F%2Fau.pcmag.com%2Famazon-web-services%2F46389%2Ffeature%2Fblockchain-the-invisible-technology-thats-changing-the-world&rfr_id=info%3Asid%2Fko.wikipedia.org%3A%EB%B8%94%EB%A1%9D%EC%B2%B4%EC%9D%B8"
+              - listitem [ref=e367]:
+                - link "이동" [ref=e369] [cursor=pointer]:
+                  - /url: "#cite_ref-12"
+                  - text: ↑
+                - generic [ref=e370]:
+                  - text: "[Distributed Ledger Technology: Hybrid Approach, Front-to-Back Designing and Changing Trade Processing Infrastructure, By Martin Walker, First published:, 24 OCT 2018"
+                  - link "ISBN" [ref=e371] [cursor=pointer]:
+                    - /url: //ko.wikipedia.org/wiki/ISBN_(식별자)
+                  - link "978-1-78272-389-9" [ref=e372] [cursor=pointer]:
+                    - /url: //ko.wikipedia.org/wiki/특수:책찾기/978-1-78272-389-9
+                  - text: "]"
+              - listitem [ref=e373]:
+                - link "이동" [ref=e375] [cursor=pointer]:
+                  - /url: "#cite_ref-kopstein_13-0"
+                  - text: ↑
+                - generic [ref=e376]:
+                  - generic [ref=e377]:
+                    - text: 조슈아 콥스테인(Joshua Kopstein) (2013년 12월 12일).
+                    - link "“인터넷의 탈중앙화를 위한 임무”" [ref=e378] [cursor=pointer]:
+                      - /url: http://www.newyorker.com/tech/elements/the-mission-to-decentralize-the-internet
+                    - text: . The New Yorker. 2014년 12월 30일에 확인함. 네트워크의 "노드들"은—사용자가 자신의 컴퓨터에서 실행하는 비트코인 소프트웨어—동일한 코인을 2회 사용한 사람이 없는지 확인을 위해 다른 노드들의 무결성을 전체적으로 점검한다. 모든 거래들은 블록체인으로 불리는 공유된 공공 장부상에 공표된다.
+                  - generic "ctx_ver=Z39.88-2004&rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&rft.genre=article&rft.atitle=%EC%9D%B8%ED%84%B0%EB%84%B7%EC%9D%98+%ED%83%88%EC%A4%91%EC%95%99%ED%99%94%EB%A5%BC+%EC%9C%84%ED%95%9C+%EC%9E%84%EB%AC%B4&rft.date=2013-12-12&rft.au=%EC%A1%B0%EC%8A%88%EC%95%84+%EC%BD%A5%EC%8A%A4%ED%85%8C%EC%9D%B8%28Joshua+Kopstein%29&rft_id=http%3A%2F%2Fwww.newyorker.com%2Ftech%2Felements%2Fthe-mission-to-decentralize-the-internet&rfr_id=info%3Asid%2Fko.wikipedia.org%3A%EB%B8%94%EB%A1%9D%EC%B2%B4%EC%9D%B8"
+              - listitem [ref=e379]:
+                - link "이동" [ref=e381] [cursor=pointer]:
+                  - /url: "#cite_ref-new_era_14-0"
+                  - text: ↑
+                - generic [ref=e382]:
+                  - generic [ref=e383]:
+                    - link "“왜 비트코인이 금융의 새로운 시대의 선구자인가?”" [ref=e384] [cursor=pointer]:
+                      - /url: https://web.archive.org/web/20141015085622/http://www.economistinsights.com/technology-innovation/analysis/money-no-middleman/tab/1
+                    - text: . 《www.economistinsights.com》. The Economist Group. 2014년 10월 15일에
+                    - link "원본 문서" [ref=e385] [cursor=pointer]:
+                      - /url: http://www.economistinsights.com/technology-innovation/analysis/money-no-middleman/tab/1
+                    - text: 에서 보존된 문서. 2015년 6월 9일에 확인함.
+                  - generic "ctx_ver=Z39.88-2004&rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&rft.genre=unknown&rft.jtitle=www.economistinsights.com&rft.atitle=%EC%99%9C+%EB%B9%84%ED%8A%B8%EC%BD%94%EC%9D%B8%EC%9D%B4+%EA%B8%88%EC%9C%B5%EC%9D%98+%EC%83%88%EB%A1%9C%EC%9A%B4+%EC%8B%9C%EB%8C%80%EC%9D%98+%EC%84%A0%EA%B5%AC%EC%9E%90%EC%9D%B8%EA%B0%80%3F&rft_id=http%3A%2F%2Fwww.economistinsights.com%2Ftechnology-innovation%2Fanalysis%2Fmoney-no-middleman%2Ftab%2F1&rfr_id=info%3Asid%2Fko.wikipedia.org%3A%EB%B8%94%EB%A1%9D%EC%B2%B4%EC%9D%B8"
+            - navigation "암호화폐" [ref=e386]:
+              - table [ref=e387]:
+                - rowgroup [ref=e388]:
+                  - row "[펼치기] v · t · e 암호화폐" [ref=e389]:
+                    - columnheader "[펼치기] v · t · e 암호화폐" [ref=e390]:
+                      - button "[펼치기]" [ref=e391] [cursor=pointer]
+                      - list [ref=e393]:
+                        - listitem [ref=e394]:
+                          - link "v" [ref=e395] [cursor=pointer]:
+                            - /url: //ko.wikipedia.org/wiki/틀:암호화폐
+                          - text: ·
+                        - listitem [ref=e396]:
+                          - link "t" [ref=e397] [cursor=pointer]:
+                            - /url: //ko.wikipedia.org/wiki/틀토론:암호화폐?action=edit&redlink=1
+                          - text: ·
+                        - listitem [ref=e398]:
+                          - link "e" [ref=e399] [cursor=pointer]:
+                            - /url: //ko.wikipedia.org/wiki/특수:문서편집/틀:암호화폐
+                      - link "암호화폐" [ref=e401] [cursor=pointer]:
+                        - /url: //ko.wikipedia.org/wiki/암호화폐
+                  - row: · · · · · · · · · · ·
+                  - row: · · ·
+                  - row: · · · · · · · · · · · · · · · · · · · ·
+                  - row: · · · · · · · · · · · · · · ·
+                  - row: · · · · · · · · · ·
+                  - row: · · · · ·
+                  - row: · · · · · · · ·
+                  - row: · · · · · · · · · · ·
+                  - row: · · · ·
+                  - row: · ·
+                  - row: · · · · · · · · ( · ) · · · · · · · · · · · · · · · · · · · ·
+                  - row: · ·
+            - navigation "비트코인" [ref=e402]:
+              - table [ref=e403]:
+                - rowgroup [ref=e404]:
+                  - row "[펼치기] v · t · e 비트코인" [ref=e405]:
+                    - columnheader "[펼치기] v · t · e 비트코인" [ref=e406]:
+                      - button "[펼치기]" [ref=e407] [cursor=pointer]
+                      - list [ref=e409]:
+                        - listitem [ref=e410]:
+                          - link "v" [ref=e411] [cursor=pointer]:
+                            - /url: //ko.wikipedia.org/wiki/틀:비트코인
+                          - text: ·
+                        - listitem [ref=e412]:
+                          - link "t" [ref=e413] [cursor=pointer]:
+                            - /url: //ko.wikipedia.org/wiki/틀토론:비트코인?action=edit&redlink=1
+                          - text: ·
+                        - listitem [ref=e414]:
+                          - link "e" [ref=e415] [cursor=pointer]:
+                            - /url: //ko.wikipedia.org/wiki/특수:문서편집/틀:비트코인
+                      - link "비트코인" [ref=e417] [cursor=pointer]:
+                        - /url: //ko.wikipedia.org/wiki/비트코인
+                  - row: ·
+                  - row: · · · · · · · · · · · · · · · · ·
+                  - row: ·
+                  - row: · · · · · · · · · · · ·
+                  - row: · · ·
+                  - row: · · · · · · · · · · · · · · ·
+                  - row: ·
+            - navigation "데이터베이스 관리 시스템" [ref=e418]:
+              - table [ref=e419]:
+                - rowgroup [ref=e420]:
+                  - row "[펼치기] v · t · e 데이터베이스 관리 시스템" [ref=e421]:
+                    - columnheader "[펼치기] v · t · e 데이터베이스 관리 시스템" [ref=e422]:
+                      - button "[펼치기]" [ref=e423] [cursor=pointer]
+                      - list [ref=e425]:
+                        - listitem [ref=e426]:
+                          - link "v" [ref=e427] [cursor=pointer]:
+                            - /url: //ko.wikipedia.org/wiki/틀:데이터베이스
+                          - text: ·
+                        - listitem [ref=e428]:
+                          - link "t" [ref=e429] [cursor=pointer]:
+                            - /url: //ko.wikipedia.org/wiki/틀토론:데이터베이스?action=edit&redlink=1
+                          - text: ·
+                        - listitem [ref=e430]:
+                          - link "e" [ref=e431] [cursor=pointer]:
+                            - /url: //ko.wikipedia.org/wiki/특수:문서편집/틀:데이터베이스
+                      - link "데이터베이스 관리 시스템" [ref=e433] [cursor=pointer]:
+                        - /url: //ko.wikipedia.org/wiki/데이터베이스
+                  - row: () · ( · ) · · () · · · · · · () · () · ·
+                  - row: · · · · · · · · · · · ·
+                  - row: ( · · ) · · · · · · · ·
+                  - row: · · · · · · · ·
+                  - row: · · ·
+                  - row: · · · · · · · · · · ·
+                  - row: ·
+            - navigation "시맨틱 웹" [ref=e434]:
+              - table [ref=e435]:
+                - rowgroup [ref=e436]:
+                  - row "[펼치기] v · t · e 시맨틱 웹" [ref=e437]:
+                    - columnheader "[펼치기] v · t · e 시맨틱 웹" [ref=e438]:
+                      - button "[펼치기]" [ref=e439] [cursor=pointer]
+                      - list [ref=e441]:
+                        - listitem [ref=e442]:
+                          - link "v" [ref=e443] [cursor=pointer]:
+                            - /url: //ko.wikipedia.org/wiki/틀:시맨틱_웹
+                          - text: ·
+                        - listitem [ref=e444]:
+                          - link "t" [ref=e445] [cursor=pointer]:
+                            - /url: //ko.wikipedia.org/wiki/틀토론:시맨틱_웹?action=edit&redlink=1
+                          - text: ·
+                        - listitem [ref=e446]:
+                          - link "e" [ref=e447] [cursor=pointer]:
+                            - /url: //ko.wikipedia.org/wiki/특수:문서편집/틀:시맨틱_웹
+                      - link "시맨틱 웹" [ref=e449] [cursor=pointer]:
+                        - /url: //ko.wikipedia.org/wiki/시맨틱_웹
+                  - row: · · · · ·
+                  - row: · · · ·
+                  - row: · · · · · · · · ·
+                  - row: · · · · · · · · · · · · · · · · · ·
+                  - row: · () · ( · · · · · · · ) · · · · · · · · · · · · · · · · · · · · · · · · ·
+            - generic [ref=e455]:
+              - link "위키미디어 공용" [ref=e456] [cursor=pointer]:
+                - /url: //ko.wikipedia.org/wiki/위키미디어_공용
+              - text: 에
+              - link "블록체인" [ref=e458] [cursor=pointer]:
+                - /url: https://commons.wikimedia.org/wiki/Category:Blockchain?uselang=ko
+              - text: 주제와 관련된 미디어 분류가 있습니다.
+            - navigation "전거 통제 위키데이터에서 편집하기" [ref=e459]:
+              - table [ref=e460]:
+                - rowgroup [ref=e461]:
+                  - row "[펼치기] 전거 통제 위키데이터에서 편집하기" [ref=e462]:
+                    - columnheader "[펼치기] 전거 통제 위키데이터에서 편집하기" [ref=e463]:
+                      - button "[펼치기]" [ref=e464] [cursor=pointer]
+                      - generic [ref=e465]:
+                        - link "전거 통제" [ref=e466] [cursor=pointer]:
+                          - /url: //ko.wikipedia.org/wiki/위키백과:전거_통제
+                        - link "위키데이터에서 편집하기" [ref=e468] [cursor=pointer]:
+                          - /url: https://www.wikidata.org/wiki/Q20514253#identifiers
+                          - img "위키데이터에서 편집하기" [ref=e469]
+                  - row
+                  - row: · · · · ·
+                  - row
+        - generic [ref=e471]:
+          - link "분류" [ref=e472] [cursor=pointer]:
+            - /url: /wiki/%ED%8A%B9%EC%88%98:%EB%B6%84%EB%A5%98
+          - text: ":"
+          - list [ref=e473]:
+            - listitem [ref=e474]:
+              - link "블록체인" [ref=e475] [cursor=pointer]:
+                - /url: /wiki/%EB%B6%84%EB%A5%98:%EB%B8%94%EB%A1%9D%EC%B2%B4%EC%9D%B8
+            - listitem [ref=e476]:
+              - link "암호화폐" [ref=e477] [cursor=pointer]:
+                - /url: /wiki/%EB%B6%84%EB%A5%98:%EC%95%94%ED%98%B8%ED%99%94%ED%8F%90
+            - listitem [ref=e478]:
+              - link "데이터베이스 모델" [ref=e479] [cursor=pointer]:
+                - /url: /wiki/%EB%B6%84%EB%A5%98:%EB%8D%B0%EC%9D%B4%ED%84%B0%EB%B2%A0%EC%9D%B4%EC%8A%A4_%EB%AA%A8%EB%8D%B8
+            - listitem [ref=e480]:
+              - link "데이터베이스 관리 시스템" [ref=e481] [cursor=pointer]:
+                - /url: /wiki/%EB%B6%84%EB%A5%98:%EB%8D%B0%EC%9D%B4%ED%84%B0%EB%B2%A0%EC%9D%B4%EC%8A%A4_%EA%B4%80%EB%A6%AC_%EC%8B%9C%EC%8A%A4%ED%85%9C
+            - listitem [ref=e482]:
+              - link "신기술" [ref=e483] [cursor=pointer]:
+                - /url: /wiki/%EB%B6%84%EB%A5%98:%EC%8B%A0%EA%B8%B0%EC%88%A0
+            - listitem [ref=e484]:
+              - link "분권화" [ref=e485] [cursor=pointer]:
+                - /url: /wiki/%EB%B6%84%EB%A5%98:%EB%B6%84%EA%B6%8C%ED%99%94
+            - listitem [ref=e486]:
+              - link "수학 도구" [ref=e487] [cursor=pointer]:
+                - /url: /wiki/%EB%B6%84%EB%A5%98:%EC%88%98%ED%95%99_%EB%8F%84%EA%B5%AC
+            - listitem [ref=e488]:
+              - link "21세기 발명품" [ref=e489] [cursor=pointer]:
+                - /url: /wiki/%EB%B6%84%EB%A5%98:21%EC%84%B8%EA%B8%B0_%EB%B0%9C%EB%AA%85%ED%92%88
+            - listitem [ref=e490]:
+              - link "플랫폼 경제" [ref=e491] [cursor=pointer]:
+                - /url: /wiki/%EB%B6%84%EB%A5%98:%ED%94%8C%EB%9E%AB%ED%8F%BC_%EA%B2%BD%EC%A0%9C
+    - contentinfo [ref=e493]:
+      - list [ref=e494]:
+        - listitem [ref=e495]: 이 문서는 2025년 4월 22일 (화) 02:40에 마지막으로 편집되었습니다.
+        - listitem [ref=e496]:
+          - text: 이 문서는
+          - link "Parsoid" [ref=e497] [cursor=pointer]:
+            - /url: https://www.mediawiki.org/wiki/Special:MyLanguage/Parsoid
+          - text: 로 렌더링되었습니다.
+        - listitem [ref=e498]:
+          - text: 모든 문서는
+          - link "크리에이티브 커먼즈 저작자표시-동일조건변경허락 4.0" [ref=e499] [cursor=pointer]:
+            - /url: //creativecommons.org/licenses/by-sa/4.0/deed.ko
+          - text: 에 따라 사용할 수 있으며, 추가적인 조건이 적용될 수 있습니다. 자세한 내용은
+          - link "이용 약관" [ref=e500] [cursor=pointer]:
+            - /url: https://foundation.wikimedia.org/wiki/Special:MyLanguage/Policy:Terms_of_Use/ko
+          - text: 을 참고하십시오.
+          - text: Wikipedia®는 미국 및 다른 국가에 등록되어 있는
+          - link "Wikimedia Foundation, Inc." [ref=e501] [cursor=pointer]:
+            - /url: https://www.wikimediafoundation.org
+          - text: 소유의 등록 상표입니다.
+      - list:
+        - listitem [ref=e502]:
+          - link "개인정보처리방침" [ref=e503] [cursor=pointer]:
+            - /url: https://foundation.wikimedia.org/wiki/Special:MyLanguage/Policy:Privacy_policy
+        - listitem [ref=e504]:
+          - link "위키백과 소개" [ref=e505] [cursor=pointer]:
+            - /url: /wiki/%EC%9C%84%ED%82%A4%EB%B0%B1%EA%B3%BC:%EC%86%8C%EA%B0%9C
+        - listitem [ref=e506]:
+          - link "면책 조항" [ref=e507] [cursor=pointer]:
+            - /url: /wiki/%EC%9C%84%ED%82%A4%EB%B0%B1%EA%B3%BC:%EB%A9%B4%EC%B1%85_%EC%A1%B0%ED%95%AD
+        - listitem [ref=e508]:
+          - link "행동 강령" [ref=e509] [cursor=pointer]:
+            - /url: https://foundation.wikimedia.org/wiki/Special:MyLanguage/Policy:Universal_Code_of_Conduct
+        - listitem [ref=e510]:
+          - link "개발자" [ref=e511] [cursor=pointer]:
+            - /url: https://developer.wikimedia.org
+        - listitem [ref=e512]:
+          - link "통계" [ref=e513] [cursor=pointer]:
+            - /url: https://stats.wikimedia.org/#/ko.wikipedia.org
+        - listitem [ref=e514]:
+          - link "쿠키 정책" [ref=e515] [cursor=pointer]:
+            - /url: https://foundation.wikimedia.org/wiki/Special:MyLanguage/Policy:Cookie_statement
+        - listitem [ref=e516]:
+          - link "모바일 보기" [ref=e517] [cursor=pointer]:
+            - /url: //ko.wikipedia.org/w/index.php?title=%EB%B8%94%EB%A1%9D%EC%B2%B4%EC%9D%B8&mobileaction=toggle_view_mobile
+      - list [ref=e518]:
+        - listitem [ref=e519]:
+          - link "Wikimedia Foundation" [ref=e520] [cursor=pointer]:
+            - /url: https://www.wikimedia.org/
+            - img "Wikimedia Foundation" [ref=e522]
+        - listitem [ref=e523]:
+          - link "Powered by MediaWiki" [ref=e524] [cursor=pointer]:
+            - /url: https://www.mediawiki.org/
+            - img "Powered by MediaWiki" [ref=e526]
+  - generic [ref=e527]:
+    - list

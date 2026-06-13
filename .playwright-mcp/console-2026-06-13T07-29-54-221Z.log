@@ -1,0 +1,5 @@
+[       7ms] [WARNING] Use of "mw.eventLog.eventInSample" is deprecated. Use "mw.eventLog.pageviewInSample()" instead. @ https://ko.wikipedia.org/w/load.php?lang=ko&modules=mediawiki.base&skin=vector-2022&version=p9dcv:7
+[      24ms] [WARNING] Use of "mw.eventLog.eventInSample" is deprecated. Use "mw.eventLog.pageviewInSample()" instead. @ https://ko.wikipedia.org/w/load.php?lang=ko&modules=mediawiki.base&skin=vector-2022&version=p9dcv:7
+[     190ms] [WARNING] Use of "mw.eventLog.eventInSample" is deprecated. Use "mw.eventLog.pageviewInSample()" instead. @ https://ko.wikipedia.org/w/load.php?lang=ko&modules=mediawiki.base&skin=vector-2022&version=p9dcv:7
+[     218ms] [WARNING] movePinnableElement: destination container not found  vector-toc-unpinned-container @ https://ko.wikipedia.org/w/load.php?lang=ko&modules=skins.vector.js&skin=vector-2022&version=n7txu:37
+[     240ms] [WARNING] Use of "mw.eventLog.eventInSample" is deprecated. Use "mw.eventLog.pageviewInSample()" instead. @ https://ko.wikipedia.org/w/load.php?lang=ko&modules=mediawiki.base&skin=vector-2022&version=p9dcv:7

@@ -1,0 +1,1784 @@
+- generic [active] [ref=e1]:
+  - link "본문으로 이동" [ref=e2] [cursor=pointer]:
+    - /url: "#bodyContent"
+  - banner [ref=e4]:
+    - generic [ref=e5]:
+      - navigation "사이트" [ref=e6]:
+        - generic "주 메뉴" [ref=e7]:
+          - button "주 메뉴" [ref=e8] [cursor=pointer]
+          - generic [ref=e11]: 주 메뉴
+      - link "위키백과" [ref=e12] [cursor=pointer]:
+        - /url: /wiki/%EC%9C%84%ED%82%A4%EB%B0%B1%EA%B3%BC:%EB%8C%80%EB%AC%B8
+        - img [ref=e13]
+        - img "위키백과" [ref=e15]
+    - generic [ref=e16]:
+      - search [ref=e17]:
+        - link "검색" [ref=e18] [cursor=pointer]:
+          - /url: /wiki/%ED%8A%B9%EC%88%98:%EA%B2%80%EC%83%89
+          - generic [ref=e20]: 검색
+      - navigation "개인 도구" [ref=e21]:
+        - list [ref=e25]:
+          - listitem [ref=e26]:
+            - link "기부" [ref=e27] [cursor=pointer]:
+              - /url: https://donate.wikimedia.org/?wmf_source=donate&wmf_medium=sidebar&wmf_campaign=ko.wikipedia.org&uselang=ko
+          - listitem [ref=e28]:
+            - link "계정 만들기" [ref=e29] [cursor=pointer]:
+              - /url: /w/index.php?title=%ED%8A%B9%EC%88%98:%EA%B3%84%EC%A0%95%EB%A7%8C%EB%93%A4%EA%B8%B0&returnto=%EA%B8%B0%EA%B3%84+%ED%95%99%EC%8A%B5
+          - listitem [ref=e30]:
+            - link "로그인" [ref=e31] [cursor=pointer]:
+              - /url: /w/index.php?title=%ED%8A%B9%EC%88%98:%EB%A1%9C%EA%B7%B8%EC%9D%B8&returnto=%EA%B8%B0%EA%B3%84+%ED%95%99%EC%8A%B5
+  - generic [ref=e33]:
+    - main [ref=e35]:
+      - generic [ref=e36]:
+        - navigation "목차" [ref=e37]:
+          - generic "목차" [ref=e38]:
+            - button "목차 토글" [ref=e39] [cursor=pointer]
+            - generic [ref=e42]: 목차 토글
+        - heading "기계 학습" [level=1] [ref=e43]:
+          - generic [ref=e44]: 기계 학습
+        - generic [ref=e45]:
+          - button "다른 언어로 문서를 방문합니다. 90개 언어로 읽을 수 있습니다" [ref=e46] [cursor=pointer]
+          - generic [ref=e49]: 90개 언어
+      - generic [ref=e51]:
+        - navigation "이름공간" [ref=e53]:
+          - generic [ref=e54]:
+            - generic:
+              - list:
+                - listitem [ref=e55]:
+                  - link "문서" [ref=e56] [cursor=pointer]:
+                    - /url: /wiki/%EA%B8%B0%EA%B3%84_%ED%95%99%EC%8A%B5
+                    - generic [ref=e57]: 문서
+                - listitem [ref=e58]:
+                  - link "토론" [ref=e59] [cursor=pointer]:
+                    - /url: /wiki/%ED%86%A0%EB%A1%A0:%EA%B8%B0%EA%B3%84_%ED%95%99%EC%8A%B5
+                    - generic [ref=e60]: 토론
+        - generic [ref=e61]:
+          - navigation "보기" [ref=e62]:
+            - generic [ref=e63]:
+              - generic:
+                - list:
+                  - listitem [ref=e64]:
+                    - link "읽기" [ref=e65] [cursor=pointer]:
+                      - /url: /wiki/%EA%B8%B0%EA%B3%84_%ED%95%99%EC%8A%B5
+                      - generic [ref=e66]: 읽기
+                  - listitem [ref=e67]:
+                    - link "편집" [ref=e68] [cursor=pointer]:
+                      - /url: /w/index.php?title=%EA%B8%B0%EA%B3%84_%ED%95%99%EC%8A%B5&action=edit
+                      - generic [ref=e69]: 편집
+                  - listitem [ref=e70]:
+                    - link "역사 보기" [ref=e71] [cursor=pointer]:
+                      - /url: /w/index.php?title=%EA%B8%B0%EA%B3%84_%ED%95%99%EC%8A%B5&action=history
+                      - generic [ref=e72]: 역사 보기
+          - navigation "페이지 도구" [ref=e73]:
+            - generic [ref=e74]:
+              - button "도구" [ref=e75] [cursor=pointer]
+              - generic [ref=e77] [cursor=pointer]: 도구
+      - generic "기계 학습" [ref=e78]:
+        - generic [ref=e80]: 위키백과, 우리 모두의 백과사전.
+        - generic [ref=e83]:
+          - text: (
+          - link "머신 러닝" [ref=e84] [cursor=pointer]:
+            - /url: /w/index.php?title=%EB%A8%B8%EC%8B%A0_%EB%9F%AC%EB%8B%9D&redirect=no
+          - text: 에서 넘어옴)
+        - generic [ref=e86]:
+          - generic [ref=e87]:
+            - img [ref=e91]
+            - generic [ref=e92]:
+              - text: 이 문서는
+              - link "참고 문헌 목록" [ref=e93] [cursor=pointer]:
+                - /url: //ko.wikipedia.org/wiki/위키백과:출처_밝히기
+              - text: 을 포함하고 있으나, 각주가 없거나 부족하여 출처가 모호합니다.
+              - generic [ref=e94]: 더욱 정확한 각주를 적용하여 이 문서가 향상되도록 도와 주세요.
+            - table [ref=e95]:
+              - rowgroup [ref=e96]:
+                - row "기계 학습과 데이터 마이닝" [ref=e97]:
+                  - columnheader "기계 학습과 데이터 마이닝" [ref=e98]:
+                    - link "기계 학습" [ref=e99] [cursor=pointer]:
+                      - /url: //ko.wikipedia.org/wiki/기계_학습
+                    - text: 과
+                    - link "데이터 마이닝" [ref=e100] [cursor=pointer]:
+                      - /url: //ko.wikipedia.org/wiki/데이터_마이닝
+                - row "선형 서포트 벡터 머신의 결정 경계(점선)를 나타내는 산점도" [ref=e101]:
+                  - cell "선형 서포트 벡터 머신의 결정 경계(점선)를 나타내는 산점도" [ref=e102]:
+                    - link "선형 서포트 벡터 머신의 결정 경계(점선)를 나타내는 산점도" [ref=e104] [cursor=pointer]:
+                      - /url: //ko.wikipedia.org/wiki/파일:Kernel_Machine.svg
+                      - img "선형 서포트 벡터 머신의 결정 경계(점선)를 나타내는 산점도" [ref=e105]
+                - row "[펼치기] 패러다임" [ref=e106]:
+                  - cell "[펼치기] 패러다임" [ref=e107]:
+                    - generic [ref=e108]:
+                      - text: "[펼치기]"
+                      - generic [ref=e109]: 패러다임
+                      - text: · · · · · · · · · · · ·
+                - row "[펼치기] 문제" [ref=e110]:
+                  - cell "[펼치기] 문제" [ref=e111]:
+                    - generic [ref=e112]:
+                      - text: "[펼치기]"
+                      - generic [ref=e113]: 문제
+                      - text: · · · · · · · · · · · · · · · · ·
+                - row "[펼치기] 지도 학습 (분류 • 회귀)" [ref=e114]:
+                  - cell "[펼치기] 지도 학습 (분류 • 회귀)" [ref=e115]:
+                    - generic [ref=e116]:
+                      - text: "[펼치기]"
+                      - generic [ref=e118]:
+                        - link "지도 학습" [ref=e119] [cursor=pointer]:
+                          - /url: //ko.wikipedia.org/wiki/지도_학습
+                        - generic [ref=e121]:
+                          - text: (
+                          - link "분류" [ref=e123] [cursor=pointer]:
+                            - /url: //ko.wikipedia.org/wiki/통계적_분류
+                          - text: •
+                          - link "회귀" [ref=e125] [cursor=pointer]:
+                            - /url: //ko.wikipedia.org/wiki/회귀_분석
+                          - text: )
+                      - text: · · ( · · ) · · · · · · · ·
+                - row "[펼치기] 군집화" [ref=e126]:
+                  - cell "[펼치기] 군집화" [ref=e127]:
+                    - generic [ref=e128]:
+                      - text: "[펼치기]"
+                      - link "군집화" [ref=e130] [cursor=pointer]:
+                        - /url: //ko.wikipedia.org/wiki/클러스터_분석
+                      - text: · · · · · · · ·
+                - row "[펼치기] 차원 축소" [ref=e131]:
+                  - cell "[펼치기] 차원 축소" [ref=e132]:
+                    - generic [ref=e133]:
+                      - text: "[펼치기]"
+                      - link "차원 축소" [ref=e135] [cursor=pointer]:
+                        - /url: //ko.wikipedia.org/wiki/차원_축소_(통계학)
+                      - text: · · · · · · · ·
+                - row "[펼치기] 구조적 예측" [ref=e136]:
+                  - cell "[펼치기] 구조적 예측" [ref=e137]:
+                    - generic [ref=e138]:
+                      - text: "[펼치기]"
+                      - link "구조적 예측" [ref=e140] [cursor=pointer]:
+                        - /url: //ko.wikipedia.org/wiki/구조적_예측
+                      - text: ( · · )
+                - row "[펼치기] 이상 탐지" [ref=e141]:
+                  - cell "[펼치기] 이상 탐지" [ref=e142]:
+                    - generic [ref=e143]:
+                      - text: "[펼치기]"
+                      - link "이상 탐지" [ref=e145] [cursor=pointer]:
+                        - /url: //ko.wikipedia.org/wiki/이상_탐지
+                      - text: · · ·
+                - row "[펼치기] 인공 신경망" [ref=e146]:
+                  - cell "[펼치기] 인공 신경망" [ref=e147]:
+                    - generic [ref=e148]:
+                      - text: "[펼치기]"
+                      - link "인공 신경망" [ref=e150] [cursor=pointer]:
+                        - /url: //ko.wikipedia.org/wiki/인공_신경망
+                      - text: · · · ( · · · ) · () · · · · ( · · · ) · ( · ) · () · · · ·
+                - row "[펼치기] 강화 학습" [ref=e151]:
+                  - cell "[펼치기] 강화 학습" [ref=e152]:
+                    - generic [ref=e153]:
+                      - text: "[펼치기]"
+                      - link "강화 학습" [ref=e155] [cursor=pointer]:
+                        - /url: //ko.wikipedia.org/wiki/강화_학습
+                      - text: · · · · ()
+                - row "[펼치기] 인간 참여 학습" [ref=e156]:
+                  - cell "[펼치기] 인간 참여 학습" [ref=e157]:
+                    - generic [ref=e158]:
+                      - text: "[펼치기]"
+                      - generic [ref=e159]: 인간 참여 학습
+                      - text: · · · ·
+                - row "[펼치기] 모델 진단" [ref=e160]:
+                  - cell "[펼치기] 모델 진단" [ref=e161]:
+                    - generic [ref=e162]:
+                      - text: "[펼치기]"
+                      - generic [ref=e163]: 모델 진단
+                      - text: · · ·
+                - row "[펼치기] 수학적 이론" [ref=e164]:
+                  - cell "[펼치기] 수학적 이론" [ref=e165]:
+                    - generic [ref=e166]:
+                      - text: "[펼치기]"
+                      - generic [ref=e167]: 수학적 이론
+                      - text: · · · · · · · ·
+                - row "[펼치기] 회의/저널" [ref=e168]:
+                  - cell "[펼치기] 회의/저널" [ref=e169]:
+                    - generic [ref=e170]:
+                      - text: "[펼치기]"
+                      - generic [ref=e171]: 회의/저널
+                      - text: · · · · · · ·
+                - row "[펼치기] 관련 문서" [ref=e172]:
+                  - cell "[펼치기] 관련 문서" [ref=e173]:
+                    - generic [ref=e174]:
+                      - text: "[펼치기]"
+                      - generic [ref=e175]: 관련 문서
+                      - text: · () ·
+                - row "v · t · e" [ref=e176]:
+                  - cell "v · t · e" [ref=e177]:
+                    - list [ref=e179]:
+                      - listitem [ref=e180]:
+                        - link "v" [ref=e181] [cursor=pointer]:
+                          - /url: //ko.wikipedia.org/wiki/틀:기계_학습
+                        - text: ·
+                      - listitem [ref=e182]:
+                        - link "t" [ref=e183] [cursor=pointer]:
+                          - /url: //ko.wikipedia.org/wiki/틀토론:기계_학습?action=edit&redlink=1
+                        - text: ·
+                      - listitem [ref=e184]:
+                        - link "e" [ref=e185] [cursor=pointer]:
+                          - /url: //ko.wikipedia.org/wiki/특수:문서편집/틀:기계_학습
+            - table [ref=e186]:
+              - rowgroup [ref=e187]:
+                - row "시리즈의 일부" [ref=e188]:
+                  - cell "시리즈의 일부" [ref=e189]:
+                    - link "시리즈" [ref=e190] [cursor=pointer]:
+                      - /url: //ko.wikipedia.org/wiki/분류:인공지능
+                    - text: 의 일부
+                - row "인공지능 (AI)" [ref=e191]:
+                  - columnheader "인공지능 (AI)" [ref=e192]:
+                    - link "인공지능 (AI)" [ref=e193] [cursor=pointer]:
+                      - /url: //ko.wikipedia.org/wiki/인공지능
+                - row [ref=e194]:
+                  - cell [ref=e195]:
+                    - figure [ref=e196]:
+                      - link [ref=e197] [cursor=pointer]:
+                        - /url: //ko.wikipedia.org/wiki/파일:Dall-e_3_(jan_'24)_artificial_intelligence_icon.png
+                        - img [ref=e198]
+                - row "[펼치기] 주요 목표" [ref=e199]:
+                  - cell "[펼치기] 주요 목표" [ref=e200]:
+                    - generic [ref=e201]:
+                      - text: "[펼치기]"
+                      - link "주요 목표" [ref=e203] [cursor=pointer]:
+                        - /url: //ko.wikipedia.org/wiki/인공지능#목표
+                      - text: · · · · · · · · ·
+                - row "[펼치기] 접근 방식" [ref=e204]:
+                  - cell "[펼치기] 접근 방식" [ref=e205]:
+                    - generic [ref=e206]:
+                      - text: "[펼치기]"
+                      - generic [ref=e207]: 접근 방식
+                      - text: · · · · · · · ·
+                - row "[펼치기] 애플리케이션" [ref=e208]:
+                  - cell "[펼치기] 애플리케이션" [ref=e209]:
+                    - generic [ref=e210]:
+                      - text: "[펼치기]"
+                      - link "애플리케이션" [ref=e212] [cursor=pointer]:
+                        - /url: //ko.wikipedia.org/wiki/인공지능의_응용
+                      - text: · · · · ( · · ) · · () · · · · · ·
+                - row "[펼치기] 철학" [ref=e213]:
+                  - cell "[펼치기] 철학" [ref=e214]:
+                    - generic [ref=e215]:
+                      - text: "[펼치기]"
+                      - link "철학" [ref=e217] [cursor=pointer]:
+                        - /url: //ko.wikipedia.org/wiki/인공지능_철학
+                      - text: · · · · · · · · ·
+                - row "[펼치기] 역사" [ref=e218]:
+                  - cell "[펼치기] 역사" [ref=e219]:
+                    - generic [ref=e220]:
+                      - text: "[펼치기]"
+                      - link "역사" [ref=e222] [cursor=pointer]:
+                        - /url: //ko.wikipedia.org/wiki/인공지능의_역사
+                      - text: · · · ·
+                - row "[펼치기] 논란" [ref=e223]:
+                  - cell "[펼치기] 논란" [ref=e224]:
+                    - generic [ref=e225]:
+                      - text: "[펼치기]"
+                      - link "논란" [ref=e227] [cursor=pointer]:
+                        - /url: //ko.wikipedia.org/wiki/인공지능_논란
+                      - text: ( · ) · · · · · · ·
+                - row "[펼치기] 용어" [ref=e228]:
+                  - cell "[펼치기] 용어" [ref=e229]:
+                    - generic [ref=e230]:
+                      - text: "[펼치기]"
+                      - generic [ref=e231]: 용어
+                - row "v · t · e" [ref=e232]:
+                  - cell "v · t · e" [ref=e233]:
+                    - list [ref=e235]:
+                      - listitem [ref=e236]:
+                        - link "v" [ref=e237] [cursor=pointer]:
+                          - /url: //ko.wikipedia.org/wiki/틀:인공지능
+                        - text: ·
+                      - listitem [ref=e238]:
+                        - link "t" [ref=e239] [cursor=pointer]:
+                          - /url: //ko.wikipedia.org/wiki/틀토론:인공지능?action=edit&redlink=1
+                        - text: ·
+                      - listitem [ref=e240]:
+                        - link "e" [ref=e241] [cursor=pointer]:
+                          - /url: //ko.wikipedia.org/wiki/특수:문서편집/틀:인공지능
+            - figure "AI의 하위 분야인 기계 학습." [ref=e242]:
+              - link [ref=e243] [cursor=pointer]:
+                - /url: //ko.wikipedia.org/wiki/파일:Fig-X_All_ML_as_a_subfield_of_AI.jpg
+                - img [ref=e244]
+              - generic [ref=e245]: AI의 하위 분야인 기계 학습.
+            - paragraph [ref=e246]:
+              - text: 기계 학습(機械學習) 또는 머신 러닝(
+              - generic [ref=e247]:
+                - link "영어" [ref=e248] [cursor=pointer]:
+                  - /url: //ko.wikipedia.org/wiki/영어
+                - text: ":"
+              - generic [ref=e249]: machine learning, ML
+              - text: )은 경험을 통해 자동으로 개선하는 컴퓨터
+              - link "알고리즘" [ref=e250] [cursor=pointer]:
+                - /url: //ko.wikipedia.org/wiki/알고리즘
+              - text: 의 연구이다.
+              - superscript [ref=e251]:
+                - link "[1]" [ref=e252] [cursor=pointer]:
+                  - /url: "#cite_note-1"
+                  - generic [ref=e253]: "[1]"
+              - text: 방대한
+              - link "데이터" [ref=e254] [cursor=pointer]:
+                - /url: //ko.wikipedia.org/wiki/데이터
+              - text: 를 분석해 '미래를 예측하는 기술'이자
+              - link "인공지능" [ref=e255] [cursor=pointer]:
+                - /url: //ko.wikipedia.org/wiki/인공지능
+              - text: 의 한 분야로 간주된다. 기계 학습은 복잡한 패턴에 대한 학습을 통해 상황에 대한 예측과 의사 결정을 돕는다.
+              - superscript [ref=e256]:
+                - link "[2]" [ref=e257] [cursor=pointer]:
+                  - /url: "#cite_note-2"
+                  - generic [ref=e258]: "[2]"
+              - link "컴퓨터" [ref=e259] [cursor=pointer]:
+                - /url: //ko.wikipedia.org/wiki/컴퓨터
+              - text: 가 학습할 수 있도록 하는
+              - link "알고리즘" [ref=e260] [cursor=pointer]:
+                - /url: //ko.wikipedia.org/wiki/알고리즘
+              - text: 과 기술을 개발하는 분야이다. 가령, 기계 학습을 통해서 수신한
+              - link "이메일" [ref=e261] [cursor=pointer]:
+                - /url: //ko.wikipedia.org/wiki/이메일
+              - text: 이
+              - link "스팸" [ref=e262] [cursor=pointer]:
+                - /url: //ko.wikipedia.org/wiki/스팸
+              - text: 인지 아닌지를 구분할 수 있도록 훈련할 수 있다.
+            - paragraph [ref=e263]:
+              - text: 기계 학습의 핵심은 표현(representation)과 일반화(generalization)에 있다. 표현이란 데이터의 평가이며, 일반화란 아직 알 수 없는 데이터에 대한 처리이다. 이는
+              - link "전산 학습 이론" [ref=e264] [cursor=pointer]:
+                - /url: //ko.wikipedia.org/wiki/전산_학습_이론?action=edit&redlink=1
+              - text: 분야이기도 하다. 다양한 기계 학습의 응용이 존재한다.
+              - link "문자 인식" [ref=e265] [cursor=pointer]:
+                - /url: //ko.wikipedia.org/wiki/광학_문자_인식
+              - text: 은 이를 이용한 가장 잘 알려진 사례이다.
+          - region "정의" [ref=e266]:
+            - generic [ref=e267]:
+              - heading "정의" [level=2] [ref=e268]: 정의
+              - generic [ref=e269]:
+                - text: "["
+                - link "편집" [ref=e270] [cursor=pointer]:
+                  - /url: /w/index.php?title=%EA%B8%B0%EA%B3%84_%ED%95%99%EC%8A%B5&action=edit&section=1
+                - text: "]"
+            - paragraph [ref=e271]:
+              - text: 1959년,
+              - link "아서 사무엘" [ref=e272] [cursor=pointer]:
+                - /url: //ko.wikipedia.org/wiki/아서_사무엘?action=edit&redlink=1
+              - text: 은 기계 학습을 "기계가 일일이 코드로 명시하지 않은 동작을 데이터로부터 학습하여 실행할 수 있도록 하는 알고리즘을 개발하는 연구 분야"라고 정의하였다.
+          - region "일반화" [ref=e273]:
+            - generic [ref=e274]:
+              - heading "일반화" [level=2] [ref=e275]: 일반화
+              - generic [ref=e276]:
+                - text: "["
+                - link "편집" [ref=e277] [cursor=pointer]:
+                  - /url: /w/index.php?title=%EA%B8%B0%EA%B3%84_%ED%95%99%EC%8A%B5&action=edit&section=2
+                - text: "]"
+            - paragraph [ref=e278]:
+              - text: 기계 학습에서의 일반화는
+              - link "훈련" [ref=e279] [cursor=pointer]:
+                - /url: //ko.wikipedia.org/wiki/지도_학습
+              - text: 이후 새롭게 들어온 데이터를 정확히 처리할 수 있는 능력을 말한다.
+          - region "기계 학습과 데이터 마이닝" [ref=e280]:
+            - generic [ref=e281]:
+              - heading "기계 학습과 데이터 마이닝" [level=2] [ref=e282]: 기계 학습과 데이터 마이닝
+              - generic [ref=e283]:
+                - text: "["
+                - link "편집" [ref=e284] [cursor=pointer]:
+                  - /url: /w/index.php?title=%EA%B8%B0%EA%B3%84_%ED%95%99%EC%8A%B5&action=edit&section=3
+                - text: "]"
+            - paragraph [ref=e285]: 기계 학습과 데이터 마이닝은 종종 같은 방법을 사용하며 상당히 중첩된다. 다만 다음에 따라 대략적으로 구분된다.
+            - list [ref=e286]:
+              - listitem [ref=e287]:
+                - text: 기계 학습은
+                - link "훈련 데이터" [ref=e288] [cursor=pointer]:
+                  - /url: //ko.wikipedia.org/wiki/훈련_데이터
+                - text: 를 통해 학습된 알려진 속성을 기반으로
+                - link "예측" [ref=e289] [cursor=pointer]:
+                  - /url: //ko.wikipedia.org/wiki/예측
+                - text: 에 초점을 두고 있다.
+              - listitem [ref=e290]:
+                - link "데이터 마이닝" [ref=e291] [cursor=pointer]:
+                  - /url: //ko.wikipedia.org/wiki/데이터_마이닝
+                - text: 은 데이터의 미처 몰랐던 속성을
+                - link "발견" [ref=e292] [cursor=pointer]:
+                  - /url: //ko.wikipedia.org/wiki/발견
+                - text: 하는 것에 집중한다. 이는
+                - link "데이터베이스" [ref=e293] [cursor=pointer]:
+                  - /url: //ko.wikipedia.org/wiki/데이터베이스
+                - text: 의
+                - link "지식 발견" [ref=e294] [cursor=pointer]:
+                  - /url: //ko.wikipedia.org/wiki/지식_발견
+                - text: 부분의 분석 절차에 해당한다.
+          - region "이론" [ref=e295]:
+            - generic [ref=e296]:
+              - heading "이론" [level=2] [ref=e297]: 이론
+              - generic [ref=e298]:
+                - text: "["
+                - link "편집" [ref=e299] [cursor=pointer]:
+                  - /url: /w/index.php?title=%EA%B8%B0%EA%B3%84_%ED%95%99%EC%8A%B5&action=edit&section=4
+                - text: "]"
+            - note [ref=e300]:
+              - link "전산 학습 이론" [ref=e303] [cursor=pointer]:
+                - /url: //ko.wikipedia.org/wiki/전산_학습_이론?action=edit&redlink=1
+              - text: 문서를 참고하십시오.
+            - paragraph [ref=e304]:
+              - link "이론 전산학" [ref=e305] [cursor=pointer]:
+                - /url: //ko.wikipedia.org/wiki/이론_전산학
+              - text: 의 한 갈래이다. 훈련 데이터는 유한한데, 결과는 불확실하다. 이는 학습 이론을 통해 알고리즘의 결과를 장담할 수 없기 때문이다. 또한 다른 용어를 사용함에도 불구하고
+              - link "통계적 추론" [ref=e306] [cursor=pointer]:
+                - /url: //ko.wikipedia.org/wiki/통계적_추론
+              - text: 과도 많은 유사점이 있다.
+          - region "알고리즘 유형" [ref=e307]:
+            - generic [ref=e308]:
+              - heading "알고리즘 유형" [level=2] [ref=e309]: 알고리즘 유형
+              - generic [ref=e310]:
+                - text: "["
+                - link "편집" [ref=e311] [cursor=pointer]:
+                  - /url: /w/index.php?title=%EA%B8%B0%EA%B3%84_%ED%95%99%EC%8A%B5&action=edit&section=5
+                - text: "]"
+            - list [ref=e312]:
+              - listitem [ref=e313]:
+                - link "지도 학습" [ref=e314] [cursor=pointer]:
+                  - /url: //ko.wikipedia.org/wiki/지도_학습
+              - listitem [ref=e315]:
+                - link "자율 학습 (기계 학습)" [ref=e316] [cursor=pointer]:
+                  - /url: //ko.wikipedia.org/wiki/자율_학습_(기계_학습)
+              - listitem [ref=e317]:
+                - link "준 지도 학습" [ref=e318] [cursor=pointer]:
+                  - /url: //ko.wikipedia.org/wiki/준_지도_학습
+              - listitem [ref=e319]:
+                - link "강화 학습" [ref=e320] [cursor=pointer]:
+                  - /url: //ko.wikipedia.org/wiki/강화_학습
+              - listitem [ref=e321]:
+                - link "심화 학습" [ref=e322] [cursor=pointer]:
+                  - /url: //ko.wikipedia.org/wiki/딥_러닝
+          - region "접근 방법별 알고리즘" [ref=e323]:
+            - generic [ref=e324]:
+              - heading "접근 방법별 알고리즘" [level=2] [ref=e325]: 접근 방법별 알고리즘
+              - generic [ref=e326]:
+                - text: "["
+                - link "편집" [ref=e327] [cursor=pointer]:
+                  - /url: /w/index.php?title=%EA%B8%B0%EA%B3%84_%ED%95%99%EC%8A%B5&action=edit&section=6
+                - text: "]"
+            - note [ref=e328]:
+              - link "기계 학습 알고리즘 목록" [ref=e331] [cursor=pointer]:
+                - /url: //ko.wikipedia.org/wiki/기계_학습_알고리즘_목록
+              - text: 문서를 참고하십시오.
+            - region "결정 트리 학습법" [ref=e332]:
+              - generic [ref=e333]:
+                - heading "결정 트리 학습법" [level=3] [ref=e334]: 결정 트리 학습법
+                - generic [ref=e335]:
+                  - text: "["
+                  - link "편집" [ref=e336] [cursor=pointer]:
+                    - /url: /w/index.php?title=%EA%B8%B0%EA%B3%84_%ED%95%99%EC%8A%B5&action=edit&section=7
+                  - text: "]"
+              - note [ref=e337]:
+                - link "결정 트리 학습법" [ref=e340] [cursor=pointer]:
+                  - /url: //ko.wikipedia.org/wiki/결정_트리_학습법
+                - text: 문서를 참고하십시오.
+            - region "연관 규칙 학습법" [ref=e341]:
+              - generic [ref=e342]:
+                - heading "연관 규칙 학습법" [level=3] [ref=e343]: 연관 규칙 학습법
+                - generic [ref=e344]:
+                  - text: "["
+                  - link "편집" [ref=e345] [cursor=pointer]:
+                    - /url: /w/index.php?title=%EA%B8%B0%EA%B3%84_%ED%95%99%EC%8A%B5&action=edit&section=8
+                  - text: "]"
+              - note [ref=e346]:
+                - link "연관 규칙 학습법" [ref=e349] [cursor=pointer]:
+                  - /url: //ko.wikipedia.org/wiki/연관_규칙_학습법
+                - text: 문서를 참고하십시오.
+            - region "인공신경망" [ref=e350]:
+              - generic [ref=e351]:
+                - heading "인공신경망" [level=3] [ref=e352]: 인공신경망
+                - generic [ref=e353]:
+                  - text: "["
+                  - link "편집" [ref=e354] [cursor=pointer]:
+                    - /url: /w/index.php?title=%EA%B8%B0%EA%B3%84_%ED%95%99%EC%8A%B5&action=edit&section=9
+                  - text: "]"
+              - note [ref=e355]:
+                - link "인공신경망" [ref=e358] [cursor=pointer]:
+                  - /url: //ko.wikipedia.org/wiki/인공신경망
+                - text: 문서를 참고하십시오.
+              - paragraph [ref=e359]:
+                - text: 인공신경망(artificial neural network, ANN)은 기계학습과
+                - link "인지과학" [ref=e360] [cursor=pointer]:
+                  - /url: //ko.wikipedia.org/wiki/인지과학
+                - text: 에서 생물학의 신경망에서 영감을 얻은 통계학적 학습
+                - link "알고리즘" [ref=e361] [cursor=pointer]:
+                  - /url: //ko.wikipedia.org/wiki/알고리즘
+                - text: 으로
+                - link "시냅스" [ref=e362] [cursor=pointer]:
+                  - /url: //ko.wikipedia.org/wiki/시냅스
+                - text: 의 결합으로
+                - link "네트워크" [ref=e363] [cursor=pointer]:
+                  - /url: //ko.wikipedia.org/wiki/네트워크
+                - text: 를 형성한
+                - link "인공 뉴런" [ref=e364] [cursor=pointer]:
+                  - /url: //ko.wikipedia.org/wiki/인공_뉴런
+                - text: (노드)이 학습을 통해
+                - link "시냅스" [ref=e365] [cursor=pointer]:
+                  - /url: //ko.wikipedia.org/wiki/시냅스
+                - text: 의 결합 세기를 변화시켜, 문제 해결 능력을 가지는 모델 전반을 가리킨다. 인공신경망에는 교사 신호(정답)의 입력에 의해서 문제에 최적화되어 가는
+                - link "교사 학습" [ref=e366] [cursor=pointer]:
+                  - /url: //ko.wikipedia.org/wiki/교사_학습
+                - text: 과 교사 신호를 필요로 하지 않는
+                - link "비교사 학습" [ref=e367] [cursor=pointer]:
+                  - /url: //ko.wikipedia.org/wiki/비교사_학습
+                - text: 이 있다. 명확한 해답이 있는 경우에는 교사 학습이,
+                - link "데이터 클러스터링" [ref=e368] [cursor=pointer]:
+                  - /url: //ko.wikipedia.org/wiki/데이터_클러스터링
+                - text: 에는 비교사 학습이 이용된다. 다른 기계학습과 같이 신경망은 일반적으로 규칙기반 프로그래밍으로 풀기 어려운
+                - link "컴퓨터 비전" [ref=e369] [cursor=pointer]:
+                  - /url: //ko.wikipedia.org/wiki/컴퓨터_비전
+                - text: 또는
+                - link "음성 인식" [ref=e370] [cursor=pointer]:
+                  - /url: //ko.wikipedia.org/wiki/음성_인식
+                - text: 과 같은 다양한 범위의 문제를 푸는데 이용된다.
+            - region "유전 계획법" [ref=e371]:
+              - generic [ref=e372]:
+                - heading "유전 계획법" [level=3] [ref=e373]: 유전 계획법
+                - generic [ref=e374]:
+                  - text: "["
+                  - link "편집" [ref=e375] [cursor=pointer]:
+                    - /url: /w/index.php?title=%EA%B8%B0%EA%B3%84_%ED%95%99%EC%8A%B5&action=edit&section=10
+                  - text: "]"
+              - note [ref=e376]:
+                - link "유전 계획법" [ref=e379] [cursor=pointer]:
+                  - /url: //ko.wikipedia.org/wiki/유전_계획법?action=edit&redlink=1
+                - text: 문서를 참고하십시오.
+            - region "귀납 논리 계획법" [ref=e380]:
+              - generic [ref=e381]:
+                - heading "귀납 논리 계획법" [level=3] [ref=e382]: 귀납 논리 계획법
+                - generic [ref=e383]:
+                  - text: "["
+                  - link "편집" [ref=e384] [cursor=pointer]:
+                    - /url: /w/index.php?title=%EA%B8%B0%EA%B3%84_%ED%95%99%EC%8A%B5&action=edit&section=11
+                  - text: "]"
+              - note [ref=e385]:
+                - link "귀납 논리 계획법" [ref=e388] [cursor=pointer]:
+                  - /url: //ko.wikipedia.org/wiki/귀납_논리_계획법?action=edit&redlink=1
+                - text: 문서를 참고하십시오.
+            - region "서포트 벡터 머신" [ref=e389]:
+              - generic [ref=e390]:
+                - heading "서포트 벡터 머신" [level=3] [ref=e391]: 서포트 벡터 머신
+                - generic [ref=e392]:
+                  - text: "["
+                  - link "편집" [ref=e393] [cursor=pointer]:
+                    - /url: /w/index.php?title=%EA%B8%B0%EA%B3%84_%ED%95%99%EC%8A%B5&action=edit&section=12
+                  - text: "]"
+              - note [ref=e394]:
+                - link "서포트 벡터 머신" [ref=e397] [cursor=pointer]:
+                  - /url: //ko.wikipedia.org/wiki/서포트_벡터_머신
+                - text: 문서를 참고하십시오.
+            - region "클러스터링" [ref=e398]:
+              - generic [ref=e399]:
+                - heading "클러스터링" [level=3] [ref=e400]: 클러스터링
+                - generic [ref=e401]:
+                  - text: "["
+                  - link "편집" [ref=e402] [cursor=pointer]:
+                    - /url: /w/index.php?title=%EA%B8%B0%EA%B3%84_%ED%95%99%EC%8A%B5&action=edit&section=13
+                  - text: "]"
+              - note [ref=e403]:
+                - link "클러스터 분석" [ref=e406] [cursor=pointer]:
+                  - /url: //ko.wikipedia.org/wiki/클러스터_분석
+                - text: 문서를 참고하십시오.
+            - region "베이즈 네트워크" [ref=e407]:
+              - generic [ref=e408]:
+                - heading "베이즈 네트워크" [level=3] [ref=e409]: 베이즈 네트워크
+                - generic [ref=e410]:
+                  - text: "["
+                  - link "편집" [ref=e411] [cursor=pointer]:
+                    - /url: /w/index.php?title=%EA%B8%B0%EA%B3%84_%ED%95%99%EC%8A%B5&action=edit&section=14
+                  - text: "]"
+              - note [ref=e412]:
+                - link "베이즈 네트워크" [ref=e415] [cursor=pointer]:
+                  - /url: //ko.wikipedia.org/wiki/베이즈_네트워크
+                - text: 문서를 참고하십시오.
+            - region "강화 학습법" [ref=e416]:
+              - generic [ref=e417]:
+                - heading "강화 학습법" [level=3] [ref=e418]: 강화 학습법
+                - generic [ref=e419]:
+                  - text: "["
+                  - link "편집" [ref=e420] [cursor=pointer]:
+                    - /url: /w/index.php?title=%EA%B8%B0%EA%B3%84_%ED%95%99%EC%8A%B5&action=edit&section=15
+                  - text: "]"
+              - note [ref=e421]:
+                - link "강화 학습" [ref=e424] [cursor=pointer]:
+                  - /url: //ko.wikipedia.org/wiki/강화_학습
+                - text: 문서를 참고하십시오.
+            - region "표현 학습법" [ref=e425]:
+              - generic [ref=e426]:
+                - heading "표현 학습법" [level=3] [ref=e427]: 표현 학습법
+                - generic [ref=e428]:
+                  - text: "["
+                  - link "편집" [ref=e429] [cursor=pointer]:
+                    - /url: /w/index.php?title=%EA%B8%B0%EA%B3%84_%ED%95%99%EC%8A%B5&action=edit&section=16
+                  - text: "]"
+              - note [ref=e430]:
+                - link "표현 학습법" [ref=e433] [cursor=pointer]:
+                  - /url: //ko.wikipedia.org/wiki/표현_학습법?action=edit&redlink=1
+                - text: 문서를 참고하십시오.
+            - region "동일성 계측 학습법" [ref=e434]:
+              - generic [ref=e435]:
+                - heading "동일성 계측 학습법" [level=3] [ref=e436]: 동일성 계측 학습법
+                - generic [ref=e437]:
+                  - text: "["
+                  - link "편집" [ref=e438] [cursor=pointer]:
+                    - /url: /w/index.php?title=%EA%B8%B0%EA%B3%84_%ED%95%99%EC%8A%B5&action=edit&section=17
+                  - text: "]"
+              - note [ref=e439]:
+                - link "동일성 계측 학습법" [ref=e442] [cursor=pointer]:
+                  - /url: //ko.wikipedia.org/wiki/동일성_계측_학습법?action=edit&redlink=1
+                - text: 문서를 참고하십시오.
+          - region "주제별 알고리즘" [ref=e443]:
+            - generic [ref=e444]:
+              - heading "주제별 알고리즘" [level=2] [ref=e445]: 주제별 알고리즘
+              - generic [ref=e446]:
+                - text: "["
+                - link "편집" [ref=e447] [cursor=pointer]:
+                  - /url: /w/index.php?title=%EA%B8%B0%EA%B3%84_%ED%95%99%EC%8A%B5&action=edit&section=18
+                - text: "]"
+            - list [ref=e448]:
+              - listitem [ref=e449]:
+                - text: 선수 지식
+                - list [ref=e450]:
+                  - listitem [ref=e451]:
+                    - link "베이즈 이론" [ref=e452] [cursor=pointer]:
+                      - /url: //ko.wikipedia.org/wiki/베이즈_이론
+              - listitem [ref=e453]:
+                - text: 모형화
+                - list [ref=e454]:
+                  - listitem [ref=e455]:
+                    - link "인공 신경망" [ref=e456] [cursor=pointer]:
+                      - /url: //ko.wikipedia.org/wiki/인공_신경망
+                  - listitem [ref=e457]:
+                    - link "결정 트리 학습법" [ref=e458] [cursor=pointer]:
+                      - /url: //ko.wikipedia.org/wiki/결정_트리_학습법
+                  - listitem [ref=e459]:
+                    - link "유전 알고리즘" [ref=e460] [cursor=pointer]:
+                      - /url: //ko.wikipedia.org/wiki/유전_알고리즘
+                    - text: (Genetic Algorithm)
+                  - listitem [ref=e461]:
+                    - link "유전자 프로그래밍" [ref=e462] [cursor=pointer]:
+                      - /url: //ko.wikipedia.org/wiki/유전자_프로그래밍?action=edit&redlink=1
+                  - listitem [ref=e463]:
+                    - link "가우스 과정 회귀" [ref=e464] [cursor=pointer]:
+                      - /url: //ko.wikipedia.org/wiki/가우스_과정_회귀?action=edit&redlink=1
+                  - listitem [ref=e465]:
+                    - link "선형 분별 분석" [ref=e466] [cursor=pointer]:
+                      - /url: //ko.wikipedia.org/wiki/선형_분별_분석?action=edit&redlink=1
+                  - listitem [ref=e467]:
+                    - link "K-최근접 이웃 알고리즘" [ref=e468] [cursor=pointer]:
+                      - /url: //ko.wikipedia.org/wiki/K-최근접_이웃_알고리즘
+                  - listitem [ref=e469]:
+                    - link "퍼셉트론" [ref=e470] [cursor=pointer]:
+                      - /url: //ko.wikipedia.org/wiki/퍼셉트론
+                  - listitem [ref=e471]:
+                    - link "방사 기저 함수 네트워크" [ref=e472] [cursor=pointer]:
+                      - /url: //ko.wikipedia.org/wiki/방사_기저_함수_네트워크?action=edit&redlink=1
+                  - listitem [ref=e473]:
+                    - link "서포트 벡터 머신" [ref=e474] [cursor=pointer]:
+                      - /url: //ko.wikipedia.org/wiki/서포트_벡터_머신
+                    - text: (support vector machine)
+              - listitem [ref=e475]:
+                - link "모수" [ref=e476] [cursor=pointer]:
+                  - /url: //ko.wikipedia.org/wiki/모수
+                - text: 추정 알고리즘
+                - list [ref=e477]:
+                  - listitem [ref=e478]:
+                    - link "동적 프로그래밍" [ref=e479] [cursor=pointer]:
+                      - /url: //ko.wikipedia.org/wiki/동적_프로그래밍
+                  - listitem [ref=e480]:
+                    - link "기댓값 최대화 알고리즘" [ref=e481] [cursor=pointer]:
+                      - /url: //ko.wikipedia.org/wiki/기댓값_최대화_알고리즘
+              - listitem [ref=e482]:
+                - link "생성 모형" [ref=e483] [cursor=pointer]:
+                  - /url: //ko.wikipedia.org/wiki/생성_모형?action=edit&redlink=1
+                - text: 을 이용한
+                - link "확률 분포 함수" [ref=e484] [cursor=pointer]:
+                  - /url: //ko.wikipedia.org/wiki/확률_분포_함수?action=edit&redlink=1
+                - text: 의 모형화
+                - list [ref=e485]:
+                  - listitem [ref=e486]:
+                    - link "베이즈 네트워크" [ref=e487] [cursor=pointer]:
+                      - /url: //ko.wikipedia.org/wiki/베이즈_네트워크
+                    - text: 와
+                    - link "마르코프 임의장" [ref=e488] [cursor=pointer]:
+                      - /url: //ko.wikipedia.org/wiki/마르코프_임의장
+                    - text: 을 포함한
+                    - link "그래프 모형" [ref=e489] [cursor=pointer]:
+                      - /url: //ko.wikipedia.org/wiki/그래프_모형
+              - listitem [ref=e490]:
+                - text: 근사 추론 기법
+                - list [ref=e491]:
+                  - listitem [ref=e492]:
+                    - link "몬테 카를로 방법" [ref=e493] [cursor=pointer]:
+                      - /url: //ko.wikipedia.org/wiki/몬테_카를로_방법
+                  - listitem [ref=e494]:
+                    - link "아다부스트" [ref=e495] [cursor=pointer]:
+                      - /url: //ko.wikipedia.org/wiki/아다부스트
+          - region "같이 보기" [ref=e496]:
+            - generic [ref=e497]:
+              - heading "같이 보기" [level=2] [ref=e498]: 같이 보기
+              - generic [ref=e499]:
+                - text: "["
+                - link "편집" [ref=e500] [cursor=pointer]:
+                  - /url: /w/index.php?title=%EA%B8%B0%EA%B3%84_%ED%95%99%EC%8A%B5&action=edit&section=19
+                - text: "]"
+            - list [ref=e501]:
+              - listitem [ref=e502]:
+                - link "컴퓨터 과학" [ref=e503] [cursor=pointer]:
+                  - /url: //ko.wikipedia.org/wiki/컴퓨터_과학
+              - listitem [ref=e504]:
+                - link "인공지능" [ref=e505] [cursor=pointer]:
+                  - /url: //ko.wikipedia.org/wiki/인공지능
+              - listitem [ref=e506]:
+                - link "자동 로봇" [ref=e507] [cursor=pointer]:
+                  - /url: //ko.wikipedia.org/wiki/자동_로봇?action=edit&redlink=1
+              - listitem [ref=e508]:
+                - link "생체 정보학" [ref=e509] [cursor=pointer]:
+                  - /url: //ko.wikipedia.org/wiki/생체_정보학?action=edit&redlink=1
+              - listitem [ref=e510]:
+                - link "컴퓨터 지능" [ref=e511] [cursor=pointer]:
+                  - /url: //ko.wikipedia.org/wiki/컴퓨터_지능
+              - listitem [ref=e512]:
+                - link "컴퓨터 시각" [ref=e513] [cursor=pointer]:
+                  - /url: //ko.wikipedia.org/wiki/컴퓨터_시각
+              - listitem [ref=e514]:
+                - link "데이터 마이닝" [ref=e515] [cursor=pointer]:
+                  - /url: //ko.wikipedia.org/wiki/데이터_마이닝
+              - listitem [ref=e516]:
+                - link "패턴 인식" [ref=e517] [cursor=pointer]:
+                  - /url: //ko.wikipedia.org/wiki/패턴_인식
+              - listitem [ref=e518]:
+                - link "빅데이터" [ref=e519] [cursor=pointer]:
+                  - /url: //ko.wikipedia.org/wiki/빅데이터
+          - region "참고 문헌" [ref=e520]:
+            - generic [ref=e521]:
+              - heading "참고 문헌" [level=2] [ref=e522]: 참고 문헌
+              - generic [ref=e523]:
+                - text: "["
+                - link "편집" [ref=e524] [cursor=pointer]:
+                  - /url: /w/index.php?title=%EA%B8%B0%EA%B3%84_%ED%95%99%EC%8A%B5&action=edit&section=20
+                - text: "]"
+            - list [ref=e525]:
+              - listitem [ref=e526]:
+                - generic [ref=e527]:
+                  - text: 전철홍; 유선아 (2024년 2월).
+                  - link "“과학교육 분야 자연어 처리 기법의 연구동향 분석”" [ref=e528] [cursor=pointer]:
+                    - /url: https://kiss.kstudy.com/Detail/Ar?key=4082356
+                  - text: ". 《한국과학교육학회지》 (한국과학교육학회) 44 (1): 39-55."
+                - generic "ctx_ver=Z39.88-2004&rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&rft.genre=article&rft.jtitle=%ED%95%9C%EA%B5%AD%EA%B3%BC%ED%95%99%EA%B5%90%EC%9C%A1%ED%95%99%ED%9A%8C%EC%A7%80&rft.atitle=%EA%B3%BC%ED%95%99%EA%B5%90%EC%9C%A1+%EB%B6%84%EC%95%BC+%EC%9E%90%EC%97%B0%EC%96%B4+%EC%B2%98%EB%A6%AC+%EA%B8%B0%EB%B2%95%EC%9D%98+%EC%97%B0%EA%B5%AC%EB%8F%99%ED%96%A5+%EB%B6%84%EC%84%9D&rft.volume=44&rft.issue=1&rft.pages=39-55&rft.date=2024-02&rft.au=%EC%A0%84%EC%B2%A0%ED%99%8D&rft.au=%EC%9C%A0%EC%84%A0%EC%95%84&rft_id=https%3A%2F%2Fkiss.kstudy.com%2FDetail%2FAr%3Fkey%3D4082356&rfr_id=info%3Asid%2Fko.wikipedia.org%3A%EA%B8%B0%EA%B3%84+%ED%95%99%EC%8A%B5"
+          - region "각주" [ref=e529]:
+            - generic [ref=e530]:
+              - heading "각주" [level=2] [ref=e531]: 각주
+              - generic [ref=e532]:
+                - text: "["
+                - link "편집" [ref=e533] [cursor=pointer]:
+                  - /url: /w/index.php?title=%EA%B8%B0%EA%B3%84_%ED%95%99%EC%8A%B5&action=edit&section=21
+                - text: "]"
+            - list [ref=e536]:
+              - listitem [ref=e537]:
+                - link "↑" [ref=e539] [cursor=pointer]:
+                  - /url: "#cite_ref-1"
+                - generic [ref=e540]:
+                  - generic [ref=e541]:
+                    - link "“Machine Learning textbook”" [ref=e542] [cursor=pointer]:
+                      - /url: http://www.cs.cmu.edu/~tom/mlbook.html
+                    - text: . 《www.cs.cmu.edu》. 2020년 5월 28일에 확인함.
+                  - generic "ctx_ver=Z39.88-2004&rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&rft.genre=unknown&rft.jtitle=www.cs.cmu.edu&rft.atitle=Machine+Learning+textbook&rft_id=http%3A%2F%2Fwww.cs.cmu.edu%2F~tom%2Fmlbook.html&rfr_id=info%3Asid%2Fko.wikipedia.org%3A%EA%B8%B0%EA%B3%84+%ED%95%99%EC%8A%B5"
+              - listitem [ref=e543]:
+                - link "↑" [ref=e545] [cursor=pointer]:
+                  - /url: "#cite_ref-2"
+                - generic [ref=e546]:
+                  - link "전철홍 2024" [ref=e547] [cursor=pointer]:
+                    - /url: "#전철홍2024a"
+                  - text: ", 40쪽"
+          - region "외부 링크" [ref=e548]:
+            - generic [ref=e549]:
+              - heading "외부 링크" [level=2] [ref=e550]: 외부 링크
+              - generic [ref=e551]:
+                - text: "["
+                - link "편집" [ref=e552] [cursor=pointer]:
+                  - /url: /w/index.php?title=%EA%B8%B0%EA%B3%84_%ED%95%99%EC%8A%B5&action=edit&section=22
+                - text: "]"
+            - list [ref=e553]:
+              - listitem [ref=e554]:
+                - text: 위키미디어 공용에
+                - link "기계 학습" [ref=e558] [cursor=pointer]:
+                  - /url: https://commons.wikimedia.org/wiki/Category:Machine_learning?uselang=ko
+                - text: 관련 미디어 분류가 있습니다.
+            - navigation "컴퓨터 과학" [ref=e559]:
+              - table [ref=e560]:
+                - rowgroup [ref=e561]:
+                  - row "[접기] v · t · e 컴퓨터 과학" [ref=e562]:
+                    - columnheader "[접기] v · t · e 컴퓨터 과학" [ref=e563]:
+                      - text: "[접기]"
+                      - list [ref=e565]:
+                        - listitem [ref=e566]:
+                          - link "v" [ref=e567] [cursor=pointer]:
+                            - /url: //ko.wikipedia.org/wiki/틀:컴퓨터_과학
+                          - text: ·
+                        - listitem [ref=e568]:
+                          - link "t" [ref=e569] [cursor=pointer]:
+                            - /url: //ko.wikipedia.org/wiki/틀토론:컴퓨터_과학
+                          - text: ·
+                        - listitem [ref=e570]:
+                          - link "e" [ref=e571] [cursor=pointer]:
+                            - /url: //ko.wikipedia.org/wiki/특수:문서편집/틀:컴퓨터_과학
+                      - link "컴퓨터 과학" [ref=e573] [cursor=pointer]:
+                        - /url: //ko.wikipedia.org/wiki/컴퓨터_과학
+                  - row "하드웨어 에너지 소비 (그린 컴퓨팅) · SoC · 솔리드 모델링 · 크기 / 형태 · 인쇄 회로 기판 · 전자 설계 자동화 · 집적 회로 · 초고밀도 집적 회로 · 주변기기 · 프로세서 · 하드웨어 가속" [ref=e574]:
+                    - rowheader "하드웨어" [ref=e575]:
+                      - link "하드웨어" [ref=e576] [cursor=pointer]:
+                        - /url: //ko.wikipedia.org/wiki/컴퓨터_하드웨어
+                    - cell "에너지 소비 (그린 컴퓨팅) · SoC · 솔리드 모델링 · 크기 / 형태 · 인쇄 회로 기판 · 전자 설계 자동화 · 집적 회로 · 초고밀도 집적 회로 · 주변기기 · 프로세서 · 하드웨어 가속" [ref=e577]:
+                      - list [ref=e579]:
+                        - listitem [ref=e580]:
+                          - link "에너지 소비" [ref=e581] [cursor=pointer]:
+                            - /url: //ko.wikipedia.org/wiki/그린_컴퓨팅
+                          - text: (그린 컴퓨팅) ·
+                        - listitem [ref=e582]:
+                          - link "SoC" [ref=e583] [cursor=pointer]:
+                            - /url: //ko.wikipedia.org/wiki/시스템_온_칩
+                          - text: ·
+                        - listitem [ref=e584]:
+                          - link "솔리드 모델링" [ref=e585] [cursor=pointer]:
+                            - /url: //ko.wikipedia.org/wiki/솔리드_모델링
+                          - text: ·
+                        - listitem [ref=e586]:
+                          - link "크기" [ref=e587] [cursor=pointer]:
+                            - /url: //ko.wikipedia.org/wiki/컴퓨터_크기의_분류_목록
+                          - text: /
+                          - link "형태" [ref=e588] [cursor=pointer]:
+                            - /url: //ko.wikipedia.org/wiki/컴퓨터_폼_팩터
+                          - text: ·
+                        - listitem [ref=e589]:
+                          - link "인쇄 회로 기판" [ref=e590] [cursor=pointer]:
+                            - /url: //ko.wikipedia.org/wiki/인쇄_회로_기판
+                          - text: ·
+                        - listitem [ref=e591]:
+                          - link "전자 설계 자동화" [ref=e592] [cursor=pointer]:
+                            - /url: //ko.wikipedia.org/wiki/전자_설계_자동화
+                          - text: ·
+                        - listitem [ref=e593]:
+                          - link "집적 회로" [ref=e594] [cursor=pointer]:
+                            - /url: //ko.wikipedia.org/wiki/집적_회로
+                          - text: ·
+                        - listitem [ref=e595]:
+                          - link "초고밀도 집적 회로" [ref=e596] [cursor=pointer]:
+                            - /url: //ko.wikipedia.org/wiki/초고밀도_집적_회로
+                          - text: ·
+                        - listitem [ref=e597]:
+                          - link "주변기기" [ref=e598] [cursor=pointer]:
+                            - /url: //ko.wikipedia.org/wiki/주변기기
+                          - text: ·
+                        - listitem [ref=e599]:
+                          - link "프로세서" [ref=e600] [cursor=pointer]:
+                            - /url: //ko.wikipedia.org/wiki/프로세서_(컴퓨팅)
+                          - text: ·
+                        - listitem [ref=e601]:
+                          - link "하드웨어 가속" [ref=e602] [cursor=pointer]:
+                            - /url: //ko.wikipedia.org/wiki/하드웨어_가속
+                  - row "컴퓨터 시스템 구성 가상 머신 · 무선 센서 네트워크 · 사이버 물리 시스템 · 실시간 컴퓨팅 · 운영체제 · 임베디드 시스템 · 장애 허용 시스템 · 컴퓨터 구조 · 계산 복잡도 · 신뢰성" [ref=e603]:
+                    - rowheader "컴퓨터 시스템 구성" [ref=e604]
+                    - cell "가상 머신 · 무선 센서 네트워크 · 사이버 물리 시스템 · 실시간 컴퓨팅 · 운영체제 · 임베디드 시스템 · 장애 허용 시스템 · 컴퓨터 구조 · 계산 복잡도 · 신뢰성" [ref=e605]:
+                      - list [ref=e607]:
+                        - listitem [ref=e608]:
+                          - link "가상 머신" [ref=e609] [cursor=pointer]:
+                            - /url: //ko.wikipedia.org/wiki/가상_머신
+                          - text: ·
+                        - listitem [ref=e610]:
+                          - link "무선 센서 네트워크" [ref=e611] [cursor=pointer]:
+                            - /url: //ko.wikipedia.org/wiki/무선_센서_네트워크
+                          - text: ·
+                        - listitem [ref=e612]:
+                          - link "사이버 물리 시스템" [ref=e613] [cursor=pointer]:
+                            - /url: //ko.wikipedia.org/wiki/사이버_물리_시스템
+                          - text: ·
+                        - listitem [ref=e614]:
+                          - link "실시간 컴퓨팅" [ref=e615] [cursor=pointer]:
+                            - /url: //ko.wikipedia.org/wiki/실시간_컴퓨팅
+                          - text: ·
+                        - listitem [ref=e616]:
+                          - link "운영체제" [ref=e617] [cursor=pointer]:
+                            - /url: //ko.wikipedia.org/wiki/운영체제
+                          - text: ·
+                        - listitem [ref=e618]:
+                          - link "임베디드 시스템" [ref=e619] [cursor=pointer]:
+                            - /url: //ko.wikipedia.org/wiki/임베디드_시스템
+                          - text: ·
+                        - listitem [ref=e620]:
+                          - link "장애 허용 시스템" [ref=e621] [cursor=pointer]:
+                            - /url: //ko.wikipedia.org/wiki/장애_허용_시스템
+                          - text: ·
+                        - listitem [ref=e622]:
+                          - link "컴퓨터 구조" [ref=e623] [cursor=pointer]:
+                            - /url: //ko.wikipedia.org/wiki/컴퓨터_구조
+                          - text: ·
+                        - listitem [ref=e624]:
+                          - link "계산 복잡도" [ref=e625] [cursor=pointer]:
+                            - /url: //ko.wikipedia.org/wiki/계산_복잡도
+                          - text: ·
+                        - listitem [ref=e626]:
+                          - link "신뢰성" [ref=e627] [cursor=pointer]:
+                            - /url: //ko.wikipedia.org/wiki/신뢰성
+                  - row "네트워크 네트워크 아키텍처 · 네트워크 성능 평가 · 네트워크 서비스 · 네트워크 스케줄러 · 네트워크 구성 요소 · 라우팅 · 네트워크 프로토콜" [ref=e628]:
+                    - rowheader "네트워크" [ref=e629]:
+                      - link "네트워크" [ref=e630] [cursor=pointer]:
+                        - /url: //ko.wikipedia.org/wiki/컴퓨터_망
+                    - cell "네트워크 아키텍처 · 네트워크 성능 평가 · 네트워크 서비스 · 네트워크 스케줄러 · 네트워크 구성 요소 · 라우팅 · 네트워크 프로토콜" [ref=e631]:
+                      - list [ref=e633]:
+                        - listitem [ref=e634]:
+                          - link "네트워크 아키텍처" [ref=e635] [cursor=pointer]:
+                            - /url: //ko.wikipedia.org/wiki/네트워크_아키텍처
+                          - text: ·
+                        - listitem [ref=e636]:
+                          - link "네트워크 성능 평가" [ref=e637] [cursor=pointer]:
+                            - /url: //ko.wikipedia.org/wiki/네트워크_성능
+                          - text: ·
+                        - listitem [ref=e638]:
+                          - link "네트워크 서비스" [ref=e639] [cursor=pointer]:
+                            - /url: //ko.wikipedia.org/wiki/네트워크_서비스
+                          - text: ·
+                        - listitem [ref=e640]:
+                          - link "네트워크 스케줄러" [ref=e641] [cursor=pointer]:
+                            - /url: //ko.wikipedia.org/wiki/네트워크_스케줄러
+                          - text: ·
+                        - listitem [ref=e642]:
+                          - link "네트워크 구성 요소" [ref=e643] [cursor=pointer]:
+                            - /url: //ko.wikipedia.org/wiki/네트워킹_하드웨어
+                          - text: ·
+                        - listitem [ref=e644]:
+                          - link "라우팅" [ref=e645] [cursor=pointer]:
+                            - /url: //ko.wikipedia.org/wiki/라우팅
+                          - text: ·
+                        - listitem [ref=e646]:
+                          - link "네트워크 프로토콜" [ref=e647] [cursor=pointer]:
+                            - /url: //ko.wikipedia.org/wiki/통신_프로토콜
+                  - row "소프트웨어 구성 가상 머신 · 미들웨어 · 운영체제 · 인터프리터 · 소프트웨어 품질" [ref=e648]:
+                    - rowheader "소프트웨어 구성" [ref=e649]
+                    - cell "가상 머신 · 미들웨어 · 운영체제 · 인터프리터 · 소프트웨어 품질" [ref=e650]:
+                      - list [ref=e652]:
+                        - listitem [ref=e653]:
+                          - link "가상 머신" [ref=e654] [cursor=pointer]:
+                            - /url: //ko.wikipedia.org/wiki/가상_머신
+                          - text: ·
+                        - listitem [ref=e655]:
+                          - link "미들웨어" [ref=e656] [cursor=pointer]:
+                            - /url: //ko.wikipedia.org/wiki/미들웨어
+                          - text: ·
+                        - listitem [ref=e657]:
+                          - link "운영체제" [ref=e658] [cursor=pointer]:
+                            - /url: //ko.wikipedia.org/wiki/운영체제
+                          - text: ·
+                        - listitem [ref=e659]:
+                          - link "인터프리터" [ref=e660] [cursor=pointer]:
+                            - /url: //ko.wikipedia.org/wiki/인터프리터
+                          - text: ·
+                        - listitem [ref=e661]:
+                          - link "소프트웨어 품질" [ref=e662] [cursor=pointer]:
+                            - /url: //ko.wikipedia.org/wiki/소프트웨어_품질
+                  - row "소프트웨어 표기 및 도구 도메인 특화 언어 · 소프트웨어 라이브러리 · 모델링 언어 · 소프트웨어 구성 관리 · 소프트웨어 저장소 · 소프트웨어 프레임워크 · 통합 개발 환경 · 프로그래밍 언어 · 프로그래밍 패러다임 · 컴파일러" [ref=e663]:
+                    - rowheader "소프트웨어 표기 및 도구" [ref=e664]:
+                      - link "소프트웨어 표기" [ref=e665] [cursor=pointer]:
+                        - /url: //ko.wikipedia.org/wiki/프로그래밍_언어_이론
+                      - text: 및
+                      - link "도구" [ref=e666] [cursor=pointer]:
+                        - /url: //ko.wikipedia.org/wiki/프로그래밍_도구
+                    - cell "도메인 특화 언어 · 소프트웨어 라이브러리 · 모델링 언어 · 소프트웨어 구성 관리 · 소프트웨어 저장소 · 소프트웨어 프레임워크 · 통합 개발 환경 · 프로그래밍 언어 · 프로그래밍 패러다임 · 컴파일러" [ref=e667]:
+                      - list [ref=e669]:
+                        - listitem [ref=e670]:
+                          - link "도메인 특화 언어" [ref=e671] [cursor=pointer]:
+                            - /url: //ko.wikipedia.org/wiki/도메인_특화_언어
+                          - text: ·
+                        - listitem [ref=e672]:
+                          - link "소프트웨어 라이브러리" [ref=e673] [cursor=pointer]:
+                            - /url: //ko.wikipedia.org/wiki/라이브러리_(컴퓨팅)
+                          - text: ·
+                        - listitem [ref=e674]:
+                          - link "모델링 언어" [ref=e675] [cursor=pointer]:
+                            - /url: //ko.wikipedia.org/wiki/모델링_언어
+                          - text: ·
+                        - listitem [ref=e676]:
+                          - link "소프트웨어 구성 관리" [ref=e677] [cursor=pointer]:
+                            - /url: //ko.wikipedia.org/wiki/소프트웨어_구성_관리
+                          - text: ·
+                        - listitem [ref=e678]:
+                          - link "소프트웨어 저장소" [ref=e679] [cursor=pointer]:
+                            - /url: //ko.wikipedia.org/wiki/소프트웨어_저장소
+                          - text: ·
+                        - listitem [ref=e680]:
+                          - link "소프트웨어 프레임워크" [ref=e681] [cursor=pointer]:
+                            - /url: //ko.wikipedia.org/wiki/소프트웨어_프레임워크
+                          - text: ·
+                        - listitem [ref=e682]:
+                          - link "통합 개발 환경" [ref=e683] [cursor=pointer]:
+                            - /url: //ko.wikipedia.org/wiki/통합_개발_환경
+                          - text: ·
+                        - listitem [ref=e684]:
+                          - link "프로그래밍 언어" [ref=e685] [cursor=pointer]:
+                            - /url: //ko.wikipedia.org/wiki/프로그래밍_언어
+                          - text: ·
+                        - listitem [ref=e686]:
+                          - link "프로그래밍 패러다임" [ref=e687] [cursor=pointer]:
+                            - /url: //ko.wikipedia.org/wiki/프로그래밍_패러다임
+                          - text: ·
+                        - listitem [ref=e688]:
+                          - link "컴파일러" [ref=e689] [cursor=pointer]:
+                            - /url: //ko.wikipedia.org/wiki/컴파일러_구성
+                  - row "소프트웨어 개발 오픈 소스 모델 · 제어 변수 · 요구사항 분석 · 소프트웨어 구축 · 소프트웨어 개발 · 소프트웨어 개발 프로세스 · 소프트웨어 설계 · 소프트웨어 배포 · 소프트웨어 유지보수 · 소프트웨어 공학 · 프로그래밍 팀" [ref=e690]:
+                    - rowheader "소프트웨어 개발" [ref=e691]:
+                      - link "소프트웨어 개발" [ref=e692] [cursor=pointer]:
+                        - /url: //ko.wikipedia.org/wiki/소프트웨어_개발
+                    - cell "오픈 소스 모델 · 제어 변수 · 요구사항 분석 · 소프트웨어 구축 · 소프트웨어 개발 · 소프트웨어 개발 프로세스 · 소프트웨어 설계 · 소프트웨어 배포 · 소프트웨어 유지보수 · 소프트웨어 공학 · 프로그래밍 팀" [ref=e693]:
+                      - list [ref=e695]:
+                        - listitem [ref=e696]:
+                          - link "오픈 소스 모델" [ref=e697] [cursor=pointer]:
+                            - /url: //ko.wikipedia.org/wiki/오픈_소스_모델
+                          - text: ·
+                        - listitem [ref=e698]:
+                          - link "제어 변수" [ref=e699] [cursor=pointer]:
+                            - /url: //ko.wikipedia.org/wiki/공정관리
+                          - text: ·
+                        - listitem [ref=e700]:
+                          - link "요구사항 분석" [ref=e701] [cursor=pointer]:
+                            - /url: //ko.wikipedia.org/wiki/요구사항_분석
+                          - text: ·
+                        - listitem [ref=e702]:
+                          - link "소프트웨어 구축" [ref=e703] [cursor=pointer]:
+                            - /url: //ko.wikipedia.org/wiki/소프트웨어_구축
+                          - text: ·
+                        - listitem [ref=e704]:
+                          - link "소프트웨어 개발" [ref=e705] [cursor=pointer]:
+                            - /url: //ko.wikipedia.org/wiki/소프트웨어_개발
+                          - text: ·
+                        - listitem [ref=e706]:
+                          - link "소프트웨어 개발 프로세스" [ref=e707] [cursor=pointer]:
+                            - /url: //ko.wikipedia.org/wiki/소프트웨어_개발_프로세스
+                          - text: ·
+                        - listitem [ref=e708]:
+                          - link "소프트웨어 설계" [ref=e709] [cursor=pointer]:
+                            - /url: //ko.wikipedia.org/wiki/소프트웨어_설계
+                          - text: ·
+                        - listitem [ref=e710]:
+                          - link "소프트웨어 배포" [ref=e711] [cursor=pointer]:
+                            - /url: //ko.wikipedia.org/wiki/소프트웨어_배포
+                          - text: ·
+                        - listitem [ref=e712]:
+                          - link "소프트웨어 유지보수" [ref=e713] [cursor=pointer]:
+                            - /url: //ko.wikipedia.org/wiki/소프트웨어_유지보수
+                          - text: ·
+                        - listitem [ref=e714]:
+                          - link "소프트웨어 공학" [ref=e715] [cursor=pointer]:
+                            - /url: //ko.wikipedia.org/wiki/소프트웨어_공학
+                          - text: ·
+                        - listitem [ref=e716]:
+                          - link "프로그래밍 팀" [ref=e717] [cursor=pointer]:
+                            - /url: //ko.wikipedia.org/wiki/프로그래밍_팀
+                  - row "계산 이론 계산 가능성 이론 · 계산 복잡도 이론 · 계산 모델 (확률적) · 논리 · 오토마타 이론 · 의미론 · 정형 언어" [ref=e718]:
+                    - rowheader "계산 이론" [ref=e719]:
+                      - link "계산 이론" [ref=e720] [cursor=pointer]:
+                        - /url: //ko.wikipedia.org/wiki/계산_이론
+                    - cell "계산 가능성 이론 · 계산 복잡도 이론 · 계산 모델 (확률적) · 논리 · 오토마타 이론 · 의미론 · 정형 언어" [ref=e721]:
+                      - list [ref=e723]:
+                        - listitem [ref=e724]:
+                          - link "계산 가능성 이론" [ref=e725] [cursor=pointer]:
+                            - /url: //ko.wikipedia.org/wiki/계산_가능성_이론
+                          - text: ·
+                        - listitem [ref=e726]:
+                          - link "계산 복잡도 이론" [ref=e727] [cursor=pointer]:
+                            - /url: //ko.wikipedia.org/wiki/계산_복잡도_이론
+                          - text: ·
+                        - listitem [ref=e728]:
+                          - link "계산 모델" [ref=e729] [cursor=pointer]:
+                            - /url: //ko.wikipedia.org/wiki/계산_모델
+                          - list [ref=e730]:
+                            - listitem [ref=e731]:
+                              - text: (
+                              - link "확률적" [ref=e732] [cursor=pointer]:
+                                - /url: //ko.wikipedia.org/wiki/확률_컴퓨팅
+                              - text: )
+                          - text: ·
+                        - listitem [ref=e733]:
+                          - link "논리" [ref=e734] [cursor=pointer]:
+                            - /url: //ko.wikipedia.org/wiki/논리_(컴퓨터_과학)
+                          - text: ·
+                        - listitem [ref=e735]:
+                          - link "오토마타 이론" [ref=e736] [cursor=pointer]:
+                            - /url: //ko.wikipedia.org/wiki/오토마타_이론
+                          - text: ·
+                        - listitem [ref=e737]:
+                          - link "의미론" [ref=e738] [cursor=pointer]:
+                            - /url: //ko.wikipedia.org/wiki/의미론_(컴퓨터_과학)
+                          - text: ·
+                        - listitem [ref=e739]:
+                          - link "정형 언어" [ref=e740] [cursor=pointer]:
+                            - /url: //ko.wikipedia.org/wiki/정형_언어
+                  - row "알고리즘 알고리즘 설계 · 알고리즘 분석 · 알고리즘 효율성 · 계산기하학 · 확률적 알고리즘" [ref=e741]:
+                    - rowheader "알고리즘" [ref=e742]:
+                      - link "알고리즘" [ref=e743] [cursor=pointer]:
+                        - /url: //ko.wikipedia.org/wiki/알고리즘
+                    - cell "알고리즘 설계 · 알고리즘 분석 · 알고리즘 효율성 · 계산기하학 · 확률적 알고리즘" [ref=e744]:
+                      - list [ref=e746]:
+                        - listitem [ref=e747]:
+                          - link "알고리즘 설계" [ref=e748] [cursor=pointer]:
+                            - /url: //ko.wikipedia.org/wiki/알고리즘_설계
+                          - text: ·
+                        - listitem [ref=e749]:
+                          - link "알고리즘 분석" [ref=e750] [cursor=pointer]:
+                            - /url: //ko.wikipedia.org/wiki/알고리즘_분석
+                          - text: ·
+                        - listitem [ref=e751]:
+                          - link "알고리즘 효율성" [ref=e752] [cursor=pointer]:
+                            - /url: //ko.wikipedia.org/wiki/알고리즘_효율성
+                          - text: ·
+                        - listitem [ref=e753]:
+                          - link "계산기하학" [ref=e754] [cursor=pointer]:
+                            - /url: //ko.wikipedia.org/wiki/계산기하학
+                          - text: ·
+                        - listitem [ref=e755]:
+                          - link "확률적 알고리즘" [ref=e756] [cursor=pointer]:
+                            - /url: //ko.wikipedia.org/wiki/확률적_알고리즘
+                  - row "컴퓨팅의 수학 정보 이론 · 이산수학 · 수치해석학 · 확률 · 해석학 (수학) · 통계학 · 수학 소프트웨어 · 이론 컴퓨터 과학" [ref=e757]:
+                    - rowheader "컴퓨팅의 수학" [ref=e758]:
+                      - link "컴퓨팅" [ref=e759] [cursor=pointer]:
+                        - /url: //ko.wikipedia.org/wiki/컴퓨팅
+                      - text: 의
+                      - link "수학" [ref=e760] [cursor=pointer]:
+                        - /url: //ko.wikipedia.org/wiki/수학
+                    - cell "정보 이론 · 이산수학 · 수치해석학 · 확률 · 해석학 (수학) · 통계학 · 수학 소프트웨어 · 이론 컴퓨터 과학" [ref=e761]:
+                      - list [ref=e763]:
+                        - listitem [ref=e764]:
+                          - link "정보 이론" [ref=e765] [cursor=pointer]:
+                            - /url: //ko.wikipedia.org/wiki/정보_이론
+                          - text: ·
+                        - listitem [ref=e766]:
+                          - link "이산수학" [ref=e767] [cursor=pointer]:
+                            - /url: //ko.wikipedia.org/wiki/이산수학
+                          - text: ·
+                        - listitem [ref=e768]:
+                          - link "수치해석학" [ref=e769] [cursor=pointer]:
+                            - /url: //ko.wikipedia.org/wiki/수치해석학
+                          - text: ·
+                        - listitem [ref=e770]:
+                          - link "확률" [ref=e771] [cursor=pointer]:
+                            - /url: //ko.wikipedia.org/wiki/확률
+                          - text: ·
+                        - listitem [ref=e772]:
+                          - link "해석학 (수학)" [ref=e773] [cursor=pointer]:
+                            - /url: //ko.wikipedia.org/wiki/해석학_(수학)
+                          - text: ·
+                        - listitem [ref=e774]:
+                          - link "통계학" [ref=e775] [cursor=pointer]:
+                            - /url: //ko.wikipedia.org/wiki/통계학
+                          - text: ·
+                        - listitem [ref=e776]:
+                          - link "수학 소프트웨어" [ref=e777] [cursor=pointer]:
+                            - /url: //ko.wikipedia.org/wiki/수학_소프트웨어
+                          - text: ·
+                        - listitem [ref=e778]:
+                          - link "이론 컴퓨터 과학" [ref=e779] [cursor=pointer]:
+                            - /url: //ko.wikipedia.org/wiki/이론_컴퓨터_과학
+                  - row "정보 시스템 데이터 마이닝 · 데이터베이스 관리 시스템 · 결정 지원 시스템 · 기업 정보 시스템 · 정보 저장 시스템 · 디지털 마케팅 · 디지털 도서관 · 멀티미디어 데이터베이스 · 문서 관리 시스템 · 소셜 정보 시스템 · 월드 와이드 웹 · 정보 검색 · 지리 정보 시스템 · 컴퓨팅 플랫폼" [ref=e780]:
+                    - rowheader "정보 시스템" [ref=e781]:
+                      - link "정보 시스템" [ref=e782] [cursor=pointer]:
+                        - /url: //ko.wikipedia.org/wiki/정보_시스템
+                    - cell "데이터 마이닝 · 데이터베이스 관리 시스템 · 결정 지원 시스템 · 기업 정보 시스템 · 정보 저장 시스템 · 디지털 마케팅 · 디지털 도서관 · 멀티미디어 데이터베이스 · 문서 관리 시스템 · 소셜 정보 시스템 · 월드 와이드 웹 · 정보 검색 · 지리 정보 시스템 · 컴퓨팅 플랫폼" [ref=e783]:
+                      - list [ref=e785]:
+                        - listitem [ref=e786]:
+                          - link "데이터 마이닝" [ref=e787] [cursor=pointer]:
+                            - /url: //ko.wikipedia.org/wiki/데이터_마이닝
+                          - text: ·
+                        - listitem [ref=e788]:
+                          - link "데이터베이스 관리 시스템" [ref=e789] [cursor=pointer]:
+                            - /url: //ko.wikipedia.org/wiki/데이터베이스
+                          - text: ·
+                        - listitem [ref=e790]:
+                          - link "결정 지원 시스템" [ref=e791] [cursor=pointer]:
+                            - /url: //ko.wikipedia.org/wiki/결정_지원_시스템
+                          - text: ·
+                        - listitem [ref=e792]:
+                          - link "기업 정보 시스템" [ref=e793] [cursor=pointer]:
+                            - /url: //ko.wikipedia.org/wiki/기업_정보_시스템
+                          - text: ·
+                        - listitem [ref=e794]:
+                          - link "정보 저장 시스템" [ref=e795] [cursor=pointer]:
+                            - /url: //ko.wikipedia.org/wiki/기억_장치
+                          - text: ·
+                        - listitem [ref=e796]:
+                          - link "디지털 마케팅" [ref=e797] [cursor=pointer]:
+                            - /url: //ko.wikipedia.org/wiki/디지털_마케팅
+                          - text: ·
+                        - listitem [ref=e798]:
+                          - link "디지털 도서관" [ref=e799] [cursor=pointer]:
+                            - /url: //ko.wikipedia.org/wiki/디지털_도서관
+                          - text: ·
+                        - listitem [ref=e800]:
+                          - link "멀티미디어 데이터베이스" [ref=e801] [cursor=pointer]:
+                            - /url: //ko.wikipedia.org/wiki/멀티미디어_데이터베이스
+                          - text: ·
+                        - listitem [ref=e802]:
+                          - link "문서 관리 시스템" [ref=e803] [cursor=pointer]:
+                            - /url: //ko.wikipedia.org/wiki/문서_관리_시스템
+                          - text: ·
+                        - listitem [ref=e804]:
+                          - link "소셜 정보 시스템" [ref=e805] [cursor=pointer]:
+                            - /url: //ko.wikipedia.org/wiki/소셜_소프트웨어
+                          - text: ·
+                        - listitem [ref=e806]:
+                          - link "월드 와이드 웹" [ref=e807] [cursor=pointer]:
+                            - /url: //ko.wikipedia.org/wiki/월드_와이드_웹
+                          - text: ·
+                        - listitem [ref=e808]:
+                          - link "정보 검색" [ref=e809] [cursor=pointer]:
+                            - /url: //ko.wikipedia.org/wiki/정보_검색
+                          - text: ·
+                        - listitem [ref=e810]:
+                          - link "지리 정보 시스템" [ref=e811] [cursor=pointer]:
+                            - /url: //ko.wikipedia.org/wiki/지리_정보_시스템
+                          - text: ·
+                        - listitem [ref=e812]:
+                          - link "컴퓨팅 플랫폼" [ref=e813] [cursor=pointer]:
+                            - /url: //ko.wikipedia.org/wiki/컴퓨팅_플랫폼
+                  - row "보안 네트워크 보안 · 애플리케이션 보안 · 암호학 · 정보 보안 · 정형 기법 · 보안 해커 · 보안 서비스 · 침입 탐지 시스템 · 하드웨어 보안" [ref=e814]:
+                    - rowheader "보안" [ref=e815]:
+                      - link "보안" [ref=e816] [cursor=pointer]:
+                        - /url: //ko.wikipedia.org/wiki/컴퓨터_보안
+                    - cell "네트워크 보안 · 애플리케이션 보안 · 암호학 · 정보 보안 · 정형 기법 · 보안 해커 · 보안 서비스 · 침입 탐지 시스템 · 하드웨어 보안" [ref=e817]:
+                      - list [ref=e819]:
+                        - listitem [ref=e820]:
+                          - link "네트워크 보안" [ref=e821] [cursor=pointer]:
+                            - /url: //ko.wikipedia.org/wiki/네트워크_보안
+                          - text: ·
+                        - listitem [ref=e822]:
+                          - link "애플리케이션 보안" [ref=e823] [cursor=pointer]:
+                            - /url: //ko.wikipedia.org/wiki/애플리케이션_보안
+                          - text: ·
+                        - listitem [ref=e824]:
+                          - link "암호학" [ref=e825] [cursor=pointer]:
+                            - /url: //ko.wikipedia.org/wiki/암호학
+                          - text: ·
+                        - listitem [ref=e826]:
+                          - link "정보 보안" [ref=e827] [cursor=pointer]:
+                            - /url: //ko.wikipedia.org/wiki/정보_보안
+                          - text: ·
+                        - listitem [ref=e828]:
+                          - link "정형 기법" [ref=e829] [cursor=pointer]:
+                            - /url: //ko.wikipedia.org/wiki/정형_기법
+                          - text: ·
+                        - listitem [ref=e830]:
+                          - link "보안 해커" [ref=e831] [cursor=pointer]:
+                            - /url: //ko.wikipedia.org/wiki/보안_해커
+                          - text: ·
+                        - listitem [ref=e832]:
+                          - link "보안 서비스" [ref=e833] [cursor=pointer]:
+                            - /url: //ko.wikipedia.org/wiki/보안_서비스
+                          - text: ·
+                        - listitem [ref=e834]:
+                          - link "침입 탐지 시스템" [ref=e835] [cursor=pointer]:
+                            - /url: //ko.wikipedia.org/wiki/침입_탐지_시스템
+                          - text: ·
+                        - listitem [ref=e836]:
+                          - link "하드웨어 보안" [ref=e837] [cursor=pointer]:
+                            - /url: //ko.wikipedia.org/wiki/하드웨어_보안
+                  - row "인간 중심 컴퓨팅 가상 현실 · 모바일 컴퓨팅 · 시각화 · 소셜 컴퓨팅 · 유비쿼터스 컴퓨팅 · 인간-컴퓨터 상호 작용 · 인터랙션 디자인 · 증강 현실 · 컴퓨터 접근성" [ref=e838]:
+                    - rowheader "인간 중심 컴퓨팅" [ref=e839]:
+                      - link "인간 중심 컴퓨팅" [ref=e840] [cursor=pointer]:
+                        - /url: //ko.wikipedia.org/wiki/인간_중심_컴퓨팅
+                    - cell "가상 현실 · 모바일 컴퓨팅 · 시각화 · 소셜 컴퓨팅 · 유비쿼터스 컴퓨팅 · 인간-컴퓨터 상호 작용 · 인터랙션 디자인 · 증강 현실 · 컴퓨터 접근성" [ref=e841]:
+                      - list [ref=e843]:
+                        - listitem [ref=e844]:
+                          - link "가상 현실" [ref=e845] [cursor=pointer]:
+                            - /url: //ko.wikipedia.org/wiki/가상_현실
+                          - text: ·
+                        - listitem [ref=e846]:
+                          - link "모바일 컴퓨팅" [ref=e847] [cursor=pointer]:
+                            - /url: //ko.wikipedia.org/wiki/모바일_컴퓨팅
+                          - text: ·
+                        - listitem [ref=e848]:
+                          - link "시각화" [ref=e849] [cursor=pointer]:
+                            - /url: //ko.wikipedia.org/wiki/시각화_(그래픽)
+                          - text: ·
+                        - listitem [ref=e850]:
+                          - link "소셜 컴퓨팅" [ref=e851] [cursor=pointer]:
+                            - /url: //ko.wikipedia.org/wiki/소셜_컴퓨팅
+                          - text: ·
+                        - listitem [ref=e852]:
+                          - link "유비쿼터스 컴퓨팅" [ref=e853] [cursor=pointer]:
+                            - /url: //ko.wikipedia.org/wiki/유비쿼터스_컴퓨팅
+                          - text: ·
+                        - listitem [ref=e854]:
+                          - link "인간-컴퓨터 상호 작용" [ref=e855] [cursor=pointer]:
+                            - /url: //ko.wikipedia.org/wiki/인간-컴퓨터_상호_작용
+                          - text: ·
+                        - listitem [ref=e856]:
+                          - link "인터랙션 디자인" [ref=e857] [cursor=pointer]:
+                            - /url: //ko.wikipedia.org/wiki/인터랙션_디자인
+                          - text: ·
+                        - listitem [ref=e858]:
+                          - link "증강 현실" [ref=e859] [cursor=pointer]:
+                            - /url: //ko.wikipedia.org/wiki/증강_현실
+                          - text: ·
+                        - listitem [ref=e860]:
+                          - link "컴퓨터 접근성" [ref=e861] [cursor=pointer]:
+                            - /url: //ko.wikipedia.org/wiki/컴퓨터_접근성
+                  - row "병행성 다중 처리 · 멀티스레딩 · 병렬 컴퓨팅 · 병행 컴퓨팅 · 분산 컴퓨팅" [ref=e862]:
+                    - rowheader "병행성" [ref=e863]:
+                      - link "병행성" [ref=e864] [cursor=pointer]:
+                        - /url: //ko.wikipedia.org/wiki/병행성
+                    - cell "다중 처리 · 멀티스레딩 · 병렬 컴퓨팅 · 병행 컴퓨팅 · 분산 컴퓨팅" [ref=e865]:
+                      - list [ref=e867]:
+                        - listitem [ref=e868]:
+                          - link "다중 처리" [ref=e869] [cursor=pointer]:
+                            - /url: //ko.wikipedia.org/wiki/다중_처리
+                          - text: ·
+                        - listitem [ref=e870]:
+                          - link "멀티스레딩" [ref=e871] [cursor=pointer]:
+                            - /url: //ko.wikipedia.org/wiki/멀티스레딩
+                          - text: ·
+                        - listitem [ref=e872]:
+                          - link "병렬 컴퓨팅" [ref=e873] [cursor=pointer]:
+                            - /url: //ko.wikipedia.org/wiki/병렬_컴퓨팅
+                          - text: ·
+                        - listitem [ref=e874]:
+                          - link "병행 컴퓨팅" [ref=e875] [cursor=pointer]:
+                            - /url: //ko.wikipedia.org/wiki/병행_컴퓨팅
+                          - text: ·
+                        - listitem [ref=e876]:
+                          - link "분산 컴퓨팅" [ref=e877] [cursor=pointer]:
+                            - /url: //ko.wikipedia.org/wiki/분산_컴퓨팅
+                  - row "인공지능 자동화된 계획 및 스케줄링 · 자연어 처리 · 제어 방법 · 지식 표현 · 컴퓨터 비전 · 분산 인공지능 · 탐색 방법론 · 인공지능 철학" [ref=e878]:
+                    - rowheader "인공지능" [ref=e879]:
+                      - link "인공지능" [ref=e880] [cursor=pointer]:
+                        - /url: //ko.wikipedia.org/wiki/인공지능
+                    - cell "자동화된 계획 및 스케줄링 · 자연어 처리 · 제어 방법 · 지식 표현 · 컴퓨터 비전 · 분산 인공지능 · 탐색 방법론 · 인공지능 철학" [ref=e881]:
+                      - list [ref=e883]:
+                        - listitem [ref=e884]:
+                          - link "자동화된 계획 및 스케줄링" [ref=e885] [cursor=pointer]:
+                            - /url: //ko.wikipedia.org/wiki/자동화된_계획_및_스케줄링
+                          - text: ·
+                        - listitem [ref=e886]:
+                          - link "자연어 처리" [ref=e887] [cursor=pointer]:
+                            - /url: //ko.wikipedia.org/wiki/자연어_처리
+                          - text: ·
+                        - listitem [ref=e888]:
+                          - link "제어 방법" [ref=e889] [cursor=pointer]:
+                            - /url: //ko.wikipedia.org/wiki/제어이론
+                          - text: ·
+                        - listitem [ref=e890]:
+                          - link "지식 표현" [ref=e891] [cursor=pointer]:
+                            - /url: //ko.wikipedia.org/wiki/지식_표현
+                          - text: ·
+                        - listitem [ref=e892]:
+                          - link "컴퓨터 비전" [ref=e893] [cursor=pointer]:
+                            - /url: //ko.wikipedia.org/wiki/컴퓨터_비전
+                          - text: ·
+                        - listitem [ref=e894]:
+                          - link "분산 인공지능" [ref=e895] [cursor=pointer]:
+                            - /url: //ko.wikipedia.org/wiki/분산_인공지능
+                          - text: ·
+                        - listitem [ref=e896]:
+                          - link "탐색 방법론" [ref=e897] [cursor=pointer]:
+                            - /url: //ko.wikipedia.org/wiki/수학적_최적화
+                          - text: ·
+                        - listitem [ref=e898]:
+                          - link "인공지능 철학" [ref=e899] [cursor=pointer]:
+                            - /url: //ko.wikipedia.org/wiki/인공지능_철학
+                  - row "기계 학습 강화 학습 · 교차타당도 · 다중 작업 학습 · 비지도 학습 · 지도 학습" [ref=e900]:
+                    - rowheader "기계 학습" [ref=e901]:
+                      - link "기계 학습" [ref=e902] [cursor=pointer]:
+                        - /url: //ko.wikipedia.org/wiki/기계_학습
+                    - cell "강화 학습 · 교차타당도 · 다중 작업 학습 · 비지도 학습 · 지도 학습" [ref=e903]:
+                      - list [ref=e905]:
+                        - listitem [ref=e906]:
+                          - link "강화 학습" [ref=e907] [cursor=pointer]:
+                            - /url: //ko.wikipedia.org/wiki/강화_학습
+                          - text: ·
+                        - listitem [ref=e908]:
+                          - link "교차타당도" [ref=e909] [cursor=pointer]:
+                            - /url: //ko.wikipedia.org/wiki/교차타당도
+                          - text: ·
+                        - listitem [ref=e910]:
+                          - link "다중 작업 학습" [ref=e911] [cursor=pointer]:
+                            - /url: //ko.wikipedia.org/wiki/다중_작업_학습
+                          - text: ·
+                        - listitem [ref=e912]:
+                          - link "비지도 학습" [ref=e913] [cursor=pointer]:
+                            - /url: //ko.wikipedia.org/wiki/비지도_학습
+                          - text: ·
+                        - listitem [ref=e914]:
+                          - link "지도 학습" [ref=e915] [cursor=pointer]:
+                            - /url: //ko.wikipedia.org/wiki/지도_학습
+                  - row "그래픽스 렌더링 · 사진 조작 · 솔리드 모델링 · 이미지 압축 · 컴퓨터 애니메이션 · 그래픽 처리 장치" [ref=e916]:
+                    - rowheader "그래픽스" [ref=e917]:
+                      - link "그래픽스" [ref=e918] [cursor=pointer]:
+                        - /url: //ko.wikipedia.org/wiki/컴퓨터_그래픽스
+                    - cell "렌더링 · 사진 조작 · 솔리드 모델링 · 이미지 압축 · 컴퓨터 애니메이션 · 그래픽 처리 장치" [ref=e919]:
+                      - list [ref=e921]:
+                        - listitem [ref=e922]:
+                          - link "렌더링" [ref=e923] [cursor=pointer]:
+                            - /url: //ko.wikipedia.org/wiki/렌더링
+                          - text: ·
+                        - listitem [ref=e924]:
+                          - link "사진 조작" [ref=e925] [cursor=pointer]:
+                            - /url: //ko.wikipedia.org/wiki/사진_조작
+                          - text: ·
+                        - listitem [ref=e926]:
+                          - link "솔리드 모델링" [ref=e927] [cursor=pointer]:
+                            - /url: //ko.wikipedia.org/wiki/솔리드_모델링
+                          - text: ·
+                        - listitem [ref=e928]:
+                          - link "이미지 압축" [ref=e929] [cursor=pointer]:
+                            - /url: //ko.wikipedia.org/wiki/이미지_압축
+                          - text: ·
+                        - listitem [ref=e930]:
+                          - link "컴퓨터 애니메이션" [ref=e931] [cursor=pointer]:
+                            - /url: //ko.wikipedia.org/wiki/컴퓨터_애니메이션
+                          - text: ·
+                        - listitem [ref=e932]:
+                          - link "그래픽 처리 장치" [ref=e933] [cursor=pointer]:
+                            - /url: //ko.wikipedia.org/wiki/그래픽_처리_장치
+                  - row "응용 컴퓨팅 계산사회과학 · 계산생물학 · 계산화학 · 계산 공학 · 계산물리학 · 교육 기술 · 디지털 아트 · 계산 의료 · 운용과학 · 워드 프로세서 · 양자 컴퓨팅 · 전자 상거래 · 전자 출판 · 전자투표 · 전사적 소프트웨어 · 사이버 전쟁 · 비디오 게임 · 미분 가능 컴퓨팅" [ref=e934]:
+                    - rowheader "응용 컴퓨팅" [ref=e935]
+                    - cell "계산사회과학 · 계산생물학 · 계산화학 · 계산 공학 · 계산물리학 · 교육 기술 · 디지털 아트 · 계산 의료 · 운용과학 · 워드 프로세서 · 양자 컴퓨팅 · 전자 상거래 · 전자 출판 · 전자투표 · 전사적 소프트웨어 · 사이버 전쟁 · 비디오 게임 · 미분 가능 컴퓨팅" [ref=e936]:
+                      - list [ref=e938]:
+                        - listitem [ref=e939]:
+                          - link "계산사회과학" [ref=e940] [cursor=pointer]:
+                            - /url: //ko.wikipedia.org/wiki/계산사회과학
+                          - text: ·
+                        - listitem [ref=e941]:
+                          - link "계산생물학" [ref=e942] [cursor=pointer]:
+                            - /url: //ko.wikipedia.org/wiki/계산생물학
+                          - text: ·
+                        - listitem [ref=e943]:
+                          - link "계산화학" [ref=e944] [cursor=pointer]:
+                            - /url: //ko.wikipedia.org/wiki/계산화학
+                          - text: ·
+                        - listitem [ref=e945]:
+                          - link "계산 공학" [ref=e946] [cursor=pointer]:
+                            - /url: //ko.wikipedia.org/wiki/계산_공학
+                          - text: ·
+                        - listitem [ref=e947]:
+                          - link "계산물리학" [ref=e948] [cursor=pointer]:
+                            - /url: //ko.wikipedia.org/wiki/계산물리학
+                          - text: ·
+                        - listitem [ref=e949]:
+                          - link "교육 기술" [ref=e950] [cursor=pointer]:
+                            - /url: //ko.wikipedia.org/wiki/교육_기술
+                          - text: ·
+                        - listitem [ref=e951]:
+                          - link "디지털 아트" [ref=e952] [cursor=pointer]:
+                            - /url: //ko.wikipedia.org/wiki/디지털_아트
+                          - text: ·
+                        - listitem [ref=e953]:
+                          - link "계산 의료" [ref=e954] [cursor=pointer]:
+                            - /url: //ko.wikipedia.org/wiki/의료정보학
+                          - text: ·
+                        - listitem [ref=e955]:
+                          - link "운용과학" [ref=e956] [cursor=pointer]:
+                            - /url: //ko.wikipedia.org/wiki/운용과학
+                          - text: ·
+                        - listitem [ref=e957]:
+                          - link "워드 프로세서" [ref=e958] [cursor=pointer]:
+                            - /url: //ko.wikipedia.org/wiki/워드_프로세서
+                          - text: ·
+                        - listitem [ref=e959]:
+                          - link "양자 컴퓨팅" [ref=e960] [cursor=pointer]:
+                            - /url: //ko.wikipedia.org/wiki/양자_컴퓨팅
+                          - text: ·
+                        - listitem [ref=e961]:
+                          - link "전자 상거래" [ref=e962] [cursor=pointer]:
+                            - /url: //ko.wikipedia.org/wiki/전자_상거래
+                          - text: ·
+                        - listitem [ref=e963]:
+                          - link "전자 출판" [ref=e964] [cursor=pointer]:
+                            - /url: //ko.wikipedia.org/wiki/전자_출판
+                          - text: ·
+                        - listitem [ref=e965]:
+                          - link "전자투표" [ref=e966] [cursor=pointer]:
+                            - /url: //ko.wikipedia.org/wiki/전자투표
+                          - text: ·
+                        - listitem [ref=e967]:
+                          - link "전사적 소프트웨어" [ref=e968] [cursor=pointer]:
+                            - /url: //ko.wikipedia.org/wiki/전사적_소프트웨어
+                          - text: ·
+                        - listitem [ref=e969]:
+                          - link "사이버 전쟁" [ref=e970] [cursor=pointer]:
+                            - /url: //ko.wikipedia.org/wiki/사이버_전쟁
+                          - text: ·
+                        - listitem [ref=e971]:
+                          - link "비디오 게임" [ref=e972] [cursor=pointer]:
+                            - /url: //ko.wikipedia.org/wiki/비디오_게임
+                          - text: ·
+                        - listitem [ref=e973]:
+                          - navigation "미분 가능 컴퓨팅" [ref=e974]:
+                            - table [ref=e975]:
+                              - rowgroup [ref=e976]:
+                                - row "[접기] (v · t · e) 미분 가능 컴퓨팅" [ref=e977]:
+                                  - columnheader "[접기] (v · t · e) 미분 가능 컴퓨팅" [ref=e978]:
+                                    - text: "[접기]"
+                                    - list [ref=e980]:
+                                      - listitem [ref=e981]:
+                                        - text: (
+                                        - link "v" [ref=e982] [cursor=pointer]:
+                                          - /url: //ko.wikipedia.org/wiki/틀:미분_가능_컴퓨팅
+                                        - text: ·
+                                      - listitem [ref=e983]:
+                                        - link "t" [ref=e984] [cursor=pointer]:
+                                          - /url: //ko.wikipedia.org/wiki/틀토론:미분_가능_컴퓨팅?action=edit&redlink=1
+                                        - text: ·
+                                      - listitem [ref=e985]:
+                                        - link "e" [ref=e986] [cursor=pointer]:
+                                          - /url: //ko.wikipedia.org/wiki/특수:문서편집/틀:미분_가능_컴퓨팅
+                                        - text: )
+                                    - generic [ref=e987]: 미분 가능 컴퓨팅
+                                - row "일반 (미분 가능 프로그래밍 · 귀납적 편향 · 신경형태 컴퓨팅 · 자동 미분 · 정보 기하학 · 통계 다양체 · 패턴 인식 · 리치 미적분학 · 계산 학습 이론)" [ref=e988]:
+                                  - rowheader "일반" [ref=e989]:
+                                    - link "일반" [ref=e990] [cursor=pointer]:
+                                      - /url: //ko.wikipedia.org/wiki/미분_가능_함수
+                                  - cell "(미분 가능 프로그래밍 · 귀납적 편향 · 신경형태 컴퓨팅 · 자동 미분 · 정보 기하학 · 통계 다양체 · 패턴 인식 · 리치 미적분학 · 계산 학습 이론)" [ref=e991]:
+                                    - list [ref=e993]:
+                                      - listitem [ref=e994]:
+                                        - text: (
+                                        - link "미분 가능 프로그래밍" [ref=e996] [cursor=pointer]:
+                                          - /url: //ko.wikipedia.org/wiki/미분_가능_프로그래밍
+                                        - text: ·
+                                      - listitem [ref=e997]:
+                                        - link "귀납적 편향" [ref=e998] [cursor=pointer]:
+                                          - /url: //ko.wikipedia.org/wiki/귀납적_편향
+                                        - text: ·
+                                      - listitem [ref=e999]:
+                                        - link "신경형태 컴퓨팅" [ref=e1000] [cursor=pointer]:
+                                          - /url: //ko.wikipedia.org/wiki/신경형태_컴퓨팅
+                                        - text: ·
+                                      - listitem [ref=e1001]:
+                                        - link "자동 미분" [ref=e1002] [cursor=pointer]:
+                                          - /url: //ko.wikipedia.org/wiki/자동_미분
+                                        - text: ·
+                                      - listitem [ref=e1003]:
+                                        - link "정보 기하학" [ref=e1004] [cursor=pointer]:
+                                          - /url: //ko.wikipedia.org/wiki/정보_기하학
+                                        - text: ·
+                                      - listitem [ref=e1005]:
+                                        - link "통계 다양체" [ref=e1006] [cursor=pointer]:
+                                          - /url: //ko.wikipedia.org/wiki/통계_다양체?action=edit&redlink=1
+                                        - text: ·
+                                      - listitem [ref=e1007]:
+                                        - link "패턴 인식" [ref=e1008] [cursor=pointer]:
+                                          - /url: //ko.wikipedia.org/wiki/패턴_인식
+                                        - text: ·
+                                      - listitem [ref=e1009]:
+                                        - link "리치 미적분학" [ref=e1010] [cursor=pointer]:
+                                          - /url: //ko.wikipedia.org/wiki/리치_미적분학
+                                        - text: ·
+                                      - listitem [ref=e1011]:
+                                        - link "계산 학습 이론" [ref=e1012] [cursor=pointer]:
+                                          - /url: //ko.wikipedia.org/wiki/계산_학습_이론?action=edit&redlink=1
+                                        - text: )
+                                - row "하드웨어 (IPU · 멤리스터 · SpiNNaker · TPU · VPU)" [ref=e1013]:
+                                  - rowheader "하드웨어" [ref=e1014]
+                                  - cell "(IPU · 멤리스터 · SpiNNaker · TPU · VPU)" [ref=e1015]:
+                                    - list [ref=e1017]:
+                                      - listitem [ref=e1018]:
+                                        - text: (
+                                        - link "IPU" [ref=e1019] [cursor=pointer]:
+                                          - /url: //ko.wikipedia.org/wiki/Graphcore?action=edit&redlink=1
+                                        - text: ·
+                                      - listitem [ref=e1020]:
+                                        - link "멤리스터" [ref=e1021] [cursor=pointer]:
+                                          - /url: //ko.wikipedia.org/wiki/멤리스터
+                                        - text: ·
+                                      - listitem [ref=e1022]:
+                                        - link "SpiNNaker" [ref=e1023] [cursor=pointer]:
+                                          - /url: //ko.wikipedia.org/wiki/SpiNNaker?action=edit&redlink=1
+                                        - text: ·
+                                      - listitem [ref=e1024]:
+                                        - link "TPU" [ref=e1025] [cursor=pointer]:
+                                          - /url: //ko.wikipedia.org/wiki/텐서_처리_장치
+                                        - text: ·
+                                      - listitem [ref=e1026]:
+                                        - link "VPU" [ref=e1027] [cursor=pointer]:
+                                          - /url: //ko.wikipedia.org/wiki/비전_처리_장치
+                                        - text: )
+                                - row "소프트웨어 라이브러리 (JAX · 케라스 · 마인드스포어 · PyTorch · Scikit-learn · 텐서플로 · Theano · Flux.jl)" [ref=e1028]:
+                                  - rowheader "소프트웨어 라이브러리" [ref=e1029]
+                                  - cell "(JAX · 케라스 · 마인드스포어 · PyTorch · Scikit-learn · 텐서플로 · Theano · Flux.jl)" [ref=e1030]:
+                                    - list [ref=e1032]:
+                                      - listitem [ref=e1033]:
+                                        - text: (
+                                        - link "JAX" [ref=e1034] [cursor=pointer]:
+                                          - /url: //ko.wikipedia.org/wiki/JAX
+                                        - text: ·
+                                      - listitem [ref=e1035]:
+                                        - link "케라스" [ref=e1036] [cursor=pointer]:
+                                          - /url: //ko.wikipedia.org/wiki/케라스
+                                        - text: ·
+                                      - listitem [ref=e1037]:
+                                        - link "마인드스포어" [ref=e1038] [cursor=pointer]:
+                                          - /url: //ko.wikipedia.org/wiki/마인드스포어?action=edit&redlink=1
+                                        - text: ·
+                                      - listitem [ref=e1039]:
+                                        - link "PyTorch" [ref=e1040] [cursor=pointer]:
+                                          - /url: //ko.wikipedia.org/wiki/PyTorch
+                                        - text: ·
+                                      - listitem [ref=e1041]:
+                                        - link "Scikit-learn" [ref=e1042] [cursor=pointer]:
+                                          - /url: //ko.wikipedia.org/wiki/Scikit-learn
+                                        - text: ·
+                                      - listitem [ref=e1043]:
+                                        - link "텐서플로" [ref=e1044] [cursor=pointer]:
+                                          - /url: //ko.wikipedia.org/wiki/텐서플로
+                                        - text: ·
+                                      - listitem [ref=e1045]:
+                                        - link "Theano" [ref=e1046] [cursor=pointer]:
+                                          - /url: //ko.wikipedia.org/wiki/Theano?action=edit&redlink=1
+                                        - text: ·
+                                      - listitem [ref=e1047]:
+                                        - link "Flux.jl" [ref=e1048] [cursor=pointer]:
+                                          - /url: //ko.wikipedia.org/wiki/Flux_(machine-learning_framework)?action=edit&redlink=1
+                                        - text: )
+                                - row "(포털 포털 (컴퓨터 프로그래밍 · 기술))" [ref=e1049]:
+                                  - cell "(포털 포털 (컴퓨터 프로그래밍 · 기술))" [ref=e1050]:
+                                    - list [ref=e1052]:
+                                      - listitem [ref=e1053]:
+                                        - text: (
+                                        - generic "포털" [ref=e1055]:
+                                          - img "포털" [ref=e1056]
+                                        - text: 포털
+                                        - list [ref=e1057]:
+                                          - listitem [ref=e1058]:
+                                            - text: (
+                                            - link "컴퓨터 프로그래밍" [ref=e1059] [cursor=pointer]:
+                                              - /url: //ko.wikipedia.org/wiki/Portal:컴퓨터_프로그래밍?action=edit&redlink=1
+                                            - text: ·
+                                          - listitem [ref=e1060]:
+                                            - link "기술" [ref=e1061] [cursor=pointer]:
+                                              - /url: //ko.wikipedia.org/wiki/Portal:기술?action=edit&redlink=1
+                                            - text: )
+                                        - text: )
+            - navigation "전거 통제 위키데이터에서 편집하기" [ref=e1062]:
+              - table [ref=e1063]:
+                - rowgroup [ref=e1064]:
+                  - row "[접기] 전거 통제 위키데이터에서 편집하기" [ref=e1065]:
+                    - columnheader "[접기] 전거 통제 위키데이터에서 편집하기" [ref=e1066]:
+                      - text: "[접기]"
+                      - generic [ref=e1067]:
+                        - link "전거 통제" [ref=e1068] [cursor=pointer]:
+                          - /url: //ko.wikipedia.org/wiki/위키백과:전거_통제
+                        - link "위키데이터에서 편집하기" [ref=e1070] [cursor=pointer]:
+                          - /url: https://www.wikidata.org/wiki/Q2539#identifiers
+                          - img "위키데이터에서 편집하기" [ref=e1071]
+                  - row "국제 GND · FAST" [ref=e1072]:
+                    - rowheader "국제" [ref=e1073]
+                    - cell "GND · FAST" [ref=e1074]:
+                      - list [ref=e1076]:
+                        - listitem [ref=e1077]:
+                          - link "GND" [ref=e1079] [cursor=pointer]:
+                            - /url: https://d-nb.info/gnd/4193754-5
+                          - text: ·
+                        - listitem [ref=e1080]:
+                          - link "FAST" [ref=e1082] [cursor=pointer]:
+                            - /url: https://id.worldcat.org/fast/1004795
+                  - row "국가 미국 · 프랑스 · BnF 데이터 · 일본 · 체코 · 스페인 · 이스라엘" [ref=e1083]:
+                    - rowheader "국가" [ref=e1084]
+                    - cell "미국 · 프랑스 · BnF 데이터 · 일본 · 체코 · 스페인 · 이스라엘" [ref=e1085]:
+                      - list [ref=e1087]:
+                        - listitem [ref=e1088]:
+                          - generic "Machine learning" [ref=e1090]:
+                            - link "미국" [ref=e1091] [cursor=pointer]:
+                              - /url: https://id.loc.gov/authorities/sh85079324
+                          - text: ·
+                        - listitem [ref=e1092]:
+                          - link "프랑스" [ref=e1094] [cursor=pointer]:
+                            - /url: https://catalogue.bnf.fr/ark:/12148/cb11987531v
+                          - text: ·
+                        - listitem [ref=e1095]:
+                          - link "BnF 데이터" [ref=e1097] [cursor=pointer]:
+                            - /url: https://data.bnf.fr/ark:/12148/cb11987531v
+                          - text: ·
+                        - listitem [ref=e1098]:
+                          - link "일본" [ref=e1100] [cursor=pointer]:
+                            - /url: https://id.ndl.go.jp/auth/ndlna/001210569
+                          - text: ·
+                        - listitem [ref=e1101]:
+                          - generic "strojové učení" [ref=e1103]:
+                            - link "체코" [ref=e1104] [cursor=pointer]:
+                              - /url: https://aleph.nkp.cz/F/?func=find-c&local_base=aut&ccl_term=ica=ph126143&CON_LNG=ENG
+                          - text: ·
+                        - listitem [ref=e1105]:
+                          - link "스페인" [ref=e1107] [cursor=pointer]:
+                            - /url: http://catalogo.bne.es/uhtbin/authoritybrowse.cgi?action=display&authority_id=XX556507
+                          - text: ·
+                        - listitem [ref=e1108]:
+                          - link "이스라엘" [ref=e1110] [cursor=pointer]:
+                            - /url: https://www.nli.org.il/en/authorities/987007541156405171
+                  - row "기타 예일 LUX" [ref=e1111]:
+                    - rowheader "기타" [ref=e1112]
+                    - cell "예일 LUX" [ref=e1113]:
+                      - list [ref=e1115]:
+                        - listitem [ref=e1116]:
+                          - link "예일 LUX" [ref=e1118] [cursor=pointer]:
+                            - /url: https://lux.collections.yale.edu/view/concept/4f1c0c3f-2f61-450c-9608-91cdd34ccc00
+        - generic [ref=e1120]:
+          - link "분류" [ref=e1121] [cursor=pointer]:
+            - /url: /wiki/%ED%8A%B9%EC%88%98:%EB%B6%84%EB%A5%98
+          - text: ":"
+          - list [ref=e1122]:
+            - listitem [ref=e1123]:
+              - link "기계 학습" [ref=e1124] [cursor=pointer]:
+                - /url: /wiki/%EB%B6%84%EB%A5%98:%EA%B8%B0%EA%B3%84_%ED%95%99%EC%8A%B5
+            - listitem [ref=e1125]:
+              - link "사이버네틱스" [ref=e1126] [cursor=pointer]:
+                - /url: /wiki/%EB%B6%84%EB%A5%98:%EC%82%AC%EC%9D%B4%EB%B2%84%EB%84%A4%ED%8B%B1%EC%8A%A4
+            - listitem [ref=e1127]:
+              - link "학습" [ref=e1128] [cursor=pointer]:
+                - /url: /wiki/%EB%B6%84%EB%A5%98:%ED%95%99%EC%8A%B5
+    - contentinfo [ref=e1130]:
+      - list [ref=e1131]:
+        - listitem [ref=e1132]: 이 문서는 2025년 5월 18일 (일) 15:16에 마지막으로 편집되었습니다.
+        - listitem [ref=e1133]:
+          - text: 이 문서는
+          - link "Parsoid" [ref=e1134] [cursor=pointer]:
+            - /url: https://www.mediawiki.org/wiki/Special:MyLanguage/Parsoid
+          - text: 로 렌더링되었습니다.
+        - listitem [ref=e1135]:
+          - text: 모든 문서는
+          - link "크리에이티브 커먼즈 저작자표시-동일조건변경허락 4.0" [ref=e1136] [cursor=pointer]:
+            - /url: //creativecommons.org/licenses/by-sa/4.0/deed.ko
+          - text: 에 따라 사용할 수 있으며, 추가적인 조건이 적용될 수 있습니다. 자세한 내용은
+          - link "이용 약관" [ref=e1137] [cursor=pointer]:
+            - /url: https://foundation.wikimedia.org/wiki/Special:MyLanguage/Policy:Terms_of_Use/ko
+          - text: 을 참고하십시오.
+          - text: Wikipedia®는 미국 및 다른 국가에 등록되어 있는
+          - link "Wikimedia Foundation, Inc." [ref=e1138] [cursor=pointer]:
+            - /url: https://www.wikimediafoundation.org
+          - text: 소유의 등록 상표입니다.
+      - list:
+        - listitem [ref=e1139]:
+          - link "개인정보처리방침" [ref=e1140] [cursor=pointer]:
+            - /url: https://foundation.wikimedia.org/wiki/Special:MyLanguage/Policy:Privacy_policy
+        - listitem [ref=e1141]:
+          - link "위키백과 소개" [ref=e1142] [cursor=pointer]:
+            - /url: /wiki/%EC%9C%84%ED%82%A4%EB%B0%B1%EA%B3%BC:%EC%86%8C%EA%B0%9C
+        - listitem [ref=e1143]:
+          - link "면책 조항" [ref=e1144] [cursor=pointer]:
+            - /url: /wiki/%EC%9C%84%ED%82%A4%EB%B0%B1%EA%B3%BC:%EB%A9%B4%EC%B1%85_%EC%A1%B0%ED%95%AD
+        - listitem [ref=e1145]:
+          - link "행동 강령" [ref=e1146] [cursor=pointer]:
+            - /url: https://foundation.wikimedia.org/wiki/Special:MyLanguage/Policy:Universal_Code_of_Conduct
+        - listitem [ref=e1147]:
+          - link "개발자" [ref=e1148] [cursor=pointer]:
+            - /url: https://developer.wikimedia.org
+        - listitem [ref=e1149]:
+          - link "통계" [ref=e1150] [cursor=pointer]:
+            - /url: https://stats.wikimedia.org/#/ko.wikipedia.org
+        - listitem [ref=e1151]:
+          - link "쿠키 정책" [ref=e1152] [cursor=pointer]:
+            - /url: https://foundation.wikimedia.org/wiki/Special:MyLanguage/Policy:Cookie_statement
+        - listitem [ref=e1153]:
+          - link "모바일 보기" [ref=e1154] [cursor=pointer]:
+            - /url: //ko.wikipedia.org/w/index.php?title=%EA%B8%B0%EA%B3%84_%ED%95%99%EC%8A%B5&mobileaction=toggle_view_mobile
+      - list [ref=e1155]:
+        - listitem [ref=e1156]:
+          - link "Wikimedia Foundation" [ref=e1157] [cursor=pointer]:
+            - /url: https://www.wikimedia.org/
+            - img "Wikimedia Foundation" [ref=e1159]
+        - listitem [ref=e1160]:
+          - link "Powered by MediaWiki" [ref=e1161] [cursor=pointer]:
+            - /url: https://www.mediawiki.org/
+            - img "Powered by MediaWiki" [ref=e1163]

@@ -1,0 +1,101 @@
+- generic [ref=e3]:
+  - banner [ref=e4]
+  - main [ref=e5]:
+    - generic [ref=e6]:
+      - generic [ref=e8] [cursor=pointer]:
+        - generic: 카테고리 선택
+        - combobox "카테고리 선택" [ref=e9]:
+          - generic [ref=e10]: 카테고리
+          - generic [ref=e11]: 더보기
+      - textbox "제목을 입력하세요" [ref=e13]
+      - application [ref=e15]:
+        - generic [ref=e16]:
+          - group [ref=e19]:
+            - toolbar [ref=e21]:
+              - generic [ref=e22]:
+                - group [ref=e23]:
+                  - generic [ref=e24]:
+                    - button "첨부" [ref=e25] [cursor=pointer]:
+                      - button [ref=e26]
+                    - button "문단모양" [ref=e29] [cursor=pointer]:
+                      - button "본문2" [ref=e30]:
+                        - generic [ref=e31]: 본문2
+                    - button "글꼴" [ref=e33] [cursor=pointer]:
+                      - button "기본서체" [ref=e34]:
+                        - generic [ref=e35]: 기본서체
+                - group [ref=e37]:
+                  - generic [ref=e38]:
+                    - button "굵게" [ref=e39] [cursor=pointer]:
+                      - button [ref=e40]
+                    - button "기울임꼴" [ref=e42] [cursor=pointer]:
+                      - button [ref=e43]
+                    - button "밑줄" [ref=e45] [cursor=pointer]:
+                      - button [ref=e46]
+                    - button "취소선" [ref=e48] [cursor=pointer]:
+                      - button [ref=e49]
+                    - button "글자색" [ref=e51] [cursor=pointer]:
+                      - button [ref=e52]
+                    - button "배경색" [ref=e55] [cursor=pointer]:
+                      - button [ref=e56]
+                - group [ref=e59]:
+                  - generic [ref=e60]:
+                    - button "왼쪽 정렬" [ref=e61] [cursor=pointer]:
+                      - button [ref=e62]
+                    - button "가운데 정렬" [ref=e64] [cursor=pointer]:
+                      - button [ref=e65]
+                    - button "오른쪽 정렬" [ref=e67] [cursor=pointer]:
+                      - button [ref=e68]
+                    - button "양쪽정렬" [ref=e70] [cursor=pointer]:
+                      - button [ref=e71]
+                - group [ref=e73]:
+                  - generic [ref=e74]:
+                    - button "인용" [ref=e75] [cursor=pointer]:
+                      - button [ref=e76]
+                    - button "이모티콘" [ref=e78] [cursor=pointer]:
+                      - button [ref=e79]
+                    - button "테이블" [ref=e81] [cursor=pointer]:
+                      - button [ref=e82]
+                    - button "링크 삽입/수정" [ref=e84] [cursor=pointer]:
+                      - button [ref=e85]
+                    - button "리스트" [ref=e87] [cursor=pointer]:
+                      - button [ref=e88]
+                    - button "구분선" [ref=e90] [cursor=pointer]:
+                      - button [ref=e91]
+                    - button "더보기" [ref=e93] [cursor=pointer]:
+                      - button [ref=e94]
+                    - button "장소" [ref=e96] [cursor=pointer]:
+                      - button [ref=e97]
+                - group [ref=e99]:
+                  - button "기본모드" [ref=e101] [cursor=pointer]:
+                    - button "기본모드" [ref=e102]:
+                      - generic [ref=e103]: 기본모드
+          - group [ref=e105]:
+            - iframe [ref=e106]:
+              - textbox "글 내용 입력" [active] [ref=f13e1]:
+                - paragraph [ref=f13e2]
+      - generic [ref=e108]:
+        - text: "#"
+        - textbox "태그" [ref=e110]:
+          - /placeholder: 태그입력
+  - generic [ref=e111]:
+    - generic [ref=e112]:
+      - button "미리보기" [ref=e113] [cursor=pointer]:
+        - generic [ref=e115]: 미리보기
+      - button "맞춤법" [ref=e116] [cursor=pointer]:
+        - generic [ref=e118]: 맞춤법
+      - link "open source" [ref=e119] [cursor=pointer]:
+        - /url: https://t1.daumcdn.net/osa/hermes/notice/1397.html
+        - generic [ref=e120]: open source
+      - generic [ref=e121]: /
+      - link "DOWNLOAD" [ref=e122] [cursor=pointer]:
+        - /url: https://t1.daumcdn.net/keditor/opensource/KEDITOR-0.7.21.zip
+        - generic [ref=e123]: DOWNLOAD
+      - link "POWERED BY TINY" [ref=e124] [cursor=pointer]:
+        - /url: https://www.tiny.cloud
+        - generic [ref=e125]: POWERED BY TINY
+    - generic [ref=e126]:
+      - generic [ref=e128]:
+        - button "임시저장" [ref=e129] [cursor=pointer]
+        - button "임시저장 개수 0개" [ref=e130] [cursor=pointer]: "0"
+      - button "완료" [ref=e131] [cursor=pointer]
+    - generic [ref=e133]: 0개의 파일을 업로드 중입니다.

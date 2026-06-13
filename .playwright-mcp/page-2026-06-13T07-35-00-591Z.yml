@@ -1,0 +1,1461 @@
+- generic [active] [ref=e1]:
+  - link "본문으로 이동" [ref=e2] [cursor=pointer]:
+    - /url: "#bodyContent"
+  - banner [ref=e4]:
+    - generic [ref=e5]:
+      - navigation "사이트" [ref=e6]:
+        - generic "주 메뉴" [ref=e7]:
+          - button "주 메뉴" [ref=e8] [cursor=pointer]
+          - generic [ref=e11]: 주 메뉴
+      - link "위키백과" [ref=e12] [cursor=pointer]:
+        - /url: /wiki/%EC%9C%84%ED%82%A4%EB%B0%B1%EA%B3%BC:%EB%8C%80%EB%AC%B8
+        - img [ref=e13]
+        - img "위키백과" [ref=e15]
+    - generic [ref=e16]:
+      - search [ref=e17]:
+        - link "검색" [ref=e18] [cursor=pointer]:
+          - /url: /wiki/%ED%8A%B9%EC%88%98:%EA%B2%80%EC%83%89
+          - generic [ref=e20]: 검색
+      - navigation "개인 도구" [ref=e21]:
+        - generic [ref=e22]:
+          - navigation "외관" [ref=e23]:
+            - generic "문서의 글꼴 크기, 폭, 색의 모습을 변경합니다" [ref=e24]:
+              - button "외관" [ref=e25] [cursor=pointer]
+              - generic [ref=e28]: 외관
+          - list [ref=e31]:
+            - listitem [ref=e32]:
+              - link "기부" [ref=e33] [cursor=pointer]:
+                - /url: https://donate.wikimedia.org/?wmf_source=donate&wmf_medium=sidebar&wmf_campaign=ko.wikipedia.org&uselang=ko
+            - listitem [ref=e34]:
+              - link "계정 만들기" [ref=e35] [cursor=pointer]:
+                - /url: /w/index.php?title=%ED%8A%B9%EC%88%98:%EA%B3%84%EC%A0%95%EB%A7%8C%EB%93%A4%EA%B8%B0&returnto=SK%ED%95%98%EC%9D%B4%EB%8B%89%EC%8A%A4
+            - listitem [ref=e36]:
+              - link "로그인" [ref=e37] [cursor=pointer]:
+                - /url: /w/index.php?title=%ED%8A%B9%EC%88%98:%EB%A1%9C%EA%B7%B8%EC%9D%B8&returnto=SK%ED%95%98%EC%9D%B4%EB%8B%89%EC%8A%A4
+  - generic [ref=e39]:
+    - generic [ref=e42]:
+      - button [ref=e44] [cursor=pointer]:
+        - img [ref=e45]
+      - paragraph [ref=e47]:
+        - link "옛한글 문헌 전자화 프로젝트" [ref=e50] [cursor=pointer]:
+          - /url: https://ko.wikisource.org/wiki/%EC%9C%84%ED%82%A4%EB%AC%B8%ED%97%8C:%EC%98%9B%ED%95%9C%EA%B8%80_%EB%AC%B8%ED%97%8C_%EC%A0%84%EC%9E%90%ED%99%94_%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8/2026%EB%85%84_%EC%83%81%EB%B0%98%EA%B8%B0
+        - text: 봉사자를 6월 24일까지 모집합니다.
+    - main [ref=e52]:
+      - generic [ref=e53]:
+        - navigation "목차" [ref=e54]:
+          - generic "목차" [ref=e55]:
+            - button "목차 토글" [ref=e56] [cursor=pointer]
+            - generic [ref=e59]: 목차 토글
+        - heading "SK하이닉스" [level=1] [ref=e60]:
+          - generic [ref=e61]: SK하이닉스
+        - generic [ref=e62]:
+          - button "다른 언어로 문서를 방문합니다. 32개 언어로 읽을 수 있습니다" [ref=e63] [cursor=pointer]
+          - generic [ref=e66]: 32개 언어
+      - generic [ref=e68]:
+        - navigation "이름공간" [ref=e70]:
+          - generic [ref=e71]:
+            - generic:
+              - list:
+                - listitem [ref=e72]:
+                  - link "문서" [ref=e73] [cursor=pointer]:
+                    - /url: /wiki/SK%ED%95%98%EC%9D%B4%EB%8B%89%EC%8A%A4
+                    - generic [ref=e74]: 문서
+                - listitem [ref=e75]:
+                  - link "토론" [ref=e76] [cursor=pointer]:
+                    - /url: /wiki/%ED%86%A0%EB%A1%A0:SK%ED%95%98%EC%9D%B4%EB%8B%89%EC%8A%A4
+                    - generic [ref=e77]: 토론
+        - generic [ref=e78]:
+          - navigation "보기" [ref=e79]:
+            - generic [ref=e80]:
+              - generic:
+                - list:
+                  - listitem [ref=e81]:
+                    - link "읽기" [ref=e82] [cursor=pointer]:
+                      - /url: /wiki/SK%ED%95%98%EC%9D%B4%EB%8B%89%EC%8A%A4
+                      - generic [ref=e83]: 읽기
+                  - listitem [ref=e84]:
+                    - link "편집" [ref=e85] [cursor=pointer]:
+                      - /url: /w/index.php?title=SK%ED%95%98%EC%9D%B4%EB%8B%89%EC%8A%A4&action=edit
+                      - generic [ref=e86]: 편집
+                  - listitem [ref=e87]:
+                    - link "역사 보기" [ref=e88] [cursor=pointer]:
+                      - /url: /w/index.php?title=SK%ED%95%98%EC%9D%B4%EB%8B%89%EC%8A%A4&action=history
+                      - generic [ref=e89]: 역사 보기
+          - navigation "페이지 도구" [ref=e90]:
+            - generic [ref=e91]:
+              - button "도구" [ref=e92] [cursor=pointer]
+              - generic [ref=e94] [cursor=pointer]: 도구
+      - generic "SK하이닉스" [ref=e95]:
+        - generic [ref=e97]: 위키백과, 우리 모두의 백과사전.
+        - generic [ref=e100]:
+          - text: (
+          - link "하이닉스" [ref=e101] [cursor=pointer]:
+            - /url: /w/index.php?title=%ED%95%98%EC%9D%B4%EB%8B%89%EC%8A%A4&redirect=no
+          - text: 에서 넘어옴)
+        - generic [ref=e103]:
+          - generic [ref=e104]:
+            - table "SK하이닉스주식회사 SK Hynix Inc." [ref=e105]:
+              - caption [ref=e106]:
+                - text: SK하이닉스주식회사
+                - text: SK Hynix Inc.
+              - rowgroup [ref=e107]:
+                - row [ref=e108]:
+                  - cell [ref=e109]:
+                    - link [ref=e111] [cursor=pointer]:
+                      - /url: //ko.wikipedia.org/wiki/파일:SK_Hynix.svg
+                      - img [ref=e112]
+                - row "형태 주식회사" [ref=e113]:
+                  - rowheader "형태" [ref=e114]
+                  - cell "주식회사" [ref=e115]:
+                    - link "주식회사" [ref=e116] [cursor=pointer]:
+                      - /url: //ko.wikipedia.org/wiki/주식회사
+                - row "창립 1949년 10월 15일(76년 전)" [ref=e117]:
+                  - rowheader "창립" [ref=e118]
+                  - cell "1949년 10월 15일(76년 전)" [ref=e119]
+                - row "창립자 정주영" [ref=e120]:
+                  - rowheader "창립자" [ref=e121]
+                  - cell "정주영" [ref=e122]:
+                    - link "정주영" [ref=e123] [cursor=pointer]:
+                      - /url: //ko.wikipedia.org/wiki/정주영
+                - row "ISIN KR7000660001" [ref=e124]:
+                  - rowheader "ISIN" [ref=e125]:
+                    - link "ISIN" [ref=e126] [cursor=pointer]:
+                      - /url: //ko.wikipedia.org/wiki/국제_증권_식별_번호
+                  - cell "KR7000660001" [ref=e127]:
+                    - link "KR7000660001" [ref=e129] [cursor=pointer]:
+                      - /url: https://iw.toolforge.org/isin/?language=en&isin=KR7000660001
+                - 'row "시장 정보 한국: 000660" [ref=e130]':
+                  - rowheader "시장 정보" [ref=e131]:
+                    - link "시장 정보" [ref=e132] [cursor=pointer]:
+                      - /url: //ko.wikipedia.org/wiki/티커_심볼
+                  - 'cell "한국: 000660" [ref=e133]':
+                    - generic [ref=e134]:
+                      - link "한국" [ref=e135] [cursor=pointer]:
+                        - /url: //ko.wikipedia.org/wiki/한국거래소
+                      - text: ":"
+                      - link "000660" [ref=e136] [cursor=pointer]:
+                        - /url: https://finance.naver.com/item/main.nhn?code=000660
+                - row "상장일 1996년 12월 26일" [ref=e137]:
+                  - rowheader "상장일" [ref=e138]
+                  - cell "1996년 12월 26일" [ref=e139]:
+                    - link "1996년" [ref=e140] [cursor=pointer]:
+                      - /url: //ko.wikipedia.org/wiki/1996년
+                    - link "12월 26일" [ref=e141] [cursor=pointer]:
+                      - /url: //ko.wikipedia.org/wiki/12월_26일
+                - row "산업 분야 제조업" [ref=e142]:
+                  - rowheader "산업 분야" [ref=e143]
+                  - cell "제조업" [ref=e144]
+                - row "서비스 다이오드 트랜지스터 유사 반도체 소자 제조업 반도체 부품 제조업" [ref=e145]:
+                  - rowheader "서비스" [ref=e146]
+                  - cell "다이오드 트랜지스터 유사 반도체 소자 제조업 반도체 부품 제조업" [ref=e147]:
+                    - link "다이오드" [ref=e148] [cursor=pointer]:
+                      - /url: //ko.wikipedia.org/wiki/다이오드
+                    - link "트랜지스터" [ref=e149] [cursor=pointer]:
+                      - /url: //ko.wikipedia.org/wiki/트랜지스터
+                    - text: 유사
+                    - link "반도체 소자" [ref=e150] [cursor=pointer]:
+                      - /url: //ko.wikipedia.org/wiki/반도체_소자
+                    - text: 제조업
+                    - link "반도체" [ref=e151] [cursor=pointer]:
+                      - /url: //ko.wikipedia.org/wiki/반도체
+                    - text: 부품 제조업
+                - row "전신 국도건설 (1949년~1983년) 현대전자산업 (1983년~2001년) 하이닉스반도체[1][2](2001년~2012년)" [ref=e152]:
+                  - rowheader "전신" [ref=e153]
+                  - cell "국도건설 (1949년~1983년) 현대전자산업 (1983년~2001년) 하이닉스반도체[1][2](2001년~2012년)" [ref=e154]:
+                    - text: 국도건설 (
+                    - link "1949년" [ref=e155] [cursor=pointer]:
+                      - /url: //ko.wikipedia.org/wiki/1949년
+                    - text: ~
+                    - link "1983년" [ref=e156] [cursor=pointer]:
+                      - /url: //ko.wikipedia.org/wiki/1983년
+                    - text: )
+                    - text: 현대전자산업 (
+                    - link "1983년" [ref=e157] [cursor=pointer]:
+                      - /url: //ko.wikipedia.org/wiki/1983년
+                    - text: ~
+                    - link "2001년" [ref=e158] [cursor=pointer]:
+                      - /url: //ko.wikipedia.org/wiki/2001년
+                    - text: )
+                    - text: 하이닉스반도체
+                    - superscript [ref=e159]:
+                      - link "[1]" [ref=e160] [cursor=pointer]:
+                        - /url: "#cite_note-1"
+                        - generic [ref=e161]: "[1]"
+                    - superscript [ref=e162]:
+                      - link "[2]" [ref=e163] [cursor=pointer]:
+                        - /url: "#cite_note-2"
+                        - generic [ref=e164]: "[2]"
+                    - text: (
+                    - link "2001년" [ref=e165] [cursor=pointer]:
+                      - /url: //ko.wikipedia.org/wiki/2001년
+                    - text: ~
+                    - link "2012년" [ref=e166] [cursor=pointer]:
+                      - /url: //ko.wikipedia.org/wiki/2012년
+                    - text: )
+                - 'row "분할 통신부문: 팬택 전장부문: 현대모비스" [ref=e167]':
+                  - rowheader "분할" [ref=e168]:
+                    - generic [ref=e169]: 분할
+                  - 'cell "통신부문: 팬택 전장부문: 현대모비스" [ref=e170]':
+                    - text: "통신부문:"
+                    - link "팬택" [ref=e171] [cursor=pointer]:
+                      - /url: //ko.wikipedia.org/wiki/팬택
+                    - text: "전장부문:"
+                    - link "현대모비스" [ref=e172] [cursor=pointer]:
+                      - /url: //ko.wikipedia.org/wiki/현대모비스
+                - row "본사 소재지 대한민국 경기도 이천시 부발읍 경충대로 2091" [ref=e173]:
+                  - rowheader "본사 소재지" [ref=e174]
+                  - cell "대한민국 경기도 이천시 부발읍 경충대로 2091" [ref=e175]:
+                    - generic [ref=e176]: 대한민국
+                    - link "경기도" [ref=e177] [cursor=pointer]:
+                      - /url: //ko.wikipedia.org/wiki/경기도
+                    - link "이천시" [ref=e178] [cursor=pointer]:
+                      - /url: //ko.wikipedia.org/wiki/이천시
+                    - link "부발읍" [ref=e179] [cursor=pointer]:
+                      - /url: //ko.wikipedia.org/wiki/부발읍
+                    - link "경충대로" [ref=e180] [cursor=pointer]:
+                      - /url: //ko.wikipedia.org/wiki/경충대로
+                    - text: "2091"
+                - row "핵심 인물 곽노정 (대표이사 사장)" [ref=e181]:
+                  - rowheader "핵심 인물" [ref=e182]:
+                    - generic [ref=e183]: 핵심 인물
+                  - cell "곽노정 (대표이사 사장)" [ref=e184]:
+                    - link "곽노정" [ref=e185] [cursor=pointer]:
+                      - /url: //ko.wikipedia.org/wiki/곽노정?action=edit&redlink=1
+                    - text: (대표이사 사장)
+                - row "제품 반도체" [ref=e186]:
+                  - rowheader "제품" [ref=e187]
+                  - cell "반도체" [ref=e188]:
+                    - link "반도체" [ref=e189] [cursor=pointer]:
+                      - /url: //ko.wikipedia.org/wiki/반도체
+                - row "매출액 증가97조 1,466억 원 (2025년)" [ref=e190]:
+                  - rowheader "매출액" [ref=e191]
+                  - cell "증가97조 1,466억 원 (2025년)" [ref=e192]:
+                    - generic "증가" [ref=e193]:
+                      - img "증가" [ref=e196]
+                    - text: 97조 1,466억 원 (2025년)
+                - row "영업이익 증가47조 2,063억 원 (2025년)" [ref=e197]:
+                  - rowheader "영업이익" [ref=e198]:
+                    - generic [ref=e199]: 영업이익
+                  - cell "증가47조 2,063억 원 (2025년)" [ref=e200]:
+                    - generic "증가" [ref=e201]:
+                      - img "증가" [ref=e204]
+                    - text: 47조 2,063억 원 (2025년)
+                - row "순이익 증가42조 9,479억 원 (2025년)" [ref=e205]:
+                  - rowheader "순이익" [ref=e206]:
+                    - link "순이익" [ref=e208] [cursor=pointer]:
+                      - /url: //ko.wikipedia.org/wiki/순이익
+                  - cell "증가42조 9,479억 원 (2025년)" [ref=e209]:
+                    - generic "증가" [ref=e210]:
+                      - img "증가" [ref=e213]
+                    - text: 42조 9,479억 원 (2025년)
+                - row "자산총액 96,386,474,358,646원 (2021년 12월)" [ref=e214]:
+                  - rowheader "자산총액" [ref=e215]:
+                    - link "자산총액" [ref=e217] [cursor=pointer]:
+                      - /url: //ko.wikipedia.org/wiki/자산
+                  - cell "96,386,474,358,646원 (2021년 12월)" [ref=e218]
+                - 'row "주요 주주 SK스퀘어주식회사 외 특수관계인: 20.07% 국민연금공단: 9.04%" [ref=e219]':
+                  - rowheader "주요 주주" [ref=e220]
+                  - 'cell "SK스퀘어주식회사 외 특수관계인: 20.07% 국민연금공단: 9.04%" [ref=e221]':
+                    - text: "SK스퀘어주식회사 외 특수관계인: 20.07%"
+                    - link "국민연금공단" [ref=e222] [cursor=pointer]:
+                      - /url: //ko.wikipedia.org/wiki/국민연금공단
+                    - text: ": 9.04%"
+                - row "종업원 수 30,135명 (2021년 12월)" [ref=e223]:
+                  - rowheader "종업원 수" [ref=e224]:
+                    - generic [ref=e225]: 종업원 수
+                  - cell "30,135명 (2021년 12월)" [ref=e226]
+                - row "자회사 SK하이스텍 주식회사 SK하이이엔지 주식회사 행복모아 주식회사 SK하이닉스시스템IC 주식회사 행복나래 주식회사 SK키파운드리" [ref=e227]:
+                  - rowheader "자회사" [ref=e228]:
+                    - link "자회사" [ref=e229] [cursor=pointer]:
+                      - /url: //ko.wikipedia.org/wiki/자회사
+                  - cell "SK하이스텍 주식회사 SK하이이엔지 주식회사 행복모아 주식회사 SK하이닉스시스템IC 주식회사 행복나래 주식회사 SK키파운드리" [ref=e230]:
+                    - link "SK하이스텍" [ref=e231] [cursor=pointer]:
+                      - /url: //ko.wikipedia.org/wiki/SK하이스텍?action=edit&redlink=1
+                    - text: 주식회사
+                    - link "SK하이이엔지" [ref=e232] [cursor=pointer]:
+                      - /url: //ko.wikipedia.org/wiki/SK하이이엔지?action=edit&redlink=1
+                    - text: 주식회사
+                    - text: 행복모아 주식회사
+                    - link "SK하이닉스시스템IC" [ref=e233] [cursor=pointer]:
+                      - /url: //ko.wikipedia.org/wiki/SK하이닉스시스템IC?action=edit&redlink=1
+                    - text: 주식회사
+                    - text: 행복나래 주식회사
+                    - link "SK키파운드리" [ref=e234] [cursor=pointer]:
+                      - /url: //ko.wikipedia.org/wiki/SK키파운드리
+                - row "자본금 3,657,652,050,000원 (2021.12)" [ref=e235]:
+                  - rowheader "자본금" [ref=e236]
+                  - cell "3,657,652,050,000원 (2021.12)" [ref=e237]
+                - row "슬로건 We Do Technology" [ref=e238]:
+                  - rowheader "슬로건" [ref=e239]
+                  - cell "We Do Technology" [ref=e240]
+                - row "웹사이트 SK하이닉스 SK하이닉스 공식 블로그" [ref=e241]:
+                  - rowheader "웹사이트" [ref=e242]
+                  - cell "SK하이닉스 SK하이닉스 공식 블로그" [ref=e243]:
+                    - link "SK하이닉스" [ref=e244] [cursor=pointer]:
+                      - /url: http://www.skhynix.com/
+                    - link "SK하이닉스 공식 블로그" [ref=e245] [cursor=pointer]:
+                      - /url: http://blog.skhynix.com/
+                - row "각주 [3]" [ref=e246]:
+                  - cell "각주 [3]" [ref=e247]:
+                    - text: 각주
+                    - superscript [ref=e248]:
+                      - link "[3]" [ref=e249] [cursor=pointer]:
+                        - /url: "#cite_note-3"
+                        - generic [ref=e250]: "[3]"
+            - paragraph [ref=e251]:
+              - text: SK하이닉스주식회사(
+              - generic [ref=e252]:
+                - link "영어" [ref=e253] [cursor=pointer]:
+                  - /url: //ko.wikipedia.org/wiki/영어
+                - text: ":"
+              - text: SK hynix )는
+              - link "SK그룹" [ref=e254] [cursor=pointer]:
+                - /url: //ko.wikipedia.org/wiki/SK그룹
+              - text: 의 계열사로
+              - link "대한민국" [ref=e255] [cursor=pointer]:
+                - /url: //ko.wikipedia.org/wiki/대한민국
+              - text: 의
+              - link "메모리" [ref=e256] [cursor=pointer]:
+                - /url: //ko.wikipedia.org/wiki/메모리
+              - link "반도체" [ref=e257] [cursor=pointer]:
+                - /url: //ko.wikipedia.org/wiki/반도체
+              - text: 설계, 제조 기업으로
+              - link "DRAM" [ref=e258] [cursor=pointer]:
+                - /url: //ko.wikipedia.org/wiki/DRAM
+              - text: 과
+              - link "낸드플래시" [ref=e259] [cursor=pointer]:
+                - /url: //ko.wikipedia.org/wiki/낸드플래시
+              - text: (ROM) 제조 기업이다. 본사는
+              - link "경기도" [ref=e260] [cursor=pointer]:
+                - /url: //ko.wikipedia.org/wiki/경기도
+              - link "이천시" [ref=e261] [cursor=pointer]:
+                - /url: //ko.wikipedia.org/wiki/이천시
+              - link "부발읍" [ref=e262] [cursor=pointer]:
+                - /url: //ko.wikipedia.org/wiki/부발읍
+              - link "경충대로" [ref=e263] [cursor=pointer]:
+                - /url: //ko.wikipedia.org/wiki/경충대로
+              - text: 2091에 있다.
+          - region "한국 사업장" [ref=e264]:
+            - generic [ref=e265]:
+              - heading "한국 사업장" [level=2] [ref=e266]: 한국 사업장
+              - generic [ref=e267]:
+                - text: "["
+                - link "편집" [ref=e268] [cursor=pointer]:
+                  - /url: /w/index.php?title=SK%ED%95%98%EC%9D%B4%EB%8B%89%EC%8A%A4&action=edit&section=1
+                - text: "]"
+            - list [ref=e269]:
+              - listitem [ref=e270]:
+                - text: "본사:"
+                - link "경기도" [ref=e271] [cursor=pointer]:
+                  - /url: //ko.wikipedia.org/wiki/경기도
+                - link "이천시" [ref=e272] [cursor=pointer]:
+                  - /url: //ko.wikipedia.org/wiki/이천시
+                - link "부발읍" [ref=e273] [cursor=pointer]:
+                  - /url: //ko.wikipedia.org/wiki/부발읍
+                - link "경충대로" [ref=e274] [cursor=pointer]:
+                  - /url: //ko.wikipedia.org/wiki/경충대로
+                - text: 2091 (아미리 712-7)
+              - listitem [ref=e275]:
+                - text: "청주제1공장:"
+                - link "충청북도" [ref=e276] [cursor=pointer]:
+                  - /url: //ko.wikipedia.org/wiki/충청북도
+                - link "청주시" [ref=e277] [cursor=pointer]:
+                  - /url: //ko.wikipedia.org/wiki/청주시
+                - link "흥덕구" [ref=e278] [cursor=pointer]:
+                  - /url: //ko.wikipedia.org/wiki/흥덕구
+                - link "대신로" [ref=e279] [cursor=pointer]:
+                  - /url: //ko.wikipedia.org/wiki/대신로_(청주시)
+                - text: 215 (
+                - link "향정동" [ref=e280] [cursor=pointer]:
+                  - /url: //ko.wikipedia.org/wiki/강서동_(청주시)
+                - text: )
+              - listitem [ref=e281]:
+                - text: "청주제2공장: 충청북도 청주시 흥덕구"
+                - link "2순환로" [ref=e282] [cursor=pointer]:
+                  - /url: //ko.wikipedia.org/wiki/2순환로_(청주시)
+                - text: 959 (
+                - link "향정동" [ref=e283] [cursor=pointer]:
+                  - /url: //ko.wikipedia.org/wiki/강서동_(청주시)
+                - text: )
+              - listitem [ref=e284]:
+                - text: "청주제3공장: 충청북도 청주시 흥덕구"
+                - link "직지대로" [ref=e285] [cursor=pointer]:
+                  - /url: //ko.wikipedia.org/wiki/직지대로
+                - text: 337 (
+                - link "향정동" [ref=e286] [cursor=pointer]:
+                  - /url: //ko.wikipedia.org/wiki/강서동_(청주시)
+                - text: )
+              - listitem [ref=e287]:
+                - text: "청주제4공장: 충청북도 청주시 흥덕구 에스케이로 120 ("
+                - link "외북동" [ref=e288] [cursor=pointer]:
+                  - /url: //ko.wikipedia.org/wiki/강서동_(청주시)
+                - text: )
+              - listitem [ref=e289]:
+                - text: "분당사무소: 경기도"
+                - link "성남시" [ref=e290] [cursor=pointer]:
+                  - /url: //ko.wikipedia.org/wiki/성남시
+                - link "분당구" [ref=e291] [cursor=pointer]:
+                  - /url: //ko.wikipedia.org/wiki/분당구
+                - link "성남대로" [ref=e292] [cursor=pointer]:
+                  - /url: //ko.wikipedia.org/wiki/성남대로
+                - text: 343번길 9 (
+                - link "정자동" [ref=e293] [cursor=pointer]:
+                  - /url: //ko.wikipedia.org/wiki/정자동_(성남시)
+                - text: )
+          - region "역사" [ref=e294]:
+            - generic [ref=e295]:
+              - heading "역사" [level=2] [ref=e296]: 역사
+              - generic [ref=e297]:
+                - text: "["
+                - link "편집" [ref=e298] [cursor=pointer]:
+                  - /url: /w/index.php?title=SK%ED%95%98%EC%9D%B4%EB%8B%89%EC%8A%A4&action=edit&section=2
+                - text: "]"
+            - list [ref=e299]:
+              - listitem [ref=e300]: "1949년 10월 15일 : 국도건설로 설립"
+              - listitem [ref=e301]: "1979년 11월 : 금성반도체 (LG반도체) 설립"
+              - listitem [ref=e302]:
+                - text: "1982년 : 3사와 함께 반도체 기업으로 전환해"
+                - link "효성" [ref=e303] [cursor=pointer]:
+                  - /url: //ko.wikipedia.org/wiki/효성그룹
+                - text: 과
+                - link "현대" [ref=e304] [cursor=pointer]:
+                  - /url: //ko.wikipedia.org/wiki/현대그룹
+                - text: 등 2곳이나 몰망으로 거론하여
+                - link "동남전기" [ref=e305] [cursor=pointer]:
+                  - /url: //ko.wikipedia.org/wiki/동남전기
+                - text: ","
+                - link "금호전자" [ref=e306] [cursor=pointer]:
+                  - /url: //ko.wikipedia.org/wiki/금호전자
+                - text: 그리고 국도건설 인수설이 제기되고있다.
+              - listitem [ref=e307]: "1983년 : 현대그룹 국도건설 최종 인수"
+              - listitem [ref=e308]: "1983년 2월 26일 : 사명을 국도건설에서 현대전자산업으로 변경"
+              - listitem [ref=e309]: "1989년 5월 : 금성일렉트론 (LG반도체) 설립"
+              - listitem [ref=e310]: "1996년 12월 26일 : 기업공개 및 한국증권선물거래소 상장"
+              - listitem [ref=e311]: "1999년 7월 : LG반도체(주) 인수"
+              - listitem [ref=e312]: "2001년 3월 8일 : 사명을 현대전자산업에서 하이닉스반도체로 변경"
+              - listitem [ref=e313]: "2001년 8월 : 현대그룹, 경영권 포기 각서 제출. 경영권 포기각서가 실패되고 현대그룹에서부터 반도체 전문 기업으로 분리됨."
+              - listitem [ref=e314]:
+                - text: "2002년 6월 : 최대주주"
+                - link "현대상선" [ref=e315] [cursor=pointer]:
+                  - /url: //ko.wikipedia.org/wiki/현대상선
+                - text: 에서
+                - link "외환은행" [ref=e316] [cursor=pointer]:
+                  - /url: //ko.wikipedia.org/wiki/하나은행
+                - text: 으로 변경. 현대계열지분(9.28%) 정리. 이로써 현대그룹과의 관계가 완전히 끝남.
+              - listitem [ref=e317]: "2002년 11월 : 하이디스(주) 매각"
+              - listitem [ref=e318]: "2005년 7월 : 채권금융기관 공동 관리 조기 종료"
+              - listitem [ref=e319]:
+                - text: "2011년 11월 14일 :"
+                - link "SK그룹" [ref=e320] [cursor=pointer]:
+                  - /url: //ko.wikipedia.org/wiki/SK그룹
+                - text: 이 하이닉스 인수, 하이닉스 주식 20.01%를 취득하는 매매계약을 체결
+              - listitem [ref=e321]:
+                - text: "2011년 12월 27일 :"
+                - link "대한민국 공정거래위원회" [ref=e322] [cursor=pointer]:
+                  - /url: //ko.wikipedia.org/wiki/대한민국_공정거래위원회
+                - text: ","
+                - link "SK텔레콤" [ref=e323] [cursor=pointer]:
+                  - /url: //ko.wikipedia.org/wiki/SK텔레콤
+                - text: 의 하이닉스 인수를 승인
+              - listitem [ref=e324]: "2012년 2월 14일 : SK텔레콤, 하이닉스 최종 인수 완료"
+              - listitem [ref=e325]: "2012년 3월 26일 : 사명을 하이닉스반도체에서 SK하이닉스로 변경"
+              - listitem [ref=e326]:
+                - text: "2020년 10월 :"
+                - link "인텔" [ref=e327] [cursor=pointer]:
+                  - /url: //ko.wikipedia.org/wiki/인텔
+                - text: NAND 사업부문 인수
+              - listitem [ref=e328]:
+                - text: "2025년 : 48Gbps GDDR7 공개"
+                - superscript [ref=e329]:
+                  - link "[4]" [ref=e330] [cursor=pointer]:
+                    - /url: "#cite_note-4"
+                    - generic [ref=e331]: "[4]"
+          - region "계열사" [ref=e332]:
+            - generic [ref=e333]:
+              - heading "계열사" [level=2] [ref=e334]: 계열사
+              - generic [ref=e335]:
+                - text: "["
+                - link "편집" [ref=e336] [cursor=pointer]:
+                  - /url: /w/index.php?title=SK%ED%95%98%EC%9D%B4%EB%8B%89%EC%8A%A4&action=edit&section=3
+                - text: "]"
+            - list [ref=e337]:
+              - listitem [ref=e338]: SK하이이엔지
+              - listitem [ref=e339]: SK하이스텍
+              - listitem [ref=e340]: SK하이닉스시스템아이씨
+              - listitem [ref=e341]: SK HAPPY-MORE 행복모아
+          - region "사건 사고" [ref=e342]:
+            - generic [ref=e343]:
+              - heading "사건 사고" [level=2] [ref=e344]: 사건 사고
+              - generic [ref=e345]:
+                - text: "["
+                - link "편집" [ref=e346] [cursor=pointer]:
+                  - /url: /w/index.php?title=SK%ED%95%98%EC%9D%B4%EB%8B%89%EC%8A%A4&action=edit&section=4
+                - text: "]"
+            - list [ref=e347]:
+              - listitem [ref=e348]:
+                - text: 2013년 9월 4일 우시공장에서 화재가 발생하여 1명이 부상당하였다.
+                - superscript [ref=e349]:
+                  - link "[5]" [ref=e350] [cursor=pointer]:
+                    - /url: "#cite_note-5"
+                    - generic [ref=e351]: "[5]"
+              - listitem [ref=e352]:
+                - text: 2015년 5월 1일 아미리 공장에서 시험가동 중인 장비를 점검하던 하청업체 근로자 3명이 질소가스에 의해 질식사하였다.
+                - superscript [ref=e353]:
+                  - link "[6]" [ref=e354] [cursor=pointer]:
+                    - /url: "#cite_note-6"
+                    - generic [ref=e355]: "[6]"
+          - region "논란" [ref=e356]:
+            - generic [ref=e357]:
+              - heading "논란" [level=2] [ref=e358]: 논란
+              - generic [ref=e359]:
+                - text: "["
+                - link "편집" [ref=e360] [cursor=pointer]:
+                  - /url: /w/index.php?title=SK%ED%95%98%EC%9D%B4%EB%8B%89%EC%8A%A4&action=edit&section=5
+                - text: "]"
+            - region "불법 임금삭감" [ref=e361]:
+              - generic [ref=e362]:
+                - heading "불법 임금삭감" [level=3] [ref=e363]: 불법 임금삭감
+                - generic [ref=e364]:
+                  - text: "["
+                  - link "편집" [ref=e365] [cursor=pointer]:
+                    - /url: /w/index.php?title=SK%ED%95%98%EC%9D%B4%EB%8B%89%EC%8A%A4&action=edit&section=6
+                  - text: "]"
+              - paragraph [ref=e366]: SK하이닉스의 사무직 취업규칙인 '연봉제 급여규칙'에 따르면 직원의 인사평가 결과에 따라 급여를 5단계로 차등하여 계약 연봉의 90%에서 110%까지 지급받도록 되어 있다. 그러나 2018년 'Self-Design' 제도를 도입하여, 인사권자가 직원 개인의 급여를 임의로 조정하여 지급할 수 있도록 하였다. 이 제도 하에서는 동일한 고과를 받더라도 부서 간, 개인 간 임금의 차등이 발생한다. 조직장이 한정된 예산을 자기 휘하 직원들에게 분배하는 제로섬이다. 이 임금 조정은 객관적인 근거나 기준 없이 100% 조직장의 주관적인 판단으로 이루어진다. 새로 도입된 임금제도 하에서 보장된 임금은 계약연봉의 60%에 불과하다. 실제로 평균 수준의 인사고과를 받았음에도 불구하고 계약연봉보다 10% 이상 삭감된 급여를 받는 사례가 보고되었다.
+              - paragraph [ref=e367]: 회사 측의 이 같은 제도 도입은 취업규칙을 근로자에게 불리하게 변경하는 경우에는 근로자 과반수의 동의를 받도록 한 근로기준법 제94조 1항에 위배되는 명백한 위법 행위이다. 제도 시행 후 3년이 지난 2020년 하반기, SK하이닉스 기술사무직 노동조합은 경기지방노동위원회에 진정서를 제출하고 회사 측에 공문을 발송하여 입장 표명을 요구하였다. 이에 회사 측은 직원들의 동의를 거쳐 취업규칙을 변경하기 위한 목적으로 'Self-Design' 제도에 대한 설명회를 개최하고 직원들의 동의 절차를 진행하려 하였으나, 이 과정에서 불투명한 진행 방식과 강압적인 동의 강요 등으로 더 큰 논란이 빚었다.
+              - paragraph [ref=e368]:
+                - text: SK하이닉스의 사무직 취업규칙인 '연봉제 급여규칙'에 따르면 직원의 인사평가 결과에 따라 급여를 5단계로 차등하여 계약 연봉의 90%에서 110%까지 지급받도록 되어 있다. 그러나 2018년 'Self-Design' 제도를 도입하여, 인사권자가 직원 개인의 급여를 인사평가 결과에 따른 금액보다 임의로 삭감하여 지급할 수 있도록 하였다. 이는 취업규칙을 근로자에게 불리하게 변경하는 경우에는 근로자 과반수의 동의를 받도록 한 근로기준법 제94조 1항[6]에 위배되는 조치이다. 제도 시행 후 3년이 지난 2020년 하반기, SK하이닉스 기술사무직 노동조합은 경기지방노동위원회에 진정서를 제출하고 회사 측에 공문을 발송하여 입장 표명을 요구하였다. 이에 SK하이닉스는 'Self-Design' 제도에 대한 설명회를 개최하고 직원들의 동의 절차를 진행하려 하였으나, 이 과정에서 불투명한 진행 방식과 강압적인 동의 강요 등으로 논란이 되었다.
+                - superscript [ref=e369]:
+                  - link "[7]" [ref=e370] [cursor=pointer]:
+                    - /url: "#cite_note-7"
+                    - generic [ref=e371]: "[7]"
+                - superscript [ref=e372]:
+                  - link "[8]" [ref=e373] [cursor=pointer]:
+                    - /url: "#cite_note-8"
+                    - generic [ref=e374]: "[8]"
+            - region "취업규칙 변경 날치기 통과" [ref=e375]:
+              - generic [ref=e376]:
+                - heading "취업규칙 변경 날치기 통과" [level=3] [ref=e377]: 취업규칙 변경 날치기 통과
+                - generic [ref=e378]:
+                  - text: "["
+                  - link "편집" [ref=e379] [cursor=pointer]:
+                    - /url: /w/index.php?title=SK%ED%95%98%EC%9D%B4%EB%8B%89%EC%8A%A4&action=edit&section=7
+                  - text: "]"
+              - paragraph [ref=e380]: 위 불법 임금삭감이 논란이 되자 SK하이닉스는 취업규칙 변경을 위한 설명회를 개최하고 직원들의 동의를 받기로 하였으나 이 과정에서 여러 가지 논란을 빚었다.
+              - list [ref=e381]:
+                - listitem [ref=e382]: 취업규칙 변경을 위한 찬반 투표라는 점을 밝히지 않음 회사 측에서는 취업규칙 개정을 위한 찬반 투표를 시행한다는 점을 명확히 밝힐 필요가 있으나 이런 설명을 하지 않았으며, 'Commitment를 구하는 절차' 등의 모호한 문구로 포장하여 근로자들이 투표의 본질을 알 수 없도록 하였다. 일부 조직 리더들은 서명하는 것이 동의한다는 뜻이 아니며 설명회 영상을 시청하였다는 의미라고 설명하여 적극적인 은폐 시도를 하였다.
+                - listitem [ref=e383]: 취업규칙의 개정안을 제시하지 않은 상태에서 서명을 받음. 통상적으로 각종 조약, 규정 등을 변경할 때에는 변경 전과 후의 규칙을 대조하여 제시함으로써 어느 부분이 변경되었는지 파악하기 쉽게 제시하는 것이 관례이다. 하지만 이 서명 절차에서는 변경 전과 후의 내용이 빠진 채 서명을 받았다. 변경 전의 조항은 사내 시스템에서 조회할 수 있지만 대다수 직원들은 해당 조항을 어디서 찾아볼 수 있는지조차 알지 못했다. 변경 후의 조항을 제시하지 않은 상태에서 서명을 받았으므로 이러한 서명과 이에 따른 규정 변경은 당연히 효력이 없다. 심지어 추후 공개된 변경 후 조항에는 '본 내용의 변경은 Self-Design 시작 시점부터 유효'라는 문구가 삽입되었는데 이는 설명회에서 전혀 언급하지 않았던 내용이다. 그러므로 이러한 소급 적용도 당연히 효력이 없다.
+                - listitem [ref=e384]: 동의 절차에서 찬성/반대 중 선택이 불가능하고 '동의'를 의미하는 서명만 가능하도록 되어 있었다.
+                - listitem [ref=e385]: 비밀투표 원칙이 지켜지지 않아 근로자들이 자유롭게 자신의 의견을 표현할 기회를 박탈당했다. 인사권자가 근로자 개개인의 동의 여부를 실시간으로 파악하며 수시로 동의를 강요하였다.
+                - listitem [ref=e386]: 온라인으로 진행된 설명회 동영상을 시청하기 위해 캡처 방지 등의 각종 보안 프로그램을 설치하도록 하고, 설명회 자료를 배포하지 않는 등, 변경된 임금 규정에 대한 내용이 퍼지지 않도록 은폐하려는 정황이 있었다.
+                - listitem [ref=e387]: 설명회를 진행하고, 직원들이 내용을 충분히 이해하고 서로 논의할 시간을 가질 수 있도록 하는 것이 상식적이나, 회사 측은 설명회 진행 당일 서명을 완료할 것을 강요하였다.
+                - listitem [ref=e388]: 회사 측에서 설명회와 동의 절차의 본질을 은폐하기 위해 여러 가지 시도를 하였기 때문에 실제로 많은 직원들이 자신의 의사에 반하여 동의 서명을 하였다. 취업규칙 변경 투표라는 사실을 모른 채 단순히 '열심히 일하겠다'는 일종의 윤리서약인 줄 알고 서명한 직원도 있고 서명하고 싶지 않지만 인사권자의 강요에 의해 어쩔 수 없이 서명을 한 직원도 있다. 추후에 속은 것을 알게 된 많은 직원들이 진짜 의사를 표현하기 위해 서명에 대해 번복하고 싶다는 의사를 표현하였으나, HR 담당부서에서는 정당한 사유 없이 로 거부하였다.
+              - paragraph [ref=e389]: 정당한 절차를 거치지 않고 도입된 절차를 사후에 정당화 하기 위하여 위와 같이 설명회와 동의 절차를 진행하였으나, 위에 언급한 여러 가지 절차상의 하자로 인하여, 이러한 동의 절차는 법적인 효력이 없다.
+              - paragraph [ref=e390]:
+                - text: 회사 측의 불법적인 취업규칙 변경으로 임금 삭감 등의 불이익을 받은 근로자는 차후 그 손실 임금액을 회사 측에 청구할 수 있다. 물론, 재직 중에 회사를 상대로 소송을 하는 것은 매우 어려운 일이므로 퇴사 후에 단체로 소송을 제기할 수 있다. 현재 회사 측에서 진행한 동의 절차는 법적 효력을 갖기 위한 요건을 갖추지 못하였기 때문에, 차후에 적법한 절차를 갖추어 다시 동의 절차를 진행할 것으로 예상된다. 하지만 차후에 적법한 절차를 거쳐 취업규칙이 변경되더라도, 해당 취업규칙 변경에 동의하지 않은 근로자에게는 개정된 취업규칙과, 취업규칙 변경 이전에 맺은 근로계약서의 내용 중 더 유리한 내용이 우선 적용된다.
+                - superscript [ref=e391]:
+                  - link "[9]" [ref=e392] [cursor=pointer]:
+                    - /url: "#cite_note-9"
+                    - generic [ref=e393]: "[9]"
+          - region "같이 보기" [ref=e394]:
+            - generic [ref=e395]:
+              - heading "같이 보기" [level=2] [ref=e396]: 같이 보기
+              - generic [ref=e397]:
+                - text: "["
+                - link "편집" [ref=e398] [cursor=pointer]:
+                  - /url: /w/index.php?title=SK%ED%95%98%EC%9D%B4%EB%8B%89%EC%8A%A4&action=edit&section=8
+                - text: "]"
+            - list [ref=e399]:
+              - listitem [ref=e400]:
+                - link "LG그룹" [ref=e401] [cursor=pointer]:
+                  - /url: //ko.wikipedia.org/wiki/LG그룹
+              - listitem [ref=e402]:
+                - link "SK그룹" [ref=e403] [cursor=pointer]:
+                  - /url: //ko.wikipedia.org/wiki/SK그룹
+              - listitem [ref=e404]:
+                - link "기아그룹" [ref=e405] [cursor=pointer]:
+                  - /url: //ko.wikipedia.org/wiki/기아그룹
+              - listitem [ref=e406]:
+                - link "현대그룹" [ref=e407] [cursor=pointer]:
+                  - /url: //ko.wikipedia.org/wiki/현대그룹
+              - listitem [ref=e408]:
+                - link "삼성전자" [ref=e409] [cursor=pointer]:
+                  - /url: //ko.wikipedia.org/wiki/삼성전자
+              - listitem [ref=e410]:
+                - link "DB하이텍" [ref=e411] [cursor=pointer]:
+                  - /url: //ko.wikipedia.org/wiki/DB하이텍
+              - listitem [ref=e412]:
+                - link "마이크론 테크놀로지" [ref=e413] [cursor=pointer]:
+                  - /url: //ko.wikipedia.org/wiki/마이크론_테크놀로지
+              - listitem [ref=e414]:
+                - link "엘피다 메모리" [ref=e415] [cursor=pointer]:
+                  - /url: //ko.wikipedia.org/wiki/엘피다_메모리
+          - region "각주" [ref=e416]:
+            - generic [ref=e417]:
+              - heading "각주" [level=2] [ref=e418]: 각주
+              - generic [ref=e419]:
+                - text: "["
+                - link "편집" [ref=e420] [cursor=pointer]:
+                  - /url: /w/index.php?title=SK%ED%95%98%EC%9D%B4%EB%8B%89%EC%8A%A4&action=edit&section=9
+                - text: "]"
+            - list [ref=e423]:
+              - listitem [ref=e424]:
+                - link "이동" [ref=e426] [cursor=pointer]:
+                  - /url: "#cite_ref-1"
+                  - text: ↑
+                - generic [ref=e427]:
+                  - generic [ref=e428]:
+                    - link "“하이닉스 연혁 2000년대”" [ref=e429] [cursor=pointer]:
+                      - /url: https://web.archive.org/web/20150702200349/http://www.hynix.com/ko/company/history/2000.jsp?menuNo=2&m=6&s=2#
+                    - text: . 2015년 7월 2일에
+                    - link "원본 문서" [ref=e430] [cursor=pointer]:
+                      - /url: http://www.hynix.com/ko/company/history/2000.jsp?menuNo=2&m=6&s=2
+                    - text: 에서 보존된 문서. 2011년 11월 6일에 확인함.
+                  - generic "ctx_ver=Z39.88-2004&rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&rft.genre=unknown&rft.btitle=%ED%95%98%EC%9D%B4%EB%8B%89%EC%8A%A4+%EC%97%B0%ED%98%81+2000%EB%85%84%EB%8C%80&rft_id=http%3A%2F%2Fwww.hynix.com%2Fko%2Fcompany%2Fhistory%2F2000.jsp%3FmenuNo%3D2%26m%3D6%26s%3D2&rfr_id=info%3Asid%2Fko.wikipedia.org%3ASK%ED%95%98%EC%9D%B4%EB%8B%89%EC%8A%A4"
+              - listitem [ref=e431]:
+                - link "이동" [ref=e433] [cursor=pointer]:
+                  - /url: "#cite_ref-2"
+                  - text: ↑
+                - generic [ref=e434]:
+                  - generic [ref=e435]:
+                    - link "“하이닉스 연혁 2010년대”" [ref=e436] [cursor=pointer]:
+                      - /url: https://web.archive.org/web/20140429184023/http://www.skhynix.com/ko/company/history/2010.jsp?menuNo=2&m=6&s=2#
+                    - text: . 2014년 4월 29일에
+                    - link "원본 문서" [ref=e437] [cursor=pointer]:
+                      - /url: http://www.skhynix.com/ko/company/history/2010.jsp?menuNo=2&m=6&s=2
+                    - text: 에서 보존된 문서. 2012년 3월 29일에 확인함.
+                  - generic "ctx_ver=Z39.88-2004&rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&rft.genre=unknown&rft.btitle=%ED%95%98%EC%9D%B4%EB%8B%89%EC%8A%A4+%EC%97%B0%ED%98%81+2010%EB%85%84%EB%8C%80&rft_id=http%3A%2F%2Fwww.skhynix.com%2Fko%2Fcompany%2Fhistory%2F2010.jsp%3FmenuNo%3D2%26m%3D6%26s%3D2&rfr_id=info%3Asid%2Fko.wikipedia.org%3ASK%ED%95%98%EC%9D%B4%EB%8B%89%EC%8A%A4"
+              - listitem [ref=e438]:
+                - link "이동" [ref=e440] [cursor=pointer]:
+                  - /url: "#cite_ref-3"
+                  - text: ↑
+                - generic [ref=e441]:
+                  - generic [ref=e442]:
+                    - link "“반기보고서 (2025.06)”" [ref=e443] [cursor=pointer]:
+                      - /url: https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20250814003049
+                    - text: .
+                  - generic "ctx_ver=Z39.88-2004&rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&rft.genre=unknown&rft.btitle=%EB%B0%98%EA%B8%B0%EB%B3%B4%EA%B3%A0%EC%84%9C+%282025.06%29&rft_id=https%3A%2F%2Fdart.fss.or.kr%2Fdsaf001%2Fmain.do%3FrcpNo%3D20250814003049&rfr_id=info%3Asid%2Fko.wikipedia.org%3ASK%ED%95%98%EC%9D%B4%EB%8B%89%EC%8A%A4"
+              - listitem [ref=e444]:
+                - link "이동" [ref=e446] [cursor=pointer]:
+                  - /url: "#cite_ref-4"
+                  - text: ↑
+                - generic [ref=e447]:
+                  - generic [ref=e448]:
+                    - link "“[단독] SK하이닉스, '현존 최고 속도' 48Gbps GDDR7 전격 공개…압도적 성능 과시”" [ref=e449] [cursor=pointer]:
+                      - /url: https://www.theguru.co.kr/news/article.html?no=94869
+                    - text: . 2025년 11월 26일. 2025년 11월 26일에 확인함.
+                  - generic "ctx_ver=Z39.88-2004&rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&rft.genre=unknown&rft.btitle=%5B%EB%8B%A8%EB%8F%85%5D+SK%ED%95%98%EC%9D%B4%EB%8B%89%EC%8A%A4%2C+%27%ED%98%84%EC%A1%B4+%EC%B5%9C%EA%B3%A0+%EC%86%8D%EB%8F%84%27+48Gbps+GDDR7+%EC%A0%84%EA%B2%A9+%EA%B3%B5%EA%B0%9C%E2%80%A6%EC%95%95%EB%8F%84%EC%A0%81+%EC%84%B1%EB%8A%A5+%EA%B3%BC%EC%8B%9C&rft.date=2025-11-26&rft_id=https%3A%2F%2Fwww.theguru.co.kr%2Fnews%2Farticle.html%3Fno%3D94869&rfr_id=info%3Asid%2Fko.wikipedia.org%3ASK%ED%95%98%EC%9D%B4%EB%8B%89%EC%8A%A4"
+              - listitem [ref=e450]:
+                - link "이동" [ref=e452] [cursor=pointer]:
+                  - /url: "#cite_ref-5"
+                  - text: ↑
+                - generic [ref=e453]:
+                  - generic [ref=e454]:
+                    - text: 김현상 (2013년 9월 4일).
+                    - link "“SK하이닉스, 중국 우시공장 화재사고 발생”" [ref=e455] [cursor=pointer]:
+                      - /url: https://news.naver.com/main/read.naver?mode=LSD&mid=sec&sid1=101&oid=011&aid=0002388655
+                    - text: . 서울경제. 2022년 1월 9일에 확인함.
+                  - generic "ctx_ver=Z39.88-2004&rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&rft.genre=article&rft.atitle=SK%ED%95%98%EC%9D%B4%EB%8B%89%EC%8A%A4%2C+%EC%A4%91%EA%B5%AD+%EC%9A%B0%EC%8B%9C%EA%B3%B5%EC%9E%A5+%ED%99%94%EC%9E%AC%EC%82%AC%EA%B3%A0+%EB%B0%9C%EC%83%9D&rft.date=2013-09-04&rft.au=%EA%B9%80%ED%98%84%EC%83%81&rft_id=https%3A%2F%2Fnews.naver.com%2Fmain%2Fread.naver%3Fmode%3DLSD%26mid%3Dsec%26sid1%3D101%26oid%3D011%26aid%3D0002388655&rfr_id=info%3Asid%2Fko.wikipedia.org%3ASK%ED%95%98%EC%9D%B4%EB%8B%89%EC%8A%A4"
+              - listitem [ref=e456]:
+                - link "이동" [ref=e458] [cursor=pointer]:
+                  - /url: "#cite_ref-6"
+                  - text: ↑
+                - generic [ref=e459]:
+                  - generic [ref=e460]:
+                    - text: 최해민, 류수현 (2015년 4월 30일).
+                    - link "“이천 SK하이닉스 가스 질식사고…작업자 3명 사망(종합)”" [ref=e461] [cursor=pointer]:
+                      - /url: https://www.yna.co.kr/view/AKR20150430109151061
+                    - text: ". 이천시: 연합뉴스. 2015년 4월 30일에 확인함."
+                  - generic "ctx_ver=Z39.88-2004&rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&rft.genre=article&rft.atitle=%EC%9D%B4%EC%B2%9C+SK%ED%95%98%EC%9D%B4%EB%8B%89%EC%8A%A4+%EA%B0%80%EC%8A%A4+%EC%A7%88%EC%8B%9D%EC%82%AC%EA%B3%A0%E2%80%A6%EC%9E%91%EC%97%85%EC%9E%90+3%EB%AA%85+%EC%82%AC%EB%A7%9D%28%EC%A2%85%ED%95%A9%29&rft.date=2015-04-30&rft.au=%EC%B5%9C%ED%95%B4%EB%AF%BC%2C+%EB%A5%98%EC%88%98%ED%98%84&rft_id=https%3A%2F%2Fwww.yna.co.kr%2Fview%2FAKR20150430109151061&rfr_id=info%3Asid%2Fko.wikipedia.org%3ASK%ED%95%98%EC%9D%B4%EB%8B%89%EC%8A%A4"
+              - listitem [ref=e462]:
+                - link "이동" [ref=e464] [cursor=pointer]:
+                  - /url: "#cite_ref-7"
+                  - text: ↑
+                - generic [ref=e465]:
+                  - generic [ref=e466]:
+                    - link "“[단독] 급여체계 변경 3년 후 동의 구하기? SK하이닉스에서 무슨 일이…”" [ref=e467] [cursor=pointer]:
+                      - /url: https://ilyo.co.kr/?ac=article_view&entry_id=389904
+                    - text: . 2021년 1월 14일. 2021년 1월 30일에 확인함.
+                  - generic "ctx_ver=Z39.88-2004&rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&rft.genre=unknown&rft.btitle=%5B%EB%8B%A8%EB%8F%85%5D+%EA%B8%89%EC%97%AC%EC%B2%B4%EA%B3%84+%EB%B3%80%EA%B2%BD+3%EB%85%84+%ED%9B%84+%EB%8F%99%EC%9D%98+%EA%B5%AC%ED%95%98%EA%B8%B0%3F+SK%ED%95%98%EC%9D%B4%EB%8B%89%EC%8A%A4%EC%97%90%EC%84%9C+%EB%AC%B4%EC%8A%A8+%EC%9D%BC%EC%9D%B4%E2%80%A6&rft.date=2021-01-14&rft_id=https%3A%2F%2Filyo.co.kr%2F%3Fac%3Darticle_view%26entry_id%3D389904&rfr_id=info%3Asid%2Fko.wikipedia.org%3ASK%ED%95%98%EC%9D%B4%EB%8B%89%EC%8A%A4"
+              - listitem [ref=e468]:
+                - link "이동" [ref=e470] [cursor=pointer]:
+                  - /url: "#cite_ref-8"
+                  - text: ↑
+                - generic [ref=e471]:
+                  - generic [ref=e472]:
+                    - link "“SK하이닉스, 강압적인 연봉조정?…새인사평가 '셀프 디자인' 불만”" [ref=e473] [cursor=pointer]:
+                      - /url: http://www.koreastocknews.com/news/articleView.html?idxno=60740
+                    - text: . 2021년 1월 18일. 2021년 1월 30일에 확인함.
+                  - generic "ctx_ver=Z39.88-2004&rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&rft.genre=unknown&rft.btitle=SK%ED%95%98%EC%9D%B4%EB%8B%89%EC%8A%A4%2C+%EA%B0%95%EC%95%95%EC%A0%81%EC%9D%B8+%EC%97%B0%EB%B4%89%EC%A1%B0%EC%A0%95%3F%E2%80%A6%EC%83%88%EC%9D%B8%EC%82%AC%ED%8F%89%EA%B0%80+%27%EC%85%80%ED%94%84+%EB%94%94%EC%9E%90%EC%9D%B8%27+%EB%B6%88%EB%A7%8C&rft.date=2021-01-18&rft_id=http%3A%2F%2Fwww.koreastocknews.com%2Fnews%2FarticleView.html%3Fidxno%3D60740&rfr_id=info%3Asid%2Fko.wikipedia.org%3ASK%ED%95%98%EC%9D%B4%EB%8B%89%EC%8A%A4"
+              - listitem [ref=e474]:
+                - link "이동" [ref=e476] [cursor=pointer]:
+                  - /url: "#cite_ref-9"
+                  - text: ↑
+                - generic [ref=e477]:
+                  - generic [ref=e478]:
+                    - link "“대법원 > 재판 > 주요판결”" [ref=e479] [cursor=pointer]:
+                      - /url: https://scourt.go.kr/supreme/news/NewsViewAction2.work?pageIndex=1&searchWord=&searchOption=&seqnum=6877&gubun=4&type=5
+                    - text: . 2021년 1월 30일에 확인함.
+                  - generic "ctx_ver=Z39.88-2004&rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&rft.genre=unknown&rft.btitle=%EB%8C%80%EB%B2%95%EC%9B%90+%3E+%EC%9E%AC%ED%8C%90+%3E+%EC%A3%BC%EC%9A%94%ED%8C%90%EA%B2%B0&rft_id=https%3A%2F%2Fscourt.go.kr%2Fsupreme%2Fnews%2FNewsViewAction2.work%3FpageIndex%3D1%26searchWord%3D%26searchOption%3D%26seqnum%3D6877%26gubun%3D4%26type%3D5&rfr_id=info%3Asid%2Fko.wikipedia.org%3ASK%ED%95%98%EC%9D%B4%EB%8B%89%EC%8A%A4"
+          - region "외부 링크" [ref=e480]:
+            - generic [ref=e481]:
+              - heading "외부 링크" [level=2] [ref=e482]: 외부 링크
+              - generic [ref=e483]:
+                - text: "["
+                - link "편집" [ref=e484] [cursor=pointer]:
+                  - /url: /w/index.php?title=SK%ED%95%98%EC%9D%B4%EB%8B%89%EC%8A%A4&action=edit&section=10
+                - text: "]"
+            - generic [ref=e490]:
+              - link "위키미디어 공용" [ref=e491] [cursor=pointer]:
+                - /url: //ko.wikipedia.org/wiki/위키미디어_공용
+              - text: 에
+              - link "SK하이닉스" [ref=e493] [cursor=pointer]:
+                - /url: https://commons.wikimedia.org/wiki/Category:Hynix?uselang=ko
+              - text: 주제와 관련된 미디어 분류가 있습니다.
+            - list [ref=e494]:
+              - listitem [ref=e495]:
+                - link "SK하이닉스" [ref=e498] [cursor=pointer]:
+                  - /url: https://www.skhynix.com/
+                - link "위키데이터에서 편집하기" [ref=e500] [cursor=pointer]:
+                  - /url: https://www.wikidata.org/wiki/Q370719#P856
+                  - img "위키데이터에서 편집하기" [ref=e501]
+                - text: "- 공식 웹사이트"
+              - listitem [ref=e502]:
+                - link "공식 블로그(하이라이트)" [ref=e503] [cursor=pointer]:
+                  - /url: http://blog.skhynix.com/
+                - link "보관됨" [ref=e504] [cursor=pointer]:
+                  - /url: https://web.archive.org/web/20160919031741/http://blog.skhynix.com/
+                - text: 2016-09-19 -
+                - link "웨이백 머신" [ref=e505] [cursor=pointer]:
+                  - /url: //ko.wikipedia.org/wiki/웨이백_머신
+              - listitem [ref=e506]:
+                - text: "SK하이닉스의 비즈니스 데이터:"
+                - list [ref=e508]:
+                  - listitem [ref=e509]:
+                    - link "Google Finance" [ref=e510] [cursor=pointer]:
+                      - /url: https://www.google.com/finance?q=000660
+                    - text: ·
+                  - listitem [ref=e511]:
+                    - link "Yahoo! Finance" [ref=e512] [cursor=pointer]:
+                      - /url: https://finance.yahoo.com/q?s=000660.KS
+                    - text: ·
+                  - listitem [ref=e513]:
+                    - link "알파스퀘어" [ref=e514] [cursor=pointer]:
+                      - /url: https://alphasquare.co.kr/home/stock-summary?code=000660
+                - navigation "SK그룹" [ref=e515]:
+                  - table [ref=e516]:
+                    - rowgroup [ref=e517]:
+                      - row "[접기] v · t · e SK그룹" [ref=e518]:
+                        - columnheader "[접기] v · t · e SK그룹" [ref=e519]:
+                          - button "[접기]" [expanded] [ref=e520] [cursor=pointer]
+                          - list [ref=e522]:
+                            - listitem [ref=e523]:
+                              - link "v" [ref=e524] [cursor=pointer]:
+                                - /url: //ko.wikipedia.org/wiki/틀:SK그룹
+                              - text: ·
+                            - listitem [ref=e525]:
+                              - link "t" [ref=e526] [cursor=pointer]:
+                                - /url: //ko.wikipedia.org/wiki/틀토론:SK그룹?action=edit&redlink=1
+                              - text: ·
+                            - listitem [ref=e527]:
+                              - link "e" [ref=e528] [cursor=pointer]:
+                                - /url: //ko.wikipedia.org/wiki/특수:문서편집/틀:SK그룹
+                          - link "SK그룹" [ref=e530] [cursor=pointer]:
+                            - /url: //ko.wikipedia.org/wiki/SK그룹
+                      - 'row "지주회사: SK 주식회사 홀딩스" [ref=e531]':
+                        - 'cell "지주회사: SK 주식회사 홀딩스" [ref=e532]':
+                          - list [ref=e534]:
+                            - listitem [ref=e535]:
+                              - text: "지주회사:"
+                              - link "SK 주식회사 홀딩스" [ref=e536] [cursor=pointer]:
+                                - /url: //ko.wikipedia.org/wiki/SK_(기업)
+                      - row [ref=e537]:
+                        - rowheader "계열사" [ref=e538]
+                        - cell [ref=e539]:
+                          - table [ref=e540]:
+                            - rowgroup [ref=e541]:
+                              - row "에너지·화학 SK이노베이션 · SK플러그하이버스 · 코원에너지서비스 · 부산도시가스 · 영남에너지서비스 · 충청에너지서비스 · 전남도시가스 · 강원도시가스 · 전북에너지서비스 · SK에너지 · SK지오센트릭 · SK온 · SK어스온 · SK인천석유화학 · SK아이이테크놀로지 · SK바이오팜 · SK가스 (SK어드밴스드) · SK디스커버리 · SK멀티유틸리티 · SK케미칼 · SK D&D · SK이터닉스 · SK플라즈마 · SKC (SK넥실리스) · SK오션플랜트 · SK시그넷" [ref=e542]:
+                                - rowheader "에너지·화학" [ref=e543]
+                                - cell "SK이노베이션 · SK플러그하이버스 · 코원에너지서비스 · 부산도시가스 · 영남에너지서비스 · 충청에너지서비스 · 전남도시가스 · 강원도시가스 · 전북에너지서비스 · SK에너지 · SK지오센트릭 · SK온 · SK어스온 · SK인천석유화학 · SK아이이테크놀로지 · SK바이오팜 · SK가스 (SK어드밴스드) · SK디스커버리 · SK멀티유틸리티 · SK케미칼 · SK D&D · SK이터닉스 · SK플라즈마 · SKC (SK넥실리스) · SK오션플랜트 · SK시그넷" [ref=e544]:
+                                  - list [ref=e546]:
+                                    - listitem [ref=e547]:
+                                      - link "SK이노베이션" [ref=e548] [cursor=pointer]:
+                                        - /url: //ko.wikipedia.org/wiki/SK이노베이션
+                                      - text: ·
+                                    - listitem [ref=e549]: SK플러그하이버스 ·
+                                    - listitem [ref=e550]:
+                                      - link "코원에너지서비스" [ref=e551] [cursor=pointer]:
+                                        - /url: //ko.wikipedia.org/wiki/코원에너지서비스
+                                      - text: ·
+                                    - listitem [ref=e552]:
+                                      - link "부산도시가스" [ref=e553] [cursor=pointer]:
+                                        - /url: //ko.wikipedia.org/wiki/부산도시가스
+                                      - text: ·
+                                    - listitem [ref=e554]:
+                                      - link "영남에너지서비스" [ref=e555] [cursor=pointer]:
+                                        - /url: //ko.wikipedia.org/wiki/영남에너지서비스
+                                      - text: ·
+                                    - listitem [ref=e556]: 충청에너지서비스 ·
+                                    - listitem [ref=e557]: 전남도시가스 ·
+                                    - listitem [ref=e558]: 강원도시가스 ·
+                                    - listitem [ref=e559]: 전북에너지서비스 ·
+                                    - listitem [ref=e560]:
+                                      - link "SK에너지" [ref=e561] [cursor=pointer]:
+                                        - /url: //ko.wikipedia.org/wiki/SK에너지
+                                      - text: ·
+                                    - listitem [ref=e562]:
+                                      - link "SK지오센트릭" [ref=e563] [cursor=pointer]:
+                                        - /url: //ko.wikipedia.org/wiki/SK지오센트릭
+                                      - text: ·
+                                    - listitem [ref=e564]:
+                                      - link "SK온" [ref=e565] [cursor=pointer]:
+                                        - /url: //ko.wikipedia.org/wiki/SK온
+                                      - text: ·
+                                    - listitem [ref=e566]:
+                                      - link "SK어스온" [ref=e567] [cursor=pointer]:
+                                        - /url: //ko.wikipedia.org/wiki/SK어스온
+                                      - text: ·
+                                    - listitem [ref=e568]:
+                                      - link "SK인천석유화학" [ref=e569] [cursor=pointer]:
+                                        - /url: //ko.wikipedia.org/wiki/SK인천석유화학
+                                      - text: ·
+                                    - listitem [ref=e570]:
+                                      - link "SK아이이테크놀로지" [ref=e571] [cursor=pointer]:
+                                        - /url: //ko.wikipedia.org/wiki/SK아이이테크놀로지
+                                      - text: ·
+                                    - listitem [ref=e572]:
+                                      - link "SK바이오팜" [ref=e573] [cursor=pointer]:
+                                        - /url: //ko.wikipedia.org/wiki/SK바이오팜
+                                      - text: ·
+                                    - listitem [ref=e574]:
+                                      - link "SK가스" [ref=e575] [cursor=pointer]:
+                                        - /url: //ko.wikipedia.org/wiki/SK가스
+                                      - list [ref=e576]:
+                                        - listitem [ref=e577]:
+                                          - text: (
+                                          - link "SK어드밴스드" [ref=e578] [cursor=pointer]:
+                                            - /url: //ko.wikipedia.org/wiki/SK어드밴스드
+                                          - text: )
+                                      - text: ·
+                                    - listitem [ref=e579]:
+                                      - link "SK디스커버리" [ref=e580] [cursor=pointer]:
+                                        - /url: //ko.wikipedia.org/wiki/SK디스커버리
+                                      - text: ·
+                                    - listitem [ref=e581]: SK멀티유틸리티 ·
+                                    - listitem [ref=e582]:
+                                      - link "SK케미칼" [ref=e583] [cursor=pointer]:
+                                        - /url: //ko.wikipedia.org/wiki/SK케미칼
+                                      - text: ·
+                                    - listitem [ref=e584]:
+                                      - link "SK D&D" [ref=e585] [cursor=pointer]:
+                                        - /url: //ko.wikipedia.org/wiki/SK디앤디
+                                      - text: ·
+                                    - listitem [ref=e586]:
+                                      - link "SK이터닉스" [ref=e587] [cursor=pointer]:
+                                        - /url: //ko.wikipedia.org/wiki/SK이터닉스
+                                      - text: ·
+                                    - listitem [ref=e588]:
+                                      - link "SK플라즈마" [ref=e589] [cursor=pointer]:
+                                        - /url: //ko.wikipedia.org/wiki/SK플라즈마
+                                      - text: ·
+                                    - listitem [ref=e590]:
+                                      - link "SKC" [ref=e591] [cursor=pointer]:
+                                        - /url: //ko.wikipedia.org/wiki/SKC
+                                      - list [ref=e592]:
+                                        - listitem [ref=e593]:
+                                          - text: (
+                                          - link "SK넥실리스" [ref=e594] [cursor=pointer]:
+                                            - /url: //ko.wikipedia.org/wiki/SK넥실리스
+                                          - text: )
+                                      - text: ·
+                                    - listitem [ref=e595]:
+                                      - link "SK오션플랜트" [ref=e596] [cursor=pointer]:
+                                        - /url: //ko.wikipedia.org/wiki/SK오션플랜트
+                                      - text: ·
+                                    - listitem [ref=e597]:
+                                      - link "SK시그넷" [ref=e598] [cursor=pointer]:
+                                        - /url: //ko.wikipedia.org/wiki/SK시그넷
+                              - row "정보통신·반도체 SK텔레콤 (서비스에이스 · 서비스탑 · 피에스앤마케팅 · SK텔링크) · SK스퀘어 (티맵모빌리티 · 11번가 · SK플래닛 · 원스토어 · 드림어스컴퍼니 · 인크로스) · SK브로드밴드 · SK유비쿼터스 · SK하이닉스 (SK하이이엔지 · SK하이스택 · SK키파운드리 · SK파워텍 · 행복모아 · SK하이닉스시스템IC · SK하이닉스시스템IC우시솔루션스) · SK인텔릭스 · SK실트론 · SK스토아 · SK트리켐 · SK머티리얼즈홀딩스 · SK주식회사 AX" [ref=e599]:
+                                - rowheader "정보통신·반도체" [ref=e600]
+                                - cell "SK텔레콤 (서비스에이스 · 서비스탑 · 피에스앤마케팅 · SK텔링크) · SK스퀘어 (티맵모빌리티 · 11번가 · SK플래닛 · 원스토어 · 드림어스컴퍼니 · 인크로스) · SK브로드밴드 · SK유비쿼터스 · SK하이닉스 (SK하이이엔지 · SK하이스택 · SK키파운드리 · SK파워텍 · 행복모아 · SK하이닉스시스템IC · SK하이닉스시스템IC우시솔루션스) · SK인텔릭스 · SK실트론 · SK스토아 · SK트리켐 · SK머티리얼즈홀딩스 · SK주식회사 AX" [ref=e601]:
+                                  - list [ref=e603]:
+                                    - listitem [ref=e604]:
+                                      - link "SK텔레콤" [ref=e605] [cursor=pointer]:
+                                        - /url: //ko.wikipedia.org/wiki/SK텔레콤
+                                      - list [ref=e606]:
+                                        - listitem [ref=e607]:
+                                          - text: (
+                                          - link "서비스에이스" [ref=e608] [cursor=pointer]:
+                                            - /url: //ko.wikipedia.org/wiki/서비스에이스
+                                          - text: ·
+                                        - listitem [ref=e609]: 서비스탑 ·
+                                        - listitem [ref=e610]: 피에스앤마케팅 ·
+                                        - listitem [ref=e611]:
+                                          - link "SK텔링크" [ref=e612] [cursor=pointer]:
+                                            - /url: //ko.wikipedia.org/wiki/SK텔링크
+                                          - text: )
+                                      - text: ·
+                                    - listitem [ref=e613]:
+                                      - link "SK스퀘어" [ref=e614] [cursor=pointer]:
+                                        - /url: //ko.wikipedia.org/wiki/SK스퀘어
+                                      - list [ref=e615]:
+                                        - listitem [ref=e616]:
+                                          - text: (
+                                          - link "티맵모빌리티" [ref=e617] [cursor=pointer]:
+                                            - /url: //ko.wikipedia.org/wiki/티맵모빌리티
+                                          - text: ·
+                                        - listitem [ref=e618]:
+                                          - link "11번가" [ref=e619] [cursor=pointer]:
+                                            - /url: //ko.wikipedia.org/wiki/11번가
+                                          - text: ·
+                                        - listitem [ref=e620]:
+                                          - link "SK플래닛" [ref=e621] [cursor=pointer]:
+                                            - /url: //ko.wikipedia.org/wiki/SK플래닛
+                                          - text: ·
+                                        - listitem [ref=e622]:
+                                          - link "원스토어" [ref=e623] [cursor=pointer]:
+                                            - /url: //ko.wikipedia.org/wiki/원스토어
+                                          - text: ·
+                                        - listitem [ref=e624]:
+                                          - link "드림어스컴퍼니" [ref=e625] [cursor=pointer]:
+                                            - /url: //ko.wikipedia.org/wiki/드림어스컴퍼니
+                                          - text: ·
+                                        - listitem [ref=e626]: 인크로스)
+                                      - text: ·
+                                    - listitem [ref=e627]:
+                                      - link "SK브로드밴드" [ref=e628] [cursor=pointer]:
+                                        - /url: //ko.wikipedia.org/wiki/SK브로드밴드
+                                      - text: ·
+                                    - listitem [ref=e629]: SK유비쿼터스 ·
+                                    - listitem [ref=e630]:
+                                      - link "SK하이닉스" [ref=e631] [cursor=pointer]:
+                                        - /url: //ko.wikipedia.org/wiki/SK하이닉스
+                                      - list [ref=e632]:
+                                        - listitem [ref=e633]: (SK하이이엔지 ·
+                                        - listitem [ref=e634]: SK하이스택 ·
+                                        - listitem [ref=e635]:
+                                          - link "SK키파운드리" [ref=e636] [cursor=pointer]:
+                                            - /url: //ko.wikipedia.org/wiki/SK키파운드리
+                                          - text: ·
+                                        - listitem [ref=e637]: SK파워텍 ·
+                                        - listitem [ref=e638]: 행복모아 ·
+                                        - listitem [ref=e639]: SK하이닉스시스템IC ·
+                                        - listitem [ref=e640]: SK하이닉스시스템IC우시솔루션스)
+                                      - text: ·
+                                    - listitem [ref=e641]:
+                                      - link "SK인텔릭스" [ref=e642] [cursor=pointer]:
+                                        - /url: //ko.wikipedia.org/wiki/SK인텔릭스
+                                      - text: ·
+                                    - listitem [ref=e643]:
+                                      - link "SK실트론" [ref=e644] [cursor=pointer]:
+                                        - /url: //ko.wikipedia.org/wiki/SK실트론
+                                      - text: ·
+                                    - listitem [ref=e645]:
+                                      - link "SK스토아" [ref=e646] [cursor=pointer]:
+                                        - /url: //ko.wikipedia.org/wiki/SK스토아
+                                      - text: ·
+                                    - listitem [ref=e647]: SK트리켐 ·
+                                    - listitem [ref=e648]: SK머티리얼즈홀딩스 ·
+                                    - listitem [ref=e649]:
+                                      - link "SK주식회사 AX" [ref=e650] [cursor=pointer]:
+                                        - /url: //ko.wikipedia.org/wiki/SK_(기업)
+                              - row "마케팅·서비스·인프라 SK네트웍스 (SK네트웍스서비스 · 워커힐 · SK핀크스) · SK에코플랜트 · SK스피트메이트 · SK에코엔지니어링 · SK임업" [ref=e651]:
+                                - rowheader "마케팅·서비스·인프라" [ref=e652]
+                                - cell "SK네트웍스 (SK네트웍스서비스 · 워커힐 · SK핀크스) · SK에코플랜트 · SK스피트메이트 · SK에코엔지니어링 · SK임업" [ref=e653]:
+                                  - list [ref=e655]:
+                                    - listitem [ref=e656]:
+                                      - link "SK네트웍스" [ref=e657] [cursor=pointer]:
+                                        - /url: //ko.wikipedia.org/wiki/SK네트웍스
+                                      - list [ref=e658]:
+                                        - listitem [ref=e659]:
+                                          - text: (
+                                          - link "SK네트웍스서비스" [ref=e660] [cursor=pointer]:
+                                            - /url: //ko.wikipedia.org/wiki/SK네트웍스서비스
+                                          - text: ·
+                                        - listitem [ref=e661]:
+                                          - link "워커힐" [ref=e662] [cursor=pointer]:
+                                            - /url: //ko.wikipedia.org/wiki/워커힐_호텔앤리조트
+                                          - text: ·
+                                        - listitem [ref=e663]: SK핀크스)
+                                      - text: ·
+                                    - listitem [ref=e664]:
+                                      - link "SK에코플랜트" [ref=e665] [cursor=pointer]:
+                                        - /url: //ko.wikipedia.org/wiki/SK에코플랜트
+                                      - text: ·
+                                    - listitem [ref=e666]: SK스피트메이트 ·
+                                    - listitem [ref=e667]:
+                                      - link "SK에코엔지니어링" [ref=e668] [cursor=pointer]:
+                                        - /url: //ko.wikipedia.org/wiki/SK에코엔지니어링
+                                      - text: ·
+                                    - listitem [ref=e669]: SK임업
+                              - row "스포츠 제주 SK · 서울 SK 나이츠 · SK 호크스 · SK 슈가글라이더즈 · T1" [ref=e670]:
+                                - rowheader "스포츠" [ref=e671]:
+                                  - link "스포츠" [ref=e672] [cursor=pointer]:
+                                    - /url: //ko.wikipedia.org/wiki/SK스포츠
+                                - cell "제주 SK · 서울 SK 나이츠 · SK 호크스 · SK 슈가글라이더즈 · T1" [ref=e673]:
+                                  - list [ref=e675]:
+                                    - listitem [ref=e676]:
+                                      - link "제주 SK" [ref=e677] [cursor=pointer]:
+                                        - /url: //ko.wikipedia.org/wiki/제주_SK_FC
+                                      - text: ·
+                                    - listitem [ref=e678]:
+                                      - link "서울 SK 나이츠" [ref=e679] [cursor=pointer]:
+                                        - /url: //ko.wikipedia.org/wiki/서울_SK_나이츠
+                                      - text: ·
+                                    - listitem [ref=e680]:
+                                      - link "SK 호크스" [ref=e681] [cursor=pointer]:
+                                        - /url: //ko.wikipedia.org/wiki/SK_호크스
+                                      - text: ·
+                                    - listitem [ref=e682]:
+                                      - link "SK 슈가글라이더즈" [ref=e683] [cursor=pointer]:
+                                        - /url: //ko.wikipedia.org/wiki/SK_슈가글라이더즈
+                                      - text: ·
+                                    - listitem [ref=e684]:
+                                      - link "T1" [ref=e685] [cursor=pointer]:
+                                        - /url: //ko.wikipedia.org/wiki/T1_(e스포츠)
+                              - row "이전 계열사 대한석유공사/유공/SK · SK인천정유 · SK제약 · 동신제약 · 넷츠고 · 내트럭프랜즈 · 라이코스코리아/SK커뮤니케이션즈/지식발전소/엠파스 · 선경기계 · 선경식품 · 신세기통신 · SK유통 · SK생명보험 · SK텔레텍 · 한국골프채널 · SK마리타임 · SK NJC · SKM · SK글로텍 · SK엔카 · SK마케팅앤컴퍼니 · 두루넷 · 와이더댄 · 엔트릭스 · IHQ · 로엔엔터테인먼트 · 충남도시가스 · 전북집단에너지 · 평택에너지서비스 · SK에스엠 · SK테크엑스 · 라귤 · SK TNS · SK스페셜티 · SK엔펄스 · SK일렉링크 · SK해운 · SK바이오랜드 · SK증권 · SK 와이번스 · SK인포섹 · SK텔레시스 · SK E&S · 비젠 · SK렌터카 · SK쉴더스 · SK에너지판매 · SK트레이딩인터내셔널 · SK엠앤서비스 · 네이트커뮤니케이션즈 · SK엔무브 · SK앤텀" [ref=e686]:
+                                - rowheader "이전 계열사" [ref=e687]
+                                - cell "대한석유공사/유공/SK · SK인천정유 · SK제약 · 동신제약 · 넷츠고 · 내트럭프랜즈 · 라이코스코리아/SK커뮤니케이션즈/지식발전소/엠파스 · 선경기계 · 선경식품 · 신세기통신 · SK유통 · SK생명보험 · SK텔레텍 · 한국골프채널 · SK마리타임 · SK NJC · SKM · SK글로텍 · SK엔카 · SK마케팅앤컴퍼니 · 두루넷 · 와이더댄 · 엔트릭스 · IHQ · 로엔엔터테인먼트 · 충남도시가스 · 전북집단에너지 · 평택에너지서비스 · SK에스엠 · SK테크엑스 · 라귤 · SK TNS · SK스페셜티 · SK엔펄스 · SK일렉링크 · SK해운 · SK바이오랜드 · SK증권 · SK 와이번스 · SK인포섹 · SK텔레시스 · SK E&S · 비젠 · SK렌터카 · SK쉴더스 · SK에너지판매 · SK트레이딩인터내셔널 · SK엠앤서비스 · 네이트커뮤니케이션즈 · SK엔무브 · SK앤텀" [ref=e688]:
+                                  - list [ref=e690]:
+                                    - listitem [ref=e691]:
+                                      - link "대한석유공사/유공/SK" [ref=e692] [cursor=pointer]:
+                                        - /url: //ko.wikipedia.org/wiki/SK_(1962~2015년_기업)
+                                      - text: ·
+                                    - listitem [ref=e693]:
+                                      - link "SK인천정유" [ref=e694] [cursor=pointer]:
+                                        - /url: //ko.wikipedia.org/wiki/SK인천석유화학
+                                      - text: ·
+                                    - listitem [ref=e695]:
+                                      - link "SK제약" [ref=e696] [cursor=pointer]:
+                                        - /url: //ko.wikipedia.org/wiki/SK제약
+                                      - text: ·
+                                    - listitem [ref=e697]:
+                                      - link "동신제약" [ref=e698] [cursor=pointer]:
+                                        - /url: //ko.wikipedia.org/wiki/동신제약
+                                      - text: ·
+                                    - listitem [ref=e699]:
+                                      - link "넷츠고" [ref=e700] [cursor=pointer]:
+                                        - /url: //ko.wikipedia.org/wiki/넷츠고
+                                      - text: ·
+                                    - listitem [ref=e701]: 내트럭프랜즈 ·
+                                    - listitem [ref=e702]:
+                                      - link "라이코스코리아/SK커뮤니케이션즈" [ref=e703] [cursor=pointer]:
+                                        - /url: //ko.wikipedia.org/wiki/SK커뮤니케이션즈_(1999~2007년_기업)
+                                      - text: /
+                                      - link "지식발전소/엠파스" [ref=e704] [cursor=pointer]:
+                                        - /url: //ko.wikipedia.org/wiki/엠파스
+                                      - text: ·
+                                    - listitem [ref=e705]: 선경기계 ·
+                                    - listitem [ref=e706]:
+                                      - link "선경식품" [ref=e707] [cursor=pointer]:
+                                        - /url: //ko.wikipedia.org/wiki/선경식품
+                                      - text: ·
+                                    - listitem [ref=e708]:
+                                      - link "신세기통신" [ref=e709] [cursor=pointer]:
+                                        - /url: //ko.wikipedia.org/wiki/신세기통신
+                                      - text: ·
+                                    - listitem [ref=e710]:
+                                      - link "SK유통" [ref=e711] [cursor=pointer]:
+                                        - /url: //ko.wikipedia.org/wiki/SK유통
+                                      - text: ·
+                                    - listitem [ref=e712]:
+                                      - link "SK생명보험" [ref=e713] [cursor=pointer]:
+                                        - /url: //ko.wikipedia.org/wiki/미래에셋생명보험
+                                      - text: ·
+                                    - listitem [ref=e714]:
+                                      - link "SK텔레텍" [ref=e715] [cursor=pointer]:
+                                        - /url: //ko.wikipedia.org/wiki/SK텔레텍
+                                      - text: ·
+                                    - listitem [ref=e716]:
+                                      - link "한국골프채널" [ref=e717] [cursor=pointer]:
+                                        - /url: //ko.wikipedia.org/wiki/SBS_골프
+                                      - text: ·
+                                    - listitem [ref=e718]: SK마리타임 ·
+                                    - listitem [ref=e719]: SK NJC ·
+                                    - listitem [ref=e720]:
+                                      - link "SKM" [ref=e721] [cursor=pointer]:
+                                        - /url: //ko.wikipedia.org/wiki/SKM_(기업)
+                                      - text: ·
+                                    - listitem [ref=e722]: SK글로텍 ·
+                                    - listitem [ref=e723]:
+                                      - link "SK엔카" [ref=e724] [cursor=pointer]:
+                                        - /url: //ko.wikipedia.org/wiki/엔카닷컴
+                                      - text: ·
+                                    - listitem [ref=e725]:
+                                      - link "SK마케팅앤컴퍼니" [ref=e726] [cursor=pointer]:
+                                        - /url: //ko.wikipedia.org/wiki/SK마케팅앤컴퍼니
+                                      - text: ·
+                                    - listitem [ref=e727]:
+                                      - link "두루넷" [ref=e728] [cursor=pointer]:
+                                        - /url: //ko.wikipedia.org/wiki/두루넷
+                                      - text: ·
+                                    - listitem [ref=e729]:
+                                      - link "와이더댄" [ref=e730] [cursor=pointer]:
+                                        - /url: //ko.wikipedia.org/wiki/와이더댄
+                                      - text: ·
+                                    - listitem [ref=e731]: 엔트릭스 ·
+                                    - listitem [ref=e732]:
+                                      - link "IHQ" [ref=e733] [cursor=pointer]:
+                                        - /url: //ko.wikipedia.org/wiki/IHQ
+                                      - text: ·
+                                    - listitem [ref=e734]:
+                                      - link "로엔엔터테인먼트" [ref=e735] [cursor=pointer]:
+                                        - /url: //ko.wikipedia.org/wiki/카카오M
+                                      - text: ·
+                                    - listitem [ref=e736]: 충남도시가스 ·
+                                    - listitem [ref=e737]: 전북집단에너지 ·
+                                    - listitem [ref=e738]: 평택에너지서비스 ·
+                                    - listitem [ref=e739]:
+                                      - link "SK에스엠" [ref=e740] [cursor=pointer]:
+                                        - /url: //ko.wikipedia.org/wiki/SK에스엠
+                                      - text: ·
+                                    - listitem [ref=e741]: SK테크엑스 ·
+                                    - listitem [ref=e742]: 라귤 ·
+                                    - listitem [ref=e743]:
+                                      - link "SK TNS" [ref=e744] [cursor=pointer]:
+                                        - /url: //ko.wikipedia.org/wiki/SK_TNS
+                                      - text: ·
+                                    - listitem [ref=e745]:
+                                      - link "SK스페셜티" [ref=e746] [cursor=pointer]:
+                                        - /url: //ko.wikipedia.org/wiki/SK스페셜티
+                                      - text: ·
+                                    - listitem [ref=e747]:
+                                      - link "SK엔펄스" [ref=e748] [cursor=pointer]:
+                                        - /url: //ko.wikipedia.org/wiki/SK엔펄스
+                                      - text: ·
+                                    - listitem [ref=e749]: SK일렉링크 ·
+                                    - listitem [ref=e750]:
+                                      - link "SK해운" [ref=e751] [cursor=pointer]:
+                                        - /url: //ko.wikipedia.org/wiki/SK해운
+                                      - text: ·
+                                    - listitem [ref=e752]:
+                                      - link "SK바이오랜드" [ref=e753] [cursor=pointer]:
+                                        - /url: //ko.wikipedia.org/wiki/현대바이오랜드
+                                      - text: ·
+                                    - listitem [ref=e754]:
+                                      - link "SK증권" [ref=e755] [cursor=pointer]:
+                                        - /url: //ko.wikipedia.org/wiki/SK증권
+                                      - text: ·
+                                    - listitem [ref=e756]:
+                                      - link "SK 와이번스" [ref=e757] [cursor=pointer]:
+                                        - /url: //ko.wikipedia.org/wiki/SK_와이번스
+                                      - text: ·
+                                    - listitem [ref=e758]:
+                                      - link "SK인포섹" [ref=e759] [cursor=pointer]:
+                                        - /url: //ko.wikipedia.org/wiki/에스케이인포섹
+                                      - text: ·
+                                    - listitem [ref=e760]:
+                                      - link "SK텔레시스" [ref=e761] [cursor=pointer]:
+                                        - /url: //ko.wikipedia.org/wiki/SK텔레시스
+                                      - text: ·
+                                    - listitem [ref=e762]:
+                                      - link "SK E&S" [ref=e763] [cursor=pointer]:
+                                        - /url: //ko.wikipedia.org/wiki/SK_E&S
+                                      - text: ·
+                                    - listitem [ref=e764]: 비젠 ·
+                                    - listitem [ref=e765]:
+                                      - link "SK렌터카" [ref=e766] [cursor=pointer]:
+                                        - /url: //ko.wikipedia.org/wiki/SK렌터카
+                                      - text: ·
+                                    - listitem [ref=e767]:
+                                      - link "SK쉴더스" [ref=e768] [cursor=pointer]:
+                                        - /url: //ko.wikipedia.org/wiki/SK쉴더스
+                                      - text: ·
+                                    - listitem [ref=e769]:
+                                      - link "SK에너지판매" [ref=e770] [cursor=pointer]:
+                                        - /url: //ko.wikipedia.org/wiki/SK에너지판매
+                                      - text: ·
+                                    - listitem [ref=e771]:
+                                      - link "SK트레이딩인터내셔널" [ref=e772] [cursor=pointer]:
+                                        - /url: //ko.wikipedia.org/wiki/SK트레이딩인터내셔널
+                                      - text: ·
+                                    - listitem [ref=e773]:
+                                      - link "SK엠앤서비스" [ref=e774] [cursor=pointer]:
+                                        - /url: //ko.wikipedia.org/wiki/SK엠앤서비스
+                                      - text: ·
+                                    - listitem [ref=e775]:
+                                      - link "네이트커뮤니케이션즈" [ref=e776] [cursor=pointer]:
+                                        - /url: //ko.wikipedia.org/wiki/네이트커뮤니케이션즈
+                                      - text: ·
+                                    - listitem [ref=e777]:
+                                      - link "SK엔무브" [ref=e778] [cursor=pointer]:
+                                        - /url: //ko.wikipedia.org/wiki/SK엔무브
+                                      - text: ·
+                                    - listitem [ref=e779]: SK앤텀
+                        - cell [ref=e780]:
+                          - link [ref=e783] [cursor=pointer]:
+                            - /url: //ko.wikipedia.org/wiki/파일:SK_logo.svg
+                            - img [ref=e784]
+                      - row "관련 항목 최종건(창업주) · 최종현 · 최태원 · 최철원 · 최신원 · 손길승 · 노태우 · 노소영 · 김일범 · 차인혁 · 하금렬 · 선경도서관 · 수원SK아트리움 · 장학퀴즈 · SK서린빌딩" [ref=e785]:
+                        - rowheader "관련 항목" [ref=e786]
+                        - cell "최종건(창업주) · 최종현 · 최태원 · 최철원 · 최신원 · 손길승 · 노태우 · 노소영 · 김일범 · 차인혁 · 하금렬 · 선경도서관 · 수원SK아트리움 · 장학퀴즈 · SK서린빌딩" [ref=e787]:
+                          - list [ref=e789]:
+                            - listitem [ref=e790]:
+                              - link "최종건" [ref=e791] [cursor=pointer]:
+                                - /url: //ko.wikipedia.org/wiki/최종건_(1926년)
+                              - text: (창업주) ·
+                            - listitem [ref=e792]:
+                              - link "최종현" [ref=e793] [cursor=pointer]:
+                                - /url: //ko.wikipedia.org/wiki/최종현
+                              - text: ·
+                            - listitem [ref=e794]:
+                              - link "최태원" [ref=e795] [cursor=pointer]:
+                                - /url: //ko.wikipedia.org/wiki/최태원_(기업인)
+                              - text: ·
+                            - listitem [ref=e796]:
+                              - link "최철원" [ref=e797] [cursor=pointer]:
+                                - /url: //ko.wikipedia.org/wiki/최철원
+                              - text: ·
+                            - listitem [ref=e798]:
+                              - link "최신원" [ref=e799] [cursor=pointer]:
+                                - /url: //ko.wikipedia.org/wiki/최신원
+                              - text: ·
+                            - listitem [ref=e800]:
+                              - link "손길승" [ref=e801] [cursor=pointer]:
+                                - /url: //ko.wikipedia.org/wiki/손길승
+                              - text: ·
+                            - listitem [ref=e802]:
+                              - link "노태우" [ref=e803] [cursor=pointer]:
+                                - /url: //ko.wikipedia.org/wiki/노태우
+                              - text: ·
+                            - listitem [ref=e804]:
+                              - link "노소영" [ref=e805] [cursor=pointer]:
+                                - /url: //ko.wikipedia.org/wiki/노소영
+                              - text: ·
+                            - listitem [ref=e806]:
+                              - link "김일범" [ref=e807] [cursor=pointer]:
+                                - /url: //ko.wikipedia.org/wiki/김일범
+                              - text: ·
+                            - listitem [ref=e808]:
+                              - link "차인혁" [ref=e809] [cursor=pointer]:
+                                - /url: //ko.wikipedia.org/wiki/차인혁
+                              - text: ·
+                            - listitem [ref=e810]:
+                              - link "하금렬" [ref=e811] [cursor=pointer]:
+                                - /url: //ko.wikipedia.org/wiki/하금열
+                              - text: ·
+                            - listitem [ref=e812]:
+                              - link "선경도서관" [ref=e813] [cursor=pointer]:
+                                - /url: //ko.wikipedia.org/wiki/선경도서관
+                              - text: ·
+                            - listitem [ref=e814]: 수원SK아트리움 ·
+                            - listitem [ref=e815]:
+                              - link "장학퀴즈" [ref=e816] [cursor=pointer]:
+                                - /url: //ko.wikipedia.org/wiki/장학퀴즈
+                              - text: ·
+                            - listitem [ref=e817]:
+                              - link "SK서린빌딩" [ref=e818] [cursor=pointer]:
+                                - /url: //ko.wikipedia.org/wiki/SK서린빌딩
+                      - 'row "웹사이트: sk.co.kr" [ref=e819]':
+                        - 'cell "웹사이트: sk.co.kr" [ref=e820]':
+                          - generic [ref=e821]:
+                            - text: "웹사이트:"
+                            - link "sk.co.kr" [ref=e822] [cursor=pointer]:
+                              - /url: http://www.sk.co.kr
+            - navigation "대한민국의 휴대 전화 제조사" [ref=e823]:
+              - table [ref=e824]:
+                - rowgroup [ref=e825]:
+                  - row "[펼치기] v · t · e 대한민국의 휴대 전화 제조사" [ref=e826]:
+                    - columnheader "[펼치기] v · t · e 대한민국의 휴대 전화 제조사" [ref=e827]:
+                      - button "[펼치기]" [ref=e828] [cursor=pointer]
+                      - list [ref=e830]:
+                        - listitem [ref=e831]:
+                          - link "v" [ref=e832] [cursor=pointer]:
+                            - /url: //ko.wikipedia.org/wiki/틀:대한민국의_휴대전화_제조사
+                          - text: ·
+                        - listitem [ref=e833]:
+                          - link "t" [ref=e834] [cursor=pointer]:
+                            - /url: //ko.wikipedia.org/wiki/틀토론:대한민국의_휴대전화_제조사?action=edit&redlink=1
+                          - text: ·
+                        - listitem [ref=e835]:
+                          - link "e" [ref=e836] [cursor=pointer]:
+                            - /url: //ko.wikipedia.org/wiki/특수:문서편집/틀:대한민국의_휴대전화_제조사
+                      - generic [ref=e837]:
+                        - link "대한민국" [ref=e838] [cursor=pointer]:
+                          - /url: //ko.wikipedia.org/wiki/대한민국
+                        - text: 의 휴대 전화 제조사
+                  - row
+                  - row: · · · · · · ·
+            - navigation "코스피 200 지수 구성 종목(가나다 순)" [ref=e839]:
+              - table [ref=e840]:
+                - rowgroup [ref=e841]:
+                  - row "[펼치기] v · t · e 코스피 200 지수 구성 종목(가나다 순)" [ref=e842]:
+                    - columnheader "[펼치기] v · t · e 코스피 200 지수 구성 종목(가나다 순)" [ref=e843]:
+                      - button "[펼치기]" [ref=e844] [cursor=pointer]
+                      - list [ref=e846]:
+                        - listitem [ref=e847]:
+                          - link "v" [ref=e848] [cursor=pointer]:
+                            - /url: //ko.wikipedia.org/wiki/틀:코스피_200_지수_구성_종목
+                          - text: ·
+                        - listitem [ref=e849]:
+                          - link "t" [ref=e850] [cursor=pointer]:
+                            - /url: //ko.wikipedia.org/wiki/틀토론:코스피_200_지수_구성_종목
+                          - text: ·
+                        - listitem [ref=e851]:
+                          - link "e" [ref=e852] [cursor=pointer]:
+                            - /url: //ko.wikipedia.org/wiki/특수:문서편집/틀:코스피_200_지수_구성_종목
+                      - generic [ref=e853]:
+                        - link "코스피 200" [ref=e854] [cursor=pointer]:
+                          - /url: //ko.wikipedia.org/wiki/코스피_200
+                        - text: 지수 구성 종목(가나다 순)
+                  - row: ·
+                  - row: · · · · · · · · ·
+                  - row: · · · · · · · · · · · · · · · · · · · · · · · · · ·
+                  - row: · · · · · · · · · · · · · · · · · · · · ·
+                  - row: · · · · · · · · · · · · · · · · · · ·
+                  - row: · · · · · · · · · · · · · · · · · · · · · · · · · ·
+                  - row: · · · · · · · · · · · · · · · · · · · · · · · · · ·
+                  - row: · · · · · · · · · · · · · ·
+                  - row: · · · · · · · · · · · · · · · ·
+                  - row: · · · · · · · · ·
+                  - row: · · · · · · · · ·
+                  - row: · · · · · · · · · · · · · ·
+            - navigation "대한민국 KRX 300 지수 구성 종목" [ref=e855]:
+              - table [ref=e856]:
+                - rowgroup [ref=e857]:
+                  - row "[펼치기] v · t · e 대한민국 KRX 300 지수 구성 종목" [ref=e858]:
+                    - columnheader "[펼치기] v · t · e 대한민국 KRX 300 지수 구성 종목" [ref=e859]:
+                      - button "[펼치기]" [ref=e860] [cursor=pointer]
+                      - list [ref=e862]:
+                        - listitem [ref=e863]:
+                          - link "v" [ref=e864] [cursor=pointer]:
+                            - /url: //ko.wikipedia.org/wiki/틀:KRX_300_지수_구성_종목
+                          - text: ·
+                        - listitem [ref=e865]:
+                          - link "t" [ref=e866] [cursor=pointer]:
+                            - /url: //ko.wikipedia.org/wiki/틀토론:KRX_300_지수_구성_종목?action=edit&redlink=1
+                          - text: ·
+                        - listitem [ref=e867]:
+                          - link "e" [ref=e868] [cursor=pointer]:
+                            - /url: //ko.wikipedia.org/wiki/특수:문서편집/틀:KRX_300_지수_구성_종목
+                      - generic [ref=e869]:
+                        - text: 대한민국
+                        - link "KRX 300" [ref=e870] [cursor=pointer]:
+                          - /url: //ko.wikipedia.org/wiki/KRX_300
+                        - text: 지수 구성 종목
+                  - row: · ·
+                  - row: · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · ·
+                  - row: · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · ·
+            - navigation "전거 통제 위키데이터에서 편집하기" [ref=e871]:
+              - table [ref=e872]:
+                - rowgroup [ref=e873]:
+                  - row "전거 통제 위키데이터에서 편집하기 ISNI" [ref=e874]:
+                    - rowheader "전거 통제 위키데이터에서 편집하기" [ref=e875]:
+                      - link "전거 통제" [ref=e876] [cursor=pointer]:
+                        - /url: //ko.wikipedia.org/wiki/위키백과:전거_통제
+                      - link "위키데이터에서 편집하기" [ref=e878] [cursor=pointer]:
+                        - /url: https://www.wikidata.org/wiki/Q370719#identifiers
+                        - img "위키데이터에서 편집하기" [ref=e879]
+                    - cell "ISNI" [ref=e880]:
+                      - list [ref=e882]:
+                        - listitem [ref=e883]:
+                          - link "ISNI" [ref=e885] [cursor=pointer]:
+                            - /url: https://isni.org/isni/0000000418069241
+        - generic [ref=e887]:
+          - link "분류" [ref=e888] [cursor=pointer]:
+            - /url: /wiki/%ED%8A%B9%EC%88%98:%EB%B6%84%EB%A5%98
+          - text: ":"
+          - list [ref=e889]:
+            - listitem [ref=e890]:
+              - link "한국거래소 상장 기업" [ref=e891] [cursor=pointer]:
+                - /url: /wiki/%EB%B6%84%EB%A5%98:%ED%95%9C%EA%B5%AD%EA%B1%B0%EB%9E%98%EC%86%8C_%EC%83%81%EC%9E%A5_%EA%B8%B0%EC%97%85
+            - listitem [ref=e892]:
+              - link "SK하이닉스" [ref=e893] [cursor=pointer]:
+                - /url: /wiki/%EB%B6%84%EB%A5%98:SK%ED%95%98%EC%9D%B4%EB%8B%89%EC%8A%A4
+            - listitem [ref=e894]:
+              - link "대한민국의 다국적 기업" [ref=e895] [cursor=pointer]:
+                - /url: /wiki/%EB%B6%84%EB%A5%98:%EB%8C%80%ED%95%9C%EB%AF%BC%EA%B5%AD%EC%9D%98_%EB%8B%A4%EA%B5%AD%EC%A0%81_%EA%B8%B0%EC%97%85
+            - listitem [ref=e896]:
+              - link "대한민국의 전자 기업" [ref=e897] [cursor=pointer]:
+                - /url: /wiki/%EB%B6%84%EB%A5%98:%EB%8C%80%ED%95%9C%EB%AF%BC%EA%B5%AD%EC%9D%98_%EC%A0%84%EC%9E%90_%EA%B8%B0%EC%97%85
+            - listitem [ref=e898]:
+              - link "대한민국의 컴퓨터 기업" [ref=e899] [cursor=pointer]:
+                - /url: /wiki/%EB%B6%84%EB%A5%98:%EB%8C%80%ED%95%9C%EB%AF%BC%EA%B5%AD%EC%9D%98_%EC%BB%B4%ED%93%A8%ED%84%B0_%EA%B8%B0%EC%97%85
+            - listitem [ref=e900]:
+              - link "대한민국의 반도체 기업" [ref=e901] [cursor=pointer]:
+                - /url: /wiki/%EB%B6%84%EB%A5%98:%EB%8C%80%ED%95%9C%EB%AF%BC%EA%B5%AD%EC%9D%98_%EB%B0%98%EB%8F%84%EC%B2%B4_%EA%B8%B0%EC%97%85
+            - listitem [ref=e902]:
+              - link "1949년 설립된 전자 기업" [ref=e903] [cursor=pointer]:
+                - /url: /wiki/%EB%B6%84%EB%A5%98:1949%EB%85%84_%EC%84%A4%EB%A6%BD%EB%90%9C_%EC%A0%84%EC%9E%90_%EA%B8%B0%EC%97%85
+            - listitem [ref=e904]:
+              - link "경기도의 기업" [ref=e905] [cursor=pointer]:
+                - /url: /wiki/%EB%B6%84%EB%A5%98:%EA%B2%BD%EA%B8%B0%EB%8F%84%EC%9D%98_%EA%B8%B0%EC%97%85
+            - listitem [ref=e906]:
+              - link "이천시의 기업" [ref=e907] [cursor=pointer]:
+                - /url: /wiki/%EB%B6%84%EB%A5%98:%EC%9D%B4%EC%B2%9C%EC%8B%9C%EC%9D%98_%EA%B8%B0%EC%97%85
+            - listitem [ref=e908]:
+              - link "반경쟁 행위" [ref=e909] [cursor=pointer]:
+                - /url: /wiki/%EB%B6%84%EB%A5%98:%EB%B0%98%EA%B2%BD%EC%9F%81_%ED%96%89%EC%9C%84
+            - listitem [ref=e910]:
+              - link "현대그룹의 이전 자회사" [ref=e911] [cursor=pointer]:
+                - /url: /wiki/%EB%B6%84%EB%A5%98:%ED%98%84%EB%8C%80%EA%B7%B8%EB%A3%B9%EC%9D%98_%EC%9D%B4%EC%A0%84_%EC%9E%90%ED%9A%8C%EC%82%AC
+            - listitem [ref=e912]:
+              - link "대한민국의 브랜드" [ref=e913] [cursor=pointer]:
+                - /url: /wiki/%EB%B6%84%EB%A5%98:%EB%8C%80%ED%95%9C%EB%AF%BC%EA%B5%AD%EC%9D%98_%EB%B8%8C%EB%9E%9C%EB%93%9C
+            - listitem [ref=e914]:
+              - link "컴퓨터 메모리 기업" [ref=e915] [cursor=pointer]:
+                - /url: /wiki/%EB%B6%84%EB%A5%98:%EC%BB%B4%ED%93%A8%ED%84%B0_%EB%A9%94%EB%AA%A8%EB%A6%AC_%EA%B8%B0%EC%97%85
+            - listitem [ref=e916]:
+              - link "1983년 설립된 전자 기업" [ref=e917] [cursor=pointer]:
+                - /url: /wiki/%EB%B6%84%EB%A5%98:1983%EB%85%84_%EC%84%A4%EB%A6%BD%EB%90%9C_%EC%A0%84%EC%9E%90_%EA%B8%B0%EC%97%85
+            - listitem [ref=e918]:
+              - link "1983년 설립된 제조 기업" [ref=e919] [cursor=pointer]:
+                - /url: /wiki/%EB%B6%84%EB%A5%98:1983%EB%85%84_%EC%84%A4%EB%A6%BD%EB%90%9C_%EC%A0%9C%EC%A1%B0_%EA%B8%B0%EC%97%85
+            - listitem [ref=e920]:
+              - link "1996년 상장된 기업" [ref=e921] [cursor=pointer]:
+                - /url: /wiki/%EB%B6%84%EB%A5%98:1996%EB%85%84_%EC%83%81%EC%9E%A5%EB%90%9C_%EA%B8%B0%EC%97%85
+    - contentinfo [ref=e923]:
+      - list [ref=e924]:
+        - listitem [ref=e925]: 이 문서는 2026년 5월 27일 (수) 11:13에 마지막으로 편집되었습니다.
+        - listitem [ref=e926]:
+          - text: 이 문서는
+          - link "Parsoid" [ref=e927] [cursor=pointer]:
+            - /url: https://www.mediawiki.org/wiki/Special:MyLanguage/Parsoid
+          - text: 로 렌더링되었습니다.
+        - listitem [ref=e928]:
+          - text: 모든 문서는
+          - link "크리에이티브 커먼즈 저작자표시-동일조건변경허락 4.0" [ref=e929] [cursor=pointer]:
+            - /url: //creativecommons.org/licenses/by-sa/4.0/deed.ko
+          - text: 에 따라 사용할 수 있으며, 추가적인 조건이 적용될 수 있습니다. 자세한 내용은
+          - link "이용 약관" [ref=e930] [cursor=pointer]:
+            - /url: https://foundation.wikimedia.org/wiki/Special:MyLanguage/Policy:Terms_of_Use/ko
+          - text: 을 참고하십시오.
+          - text: Wikipedia®는 미국 및 다른 국가에 등록되어 있는
+          - link "Wikimedia Foundation, Inc." [ref=e931] [cursor=pointer]:
+            - /url: https://www.wikimediafoundation.org
+          - text: 소유의 등록 상표입니다.
+      - list:
+        - listitem [ref=e932]:
+          - link "개인정보처리방침" [ref=e933] [cursor=pointer]:
+            - /url: https://foundation.wikimedia.org/wiki/Special:MyLanguage/Policy:Privacy_policy
+        - listitem [ref=e934]:
+          - link "위키백과 소개" [ref=e935] [cursor=pointer]:
+            - /url: /wiki/%EC%9C%84%ED%82%A4%EB%B0%B1%EA%B3%BC:%EC%86%8C%EA%B0%9C
+        - listitem [ref=e936]:
+          - link "면책 조항" [ref=e937] [cursor=pointer]:
+            - /url: /wiki/%EC%9C%84%ED%82%A4%EB%B0%B1%EA%B3%BC:%EB%A9%B4%EC%B1%85_%EC%A1%B0%ED%95%AD
+        - listitem [ref=e938]:
+          - link "행동 강령" [ref=e939] [cursor=pointer]:
+            - /url: https://foundation.wikimedia.org/wiki/Special:MyLanguage/Policy:Universal_Code_of_Conduct
+        - listitem [ref=e940]:
+          - link "개발자" [ref=e941] [cursor=pointer]:
+            - /url: https://developer.wikimedia.org
+        - listitem [ref=e942]:
+          - link "통계" [ref=e943] [cursor=pointer]:
+            - /url: https://stats.wikimedia.org/#/ko.wikipedia.org
+        - listitem [ref=e944]:
+          - link "쿠키 정책" [ref=e945] [cursor=pointer]:
+            - /url: https://foundation.wikimedia.org/wiki/Special:MyLanguage/Policy:Cookie_statement
+        - listitem [ref=e946]:
+          - link "모바일 보기" [ref=e947] [cursor=pointer]:
+            - /url: //ko.wikipedia.org/w/index.php?title=SK%ED%95%98%EC%9D%B4%EB%8B%89%EC%8A%A4&mobileaction=toggle_view_mobile
+      - list [ref=e948]:
+        - listitem [ref=e949]:
+          - link "Wikimedia Foundation" [ref=e950] [cursor=pointer]:
+            - /url: https://www.wikimedia.org/
+            - img "Wikimedia Foundation" [ref=e952]
+        - listitem [ref=e953]:
+          - link "Powered by MediaWiki" [ref=e954] [cursor=pointer]:
+            - /url: https://www.mediawiki.org/
+            - img "Powered by MediaWiki" [ref=e956]
+  - generic [ref=e957]:
+    - list
