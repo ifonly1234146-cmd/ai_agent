@@ -1,0 +1,12 @@
+# Playwright MCP logs and snapshots (tool output, not source code)
+.playwright-mcp/
+
+# Environment variables
+.env
+.env.local
+*.env
+
+# Secrets
+secrets.json
+credentials.json
+token.json

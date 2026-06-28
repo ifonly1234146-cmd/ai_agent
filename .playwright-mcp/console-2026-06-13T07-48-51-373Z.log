@@ -1,9 +1,0 @@
-[     639ms] [LOG] Sentry Logger [Log]: Integration installed: InboundFilters @ https://t1.kakaocdn.net/axz_keditor/dist/0.9.0/plugins/sentry/plugin.min.js:1
-[     639ms] [LOG] Sentry Logger [Log]: Integration installed: FunctionToString @ https://t1.kakaocdn.net/axz_keditor/dist/0.9.0/plugins/sentry/plugin.min.js:1
-[     640ms] [LOG] Sentry Logger [Log]: Integration installed: TryCatch @ https://t1.kakaocdn.net/axz_keditor/dist/0.9.0/plugins/sentry/plugin.min.js:1
-[     640ms] [LOG] Sentry Logger [Log]: Integration installed: Breadcrumbs @ https://t1.kakaocdn.net/axz_keditor/dist/0.9.0/plugins/sentry/plugin.min.js:1
-[     641ms] [LOG] Sentry Logger [Log]: Global Handler attached: onerror @ https://t1.kakaocdn.net/axz_keditor/dist/0.9.0/plugins/sentry/plugin.min.js:1
-[     641ms] [LOG] Sentry Logger [Log]: Global Handler attached: onunhandledrejection @ https://t1.kakaocdn.net/axz_keditor/dist/0.9.0/plugins/sentry/plugin.min.js:1
-[     641ms] [LOG] Sentry Logger [Log]: Integration installed: GlobalHandlers @ https://t1.kakaocdn.net/axz_keditor/dist/0.9.0/plugins/sentry/plugin.min.js:1
-[     641ms] [LOG] Sentry Logger [Log]: Integration installed: LinkedErrors @ https://t1.kakaocdn.net/axz_keditor/dist/0.9.0/plugins/sentry/plugin.min.js:1
-[     641ms] [LOG] Sentry Logger [Log]: Integration installed: UserAgent @ https://t1.kakaocdn.net/axz_keditor/dist/0.9.0/plugins/sentry/plugin.min.js:1

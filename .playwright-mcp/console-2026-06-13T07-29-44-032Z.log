@@ -1,2 +1,0 @@
-[    1008ms] [WARNING] Use of "mw.eventLog.eventInSample" is deprecated. Use "mw.eventLog.pageviewInSample()" instead. @ https://ko.wikipedia.org/w/load.php?lang=ko&modules=mediawiki.base&skin=vector-2022&version=p9dcv:7
-[    1021ms] [WARNING] Use of "mw.eventLog.eventInSample" is deprecated. Use "mw.eventLog.pageviewInSample()" instead. @ https://ko.wikipedia.org/w/load.php?lang=ko&modules=mediawiki.base&skin=vector-2022&version=p9dcv:7

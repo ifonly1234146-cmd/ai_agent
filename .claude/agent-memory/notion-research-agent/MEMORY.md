@@ -1,0 +1,2 @@
+- [자료조사DB Schema](project_jaryo_db_schema.md) — data_source_id and field names for creating pages in 자료조사DB
+- [비건 립밤 경쟁 분석 2026](project_vegan_lipbalm_research.md) — 국내 비건 립밤 7개 제품 조사 이력 및 핵심 인사이트

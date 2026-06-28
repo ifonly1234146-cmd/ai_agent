@@ -1,3 +1,0 @@
-[     538ms] [LOG] Deprecated as of 10.6.0. initHighlightingOnLoad() is deprecated.  Use highlightAll() instead. @ https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.7.3/highlight.min.js:171
-[    1410ms] [ERROR] Refused to display 'https://www.facebook.com/' in a frame because it set 'X-Frame-Options' to 'deny'. @ chrome-error://chromewebdata/:0
-[   38541ms] [VERBOSE] [DOM] Input elements should have autocomplete attributes (suggested: "new-password"): (More info: https://goo.gl/9p2vKq) %o @ https://diary03703.tistory.com/entry/Playwright-MCP-%EC%9E%90%EB%8F%99%ED%99%94-%ED%85%8C%EC%8A%A4%ED%8A%B8-%ED%8F%AC%EC%8A%A4%ED%8A%B8:0
